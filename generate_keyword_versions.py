@@ -229,8 +229,8 @@ def convert_file(path: Path, keyword_root: Path, complete_root: Path) -> None:
 
 
 def main() -> None:
-    keyword_root = Path("keywords")
-    complete_root = Path("complete")
+    keyword_root = Path("keyword-index")
+    complete_root = Path("full-reference")
 
     for root in (keyword_root, complete_root):
         if root.exists():
