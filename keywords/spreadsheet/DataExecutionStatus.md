@@ -2,9 +2,9 @@
 
 ### Methods
 
-- getErrorCode()
-- getErrorMessage()
-- getExecutionState()
-- getLastExecutionTime()
-- getLastRefreshedTime()
-- isTruncated()
+- getErrorCode() — DataExecutionErrorCode
+- getErrorMessage() — String
+- getExecutionState() — DataExecutionState
+- getLastExecutionTime() — Date
+- getLastRefreshedTime() — Date
+- isTruncated() — Boolean

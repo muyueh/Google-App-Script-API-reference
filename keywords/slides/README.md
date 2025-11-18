@@ -2,79 +2,79 @@
 
 ## Classes
 
-- AffineTransform
-- AffineTransformBuilder
-- AlignmentPosition
-- ArrowStyle
-- AutoText
-- AutoTextType
-- Autofit
-- AutofitType
-- Border
-- CellMergeState
-- Color
-- ColorScheme
-- ConnectionSite
-- ContentAlignment
-- DashStyle
-- Fill
-- FillType
-- Group
-- Image
-- Layout
-- Line
-- LineCategory
-- LineFill
-- LineFillType
-- LineType
-- Link
-- LinkType
-- List
-- ListPreset
-- ListStyle
-- Master
-- NotesMaster
-- NotesPage
-- Page
-- PageBackground
-- PageBackgroundType
-- PageElement
-- PageElementRange
-- PageElementType
-- PageRange
-- PageType
-- Paragraph
-- ParagraphAlignment
-- ParagraphStyle
-- PictureFill
-- PlaceholderType
-- Point
-- PredefinedLayout
-- Presentation
-- Selection
-- SelectionType
-- Shape
-- ShapeType
-- SheetsChart
-- SheetsChartEmbedType
-- Slide
-- SlideLinkingMode
-- SlidePosition
-- SlidesApp
-- SolidFill
-- SpacingMode
-- SpeakerSpotlight
-- Table
-- TableCell
-- TableCellRange
-- TableColumn
-- TableRow
-- TextBaselineOffset
-- TextDirection
-- TextRange
-- TextStyle
-- ThemeColor
-- ThemeColorType
-- Video
-- VideoSourceType
-- WordArt
+- AffineTransform — A 3x3 matrix used to transform source coordinates (x1, y1) into destination coordinates (x2, y2) according to matrix multiplication: text [ x2 ]   [ scaleX shearX translateX ] [ x1 ] [ y2 ] = [ shearY scaleY translateY ] [ y1 ] [ 1  ]   [   0      0        1      ] [ 1  ]
+- AffineTransformBuilder — A builder for AffineTransform objects.
+- AlignmentPosition — The alignment position to apply.
+- ArrowStyle — The kinds of start and end forms with which linear geometry can be rendered.
+- AutoText — An element of text that is dynamically replaced with content that can change over time, such as a slide number.
+- AutoTextType — The types of auto text.
+- Autofit — Describes the autofit settings of a shape.
+- AutofitType — The autofit types.
+- Border — Describes the border around an element.
+- CellMergeState — The table cell merge states.
+- Color — An opaque color
+- ColorScheme — A color scheme defines a mapping from members of ThemeColorType to the actual colors used to render them.
+- ConnectionSite — The connection site on a PageElement that can connect to a connector).
+- ContentAlignment — The content alignments for a Shape or TableCell.
+- DashStyle — The kinds of dashes with which linear geometry can be rendered.
+- Fill — Describes the page element's background
+- FillType — The kinds of fill.
+- Group — A collection of PageElements joined as a single unit.
+- Image — A PageElement representing an image.
+- Layout — A layout in a presentation.
+- Line — A PageElement representing a line.
+- LineCategory — The line category.
+- LineFill — Describes the fill of a line or outline
+- LineFillType — The kinds of line fill.
+- LineType — The line types.
+- Link — A hypertext link.
+- LinkType — The types of a Link.
+- List — A list in the text.
+- ListPreset — Preset patterns of glyphs for lists in text.
+- ListStyle — The list styling for a range of text.
+- Master — A master in a presentation.
+- NotesMaster — A notes master in a presentation.
+- NotesPage — A notes page in a presentation.
+- Page — A page in a presentation.
+- PageBackground — Describes the page's background
+- PageBackgroundType — The kinds of page backgrounds.
+- PageElement — A visual element rendered on a page.
+- PageElementRange — A collection of one or more PageElement instances.
+- PageElementType — The page element type.
+- PageRange — A collection of one or more Page instances.
+- PageType — The page types.
+- Paragraph — A segment of text terminated by a newline character.
+- ParagraphAlignment — The types of text alignment for a paragraph.
+- ParagraphStyle — The styles of text that apply to entire paragraphs.
+- PictureFill — A fill that renders an image that's stretched to the dimensions of its container.
+- PlaceholderType — The placeholder types.
+- Point — A point representing a location.
+- PredefinedLayout — Predefined layouts.
+- Presentation — A presentation.
+- Selection — The user's selection in the active presentation.
+- SelectionType — Type of Selection.
+- Shape — A PageElement representing a generic shape that does not have a more specific classification.
+- ShapeType — The shape types.
+- SheetsChart — A PageElement representing a linked chart embedded from Google Sheets.
+- SheetsChartEmbedType — The Sheets chart's embed type.
+- Slide — A slide in a presentation.
+- SlideLinkingMode — The mode of links between slides.
+- SlidePosition — The relative position of a Slide.
+- SlidesApp — Creates and opens Presentations that can be edited.
+- SolidFill — A solid color fill.
+- SpacingMode — The different modes for paragraph spacing.
+- SpeakerSpotlight — A PageElement representing a speaker spotlight.
+- Table — A PageElement representing a table.
+- TableCell — A cell in a table.
+- TableCellRange — A collection of one or more TableCell instances.
+- TableColumn — A column in a table.
+- TableRow — A row in a table.
+- TextBaselineOffset — The text vertical offset from its normal position.
+- TextDirection — The directions text can flow in.
+- TextRange — A segment of the text contents of a Shape or a TableCell.
+- TextStyle — The style of text.
+- ThemeColor — A color that refers to an entry in the page's ColorScheme.
+- ThemeColorType — The name of an entry in the page's color scheme.
+- Video — A PageElement representing a video.
+- VideoSourceType — The video source types.
+- WordArt — A PageElement representing word art.

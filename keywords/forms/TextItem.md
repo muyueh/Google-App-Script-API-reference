@@ -2,20 +2,20 @@
 
 ### Methods
 
-- clearValidation()
-- createResponse(response)
-- duplicate()
-- getGeneralFeedback()
-- getHelpText()
-- getId()
-- getIndex()
-- getPoints()
-- getTitle()
-- getType()
-- isRequired()
-- setGeneralFeedback(feedback)
-- setHelpText(text)
-- setPoints(points)
-- setRequired(enabled)
-- setTitle(title)
-- setValidation(validation)
+- clearValidation() — TextItem
+- createResponse(response) — ItemResponse
+- duplicate() — TextItem
+- getGeneralFeedback() — QuizFeedback
+- getHelpText() — String
+- getId() — Integer
+- getIndex() — Integer
+- getPoints() — Integer
+- getTitle() — String
+- getType() — ItemType
+- isRequired() — Boolean
+- setGeneralFeedback(feedback) — TextItem
+- setHelpText(text) — TextItem
+- setPoints(points) — TextItem
+- setRequired(enabled) — TextItem
+- setTitle(title) — TextItem
+- setValidation(validation) — TextItem

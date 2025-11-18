@@ -2,26 +2,26 @@
 
 ### Methods
 
-- assignScript(functionName)
-- getAltTextDescription()
-- getAltTextTitle()
-- getAnchorCell()
-- getAnchorCellXOffset()
-- getAnchorCellYOffset()
-- getHeight()
-- getInherentHeight()
-- getInherentWidth()
-- getScript()
-- getSheet()
-- getWidth()
-- remove()
-- replace(blob)
-- replace(url)
-- resetSize()
-- setAltTextDescription(description)
-- setAltTextTitle(title)
-- setAnchorCell(cell)
-- setAnchorCellXOffset(offset)
-- setAnchorCellYOffset(offset)
-- setHeight(height)
-- setWidth(width)
+- assignScript(functionName) — OverGridImage
+- getAltTextDescription() — String
+- getAltTextTitle() — String
+- getAnchorCell() — Range
+- getAnchorCellXOffset() — Integer
+- getAnchorCellYOffset() — Integer
+- getHeight() — Integer
+- getInherentHeight() — Integer
+- getInherentWidth() — Integer
+- getScript() — String
+- getSheet() — Sheet
+- getWidth() — Integer
+- remove() — void
+- replace(blob) — OverGridImage
+- replace(url) — OverGridImage
+- resetSize() — OverGridImage
+- setAltTextDescription(description) — OverGridImage
+- setAltTextTitle(title) — OverGridImage
+- setAnchorCell(cell) — OverGridImage
+- setAnchorCellXOffset(offset) — OverGridImage
+- setAnchorCellYOffset(offset) — OverGridImage
+- setHeight(height) — OverGridImage
+- setWidth(width) — OverGridImage

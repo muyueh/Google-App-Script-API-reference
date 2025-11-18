@@ -2,33 +2,36 @@
 
 ### Methods
 
-- addRange(range)
-- asAreaChart()
-- asBarChart()
-- asColumnChart()
-- asComboChart()
-- asHistogramChart()
-- asLineChart()
-- asPieChart()
-- asScatterChart()
-- asTableChart()
-- build()
-- clearRanges()
-- enablePaging(enablePaging)
-- enablePaging(pageSize)
-- enableRtlTable(rtlEnabled)
-- enableSorting(enableSorting)
-- getChartType()
-- getContainer()
-- getRanges()
-- removeRange(range)
-- setChartType(type)
-- setFirstRowNumber(number)
-- setHiddenDimensionStrategy(strategy)
-- setInitialSortingAscending(column)
-- setInitialSortingDescending(column)
-- setMergeStrategy(mergeStrategy)
-- setNumHeaders(headers)
-- setTransposeRowsAndColumns(transpose)
-- showRowNumberColumn(showRowNumber)
-- useAlternatingRowStyle(alternate)
+- addRange(range) — EmbeddedChartBuilder
+- asAreaChart() — EmbeddedAreaChartBuilder
+- asBarChart() — EmbeddedBarChartBuilder
+- asColumnChart() — EmbeddedColumnChartBuilder
+- asComboChart() — EmbeddedComboChartBuilder
+- asHistogramChart() — EmbeddedHistogramChartBuilder
+- asLineChart() — EmbeddedLineChartBuilder
+- asPieChart() — EmbeddedPieChartBuilder
+- asScatterChart() — EmbeddedScatterChartBuilder
+- asTableChart() — EmbeddedTableChartBuilder
+- build() — EmbeddedChart
+- clearRanges() — EmbeddedChartBuilder
+- enablePaging(enablePaging) — EmbeddedTableChartBuilder
+- enablePaging(pageSize) — EmbeddedTableChartBuilder
+- enablePaging(pageSize, startPage) — EmbeddedTableChartBuilder
+- enableRtlTable(rtlEnabled) — EmbeddedTableChartBuilder
+- enableSorting(enableSorting) — EmbeddedTableChartBuilder
+- getChartType() — ChartType
+- getContainer() — ContainerInfo
+- getRanges() — Range[]
+- removeRange(range) — EmbeddedChartBuilder
+- setChartType(type) — EmbeddedChartBuilder
+- setFirstRowNumber(number) — EmbeddedTableChartBuilder
+- setHiddenDimensionStrategy(strategy) — EmbeddedChartBuilder
+- setInitialSortingAscending(column) — EmbeddedTableChartBuilder
+- setInitialSortingDescending(column) — EmbeddedTableChartBuilder
+- setMergeStrategy(mergeStrategy) — EmbeddedChartBuilder
+- setNumHeaders(headers) — EmbeddedChartBuilder
+- setOption(option, value) — EmbeddedChartBuilder
+- setPosition(anchorRowPos, anchorColPos, offsetX, offsetY) — EmbeddedChartBuilder
+- setTransposeRowsAndColumns(transpose) — EmbeddedChartBuilder
+- showRowNumberColumn(showRowNumber) — EmbeddedTableChartBuilder
+- useAlternatingRowStyle(alternate) — EmbeddedTableChartBuilder

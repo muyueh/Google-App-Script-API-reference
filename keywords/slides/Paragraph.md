@@ -2,5 +2,5 @@
 
 ### Methods
 
-- getIndex()
-- getRange()
+- getIndex() — Integer
+- getRange() — TextRange

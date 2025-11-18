@@ -2,7 +2,7 @@
 
 ### Methods
 
-- getAdditionalGuests()
-- getEmail()
-- getGuestStatus()
-- getName()
+- getAdditionalGuests() — Integer
+- getEmail() — String
+- getGuestStatus() — GuestStatus
+- getName() — String

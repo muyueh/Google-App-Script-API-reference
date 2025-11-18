@@ -2,55 +2,59 @@
 
 ### Methods
 
-- addEditor(emailAddress)
-- addEditor(user)
-- addEditors(emailAddresses)
-- addViewer(emailAddress)
-- addViewer(user)
-- addViewers(emailAddresses)
-- createFile(blob)
-- createFolder(name)
-- createShortcut(targetId)
-- getAccess(email)
-- getAccess(user)
-- getDateCreated()
-- getDescription()
-- getEditors()
-- getFiles()
-- getFilesByName(name)
-- getFilesByType(mimeType)
-- getFolders()
-- getFoldersByName(name)
-- getId()
-- getLastUpdated()
-- getName()
-- getOwner()
-- getParents()
-- getResourceKey()
-- getSecurityUpdateEligible()
-- getSecurityUpdateEnabled()
-- getSharingAccess()
-- getSharingPermission()
-- getSize()
-- getUrl()
-- getViewers()
-- isShareableByEditors()
-- isStarred()
-- isTrashed()
-- moveTo(destination)
-- removeEditor(emailAddress)
-- removeEditor(user)
-- removeViewer(emailAddress)
-- removeViewer(user)
-- revokePermissions(emailAddress)
-- revokePermissions(user)
-- searchFiles(params)
-- searchFolders(params)
-- setDescription(description)
-- setName(name)
-- setOwner(emailAddress)
-- setOwner(user)
-- setSecurityUpdateEnabled(enabled)
-- setShareableByEditors(shareable)
-- setStarred(starred)
-- setTrashed(trashed)
+- addEditor(emailAddress) — Folder
+- addEditor(user) — Folder
+- addEditors(emailAddresses) — Folder
+- addViewer(emailAddress) — Folder
+- addViewer(user) — Folder
+- addViewers(emailAddresses) — Folder
+- createFile(blob) — File
+- createFile(name, content) — File
+- createFile(name, content, mimeType) — File
+- createFolder(name) — Folder
+- createShortcut(targetId) — File
+- createShortcutForTargetIdAndResourceKey(targetId, targetResourceKey) — File
+- getAccess(email) — Permission
+- getAccess(user) — Permission
+- getDateCreated() — Date
+- getDescription() — String
+- getEditors() — User[]
+- getFiles() — FileIterator
+- getFilesByName(name) — FileIterator
+- getFilesByType(mimeType) — FileIterator
+- getFolders() — FolderIterator
+- getFoldersByName(name) — FolderIterator
+- getId() — String
+- getLastUpdated() — Date
+- getName() — String
+- getOwner() — User
+- getParents() — FolderIterator
+- getResourceKey() — String
+- getSecurityUpdateEligible() — Boolean
+- getSecurityUpdateEnabled() — Boolean
+- getSharingAccess() — Access
+- getSharingPermission() — Permission
+- getSize() — Integer
+- getUrl() — String
+- getViewers() — User[]
+- isShareableByEditors() — Boolean
+- isStarred() — Boolean
+- isTrashed() — Boolean
+- moveTo(destination) — Folder
+- removeEditor(emailAddress) — Folder
+- removeEditor(user) — Folder
+- removeViewer(emailAddress) — Folder
+- removeViewer(user) — Folder
+- revokePermissions(emailAddress) — Folder
+- revokePermissions(user) — Folder
+- searchFiles(params) — FileIterator
+- searchFolders(params) — FolderIterator
+- setDescription(description) — Folder
+- setName(name) — Folder
+- setOwner(emailAddress) — Folder
+- setOwner(user) — Folder
+- setSecurityUpdateEnabled(enabled) — Folder
+- setShareableByEditors(shareable) — Folder
+- setSharing(accessType, permissionType) — Folder
+- setStarred(starred) — Folder
+- setTrashed(trashed) — Folder

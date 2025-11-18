@@ -2,20 +2,20 @@
 
 ### Methods
 
-- createResponse(response)
-- duplicate()
-- getGeneralFeedback()
-- getHelpText()
-- getId()
-- getIndex()
-- getPoints()
-- getTitle()
-- getType()
-- includesYear()
-- isRequired()
-- setGeneralFeedback(feedback)
-- setHelpText(text)
-- setIncludesYear(enableYear)
-- setPoints(points)
-- setRequired(enabled)
-- setTitle(title)
+- createResponse(response) — ItemResponse
+- duplicate() — DateTimeItem
+- getGeneralFeedback() — QuizFeedback
+- getHelpText() — String
+- getId() — Integer
+- getIndex() — Integer
+- getPoints() — Integer
+- getTitle() — String
+- getType() — ItemType
+- includesYear() — Boolean
+- isRequired() — Boolean
+- setGeneralFeedback(feedback) — DateTimeItem
+- setHelpText(text) — DateTimeItem
+- setIncludesYear(enableYear) — DateTimeItem
+- setPoints(points) — DateTimeItem
+- setRequired(enabled) — DateTimeItem
+- setTitle(title) — DateTimeItem

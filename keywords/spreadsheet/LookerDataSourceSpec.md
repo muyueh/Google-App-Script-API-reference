@@ -2,9 +2,9 @@
 
 ### Methods
 
-- copy()
-- getExploreName()
-- getInstanceUrl()
-- getModelName()
-- getParameters()
-- getType()
+- copy() — DataSourceSpecBuilder
+- getExploreName() — String
+- getInstanceUrl() — String
+- getModelName() — String
+- getParameters() — DataSourceParameter[]
+- getType() — DataSourceType

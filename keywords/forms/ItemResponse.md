@@ -2,9 +2,9 @@
 
 ### Methods
 
-- getFeedback()
-- getItem()
-- getResponse()
-- getScore()
-- setFeedback(feedback)
-- setScore(score)
+- getFeedback() — Object
+- getItem() — Item
+- getResponse() — Object
+- getScore() — Object
+- setFeedback(feedback) — ItemResponse
+- setScore(score) — ItemResponse

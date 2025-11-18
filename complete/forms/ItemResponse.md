@@ -1,0 +1,12 @@
+## [ItemResponse](https://developers.google.com/apps-script/reference/forms/item-response)
+
+### Methods
+
+|                                                        Method                                                        |                                       Return type                                       |                                 Brief description                                 |
+|----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [getFeedback()](https://developers.google.com/apps-script/reference/forms/item-response#getFeedback())               | `Object`                                                                                | Gets the feedback that was given for the respondent's submitted answer.           |
+| [getItem()](https://developers.google.com/apps-script/reference/forms/item-response#getItem())                       | [Item](https://developers.google.com/apps-script/reference/forms/item)                  | Gets the question item that this response answers.                                |
+| [getResponse()](https://developers.google.com/apps-script/reference/forms/item-response#getResponse())               | `Object`                                                                                | Gets the answer that the respondent submitted.                                    |
+| [getScore()](https://developers.google.com/apps-script/reference/forms/item-response#getScore())                     | `Object`                                                                                | Gets the score for the respondent's submitted answer.                             |
+| [setFeedback(feedback)](https://developers.google.com/apps-script/reference/forms/item-response#setFeedback(Object)) | [ItemResponse](https://developers.google.com/apps-script/reference/forms/item-response) | Sets the feedback that should be displayed for the respondent's submitted answer. |
+| [setScore(score)](https://developers.google.com/apps-script/reference/forms/item-response#setScore(Object))          | [ItemResponse](https://developers.google.com/apps-script/reference/forms/item-response) | Sets the score for the respondent's submitted answer.                             |

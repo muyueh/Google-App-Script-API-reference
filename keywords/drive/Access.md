@@ -2,8 +2,8 @@
 
 ### Properties
 
-- ANYONE
-- ANYONE_WITH_LINK
-- DOMAIN
-- DOMAIN_WITH_LINK
-- PRIVATE
+- ANYONE — Enum
+- ANYONE_WITH_LINK — Enum
+- DOMAIN — Enum
+- DOMAIN_WITH_LINK — Enum
+- PRIVATE — Enum

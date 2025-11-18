@@ -2,8 +2,8 @@
 
 ### Properties
 
-- INVITED
-- MAYBE
-- NO
-- OWNER
-- YES
+- INVITED — Enum
+- MAYBE — Enum
+- NO — Enum
+- OWNER — Enum
+- YES — Enum

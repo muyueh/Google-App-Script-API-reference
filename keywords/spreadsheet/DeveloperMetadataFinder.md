@@ -2,10 +2,10 @@
 
 ### Methods
 
-- find()
-- onIntersectingLocations()
-- withId(id)
-- withKey(key)
-- withLocationType(locationType)
-- withValue(value)
-- withVisibility(visibility)
+- find() — DeveloperMetadata[]
+- onIntersectingLocations() — DeveloperMetadataFinder
+- withId(id) — DeveloperMetadataFinder
+- withKey(key) — DeveloperMetadataFinder
+- withLocationType(locationType) — DeveloperMetadataFinder
+- withValue(value) — DeveloperMetadataFinder
+- withVisibility(visibility) — DeveloperMetadataFinder

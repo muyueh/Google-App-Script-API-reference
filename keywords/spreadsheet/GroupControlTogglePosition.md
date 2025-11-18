@@ -2,5 +2,5 @@
 
 ### Properties
 
-- BEFORE
-- AFTER
+- BEFORE — Enum
+- AFTER — Enum

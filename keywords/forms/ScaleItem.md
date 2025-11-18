@@ -2,22 +2,24 @@
 
 ### Methods
 
-- createResponse(response)
-- duplicate()
-- getGeneralFeedback()
-- getHelpText()
-- getId()
-- getIndex()
-- getLeftLabel()
-- getLowerBound()
-- getPoints()
-- getRightLabel()
-- getTitle()
-- getType()
-- getUpperBound()
-- isRequired()
-- setGeneralFeedback(feedback)
-- setHelpText(text)
-- setPoints(points)
-- setRequired(enabled)
-- setTitle(title)
+- createResponse(response) — ItemResponse
+- duplicate() — ScaleItem
+- getGeneralFeedback() — QuizFeedback
+- getHelpText() — String
+- getId() — Integer
+- getIndex() — Integer
+- getLeftLabel() — String
+- getLowerBound() — Integer
+- getPoints() — Integer
+- getRightLabel() — String
+- getTitle() — String
+- getType() — ItemType
+- getUpperBound() — Integer
+- isRequired() — Boolean
+- setBounds(lower, upper) — ScaleItem
+- setGeneralFeedback(feedback) — ScaleItem
+- setHelpText(text) — ScaleItem
+- setLabels(lower, upper) — ScaleItem
+- setPoints(points) — ScaleItem
+- setRequired(enabled) — ScaleItem
+- setTitle(title) — ScaleItem

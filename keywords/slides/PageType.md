@@ -2,7 +2,7 @@
 
 ### Properties
 
-- UNSUPPORTED
-- SLIDE
-- LAYOUT
-- MASTER
+- UNSUPPORTED — Enum
+- SLIDE — Enum
+- LAYOUT — Enum
+- MASTER — Enum

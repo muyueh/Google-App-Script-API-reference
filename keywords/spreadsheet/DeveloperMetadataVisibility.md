@@ -2,5 +2,5 @@
 
 ### Properties
 
-- DOCUMENT
-- PROJECT
+- DOCUMENT — Enum
+- PROJECT — Enum

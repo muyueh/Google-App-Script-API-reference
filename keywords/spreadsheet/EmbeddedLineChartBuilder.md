@@ -2,40 +2,43 @@
 
 ### Methods
 
-- addRange(range)
-- asAreaChart()
-- asBarChart()
-- asColumnChart()
-- asComboChart()
-- asHistogramChart()
-- asLineChart()
-- asPieChart()
-- asScatterChart()
-- asTableChart()
-- build()
-- clearRanges()
-- getChartType()
-- getContainer()
-- getRanges()
-- removeRange(range)
-- reverseCategories()
-- setBackgroundColor(cssValue)
-- setChartType(type)
-- setColors(cssValues)
-- setCurveStyle(style)
-- setHiddenDimensionStrategy(strategy)
-- setLegendPosition(position)
-- setLegendTextStyle(textStyle)
-- setMergeStrategy(mergeStrategy)
-- setNumHeaders(headers)
-- setPointStyle(style)
-- setTitle(chartTitle)
-- setTitleTextStyle(textStyle)
-- setTransposeRowsAndColumns(transpose)
-- setXAxisTextStyle(textStyle)
-- setXAxisTitle(title)
-- setXAxisTitleTextStyle(textStyle)
-- setYAxisTextStyle(textStyle)
-- setYAxisTitle(title)
-- setYAxisTitleTextStyle(textStyle)
-- useLogScale()
+- addRange(range) — EmbeddedChartBuilder
+- asAreaChart() — EmbeddedAreaChartBuilder
+- asBarChart() — EmbeddedBarChartBuilder
+- asColumnChart() — EmbeddedColumnChartBuilder
+- asComboChart() — EmbeddedComboChartBuilder
+- asHistogramChart() — EmbeddedHistogramChartBuilder
+- asLineChart() — EmbeddedLineChartBuilder
+- asPieChart() — EmbeddedPieChartBuilder
+- asScatterChart() — EmbeddedScatterChartBuilder
+- asTableChart() — EmbeddedTableChartBuilder
+- build() — EmbeddedChart
+- clearRanges() — EmbeddedChartBuilder
+- getChartType() — ChartType
+- getContainer() — ContainerInfo
+- getRanges() — Range[]
+- removeRange(range) — EmbeddedChartBuilder
+- reverseCategories() — EmbeddedLineChartBuilder
+- setBackgroundColor(cssValue) — EmbeddedLineChartBuilder
+- setChartType(type) — EmbeddedChartBuilder
+- setColors(cssValues) — EmbeddedLineChartBuilder
+- setCurveStyle(style) — EmbeddedLineChartBuilder
+- setHiddenDimensionStrategy(strategy) — EmbeddedChartBuilder
+- setLegendPosition(position) — EmbeddedLineChartBuilder
+- setLegendTextStyle(textStyle) — EmbeddedLineChartBuilder
+- setMergeStrategy(mergeStrategy) — EmbeddedChartBuilder
+- setNumHeaders(headers) — EmbeddedChartBuilder
+- setOption(option, value) — EmbeddedChartBuilder
+- setPointStyle(style) — EmbeddedLineChartBuilder
+- setPosition(anchorRowPos, anchorColPos, offsetX, offsetY) — EmbeddedChartBuilder
+- setRange(start, end) — EmbeddedLineChartBuilder
+- setTitle(chartTitle) — EmbeddedLineChartBuilder
+- setTitleTextStyle(textStyle) — EmbeddedLineChartBuilder
+- setTransposeRowsAndColumns(transpose) — EmbeddedChartBuilder
+- setXAxisTextStyle(textStyle) — EmbeddedLineChartBuilder
+- setXAxisTitle(title) — EmbeddedLineChartBuilder
+- setXAxisTitleTextStyle(textStyle) — EmbeddedLineChartBuilder
+- setYAxisTextStyle(textStyle) — EmbeddedLineChartBuilder
+- setYAxisTitle(title) — EmbeddedLineChartBuilder
+- setYAxisTitleTextStyle(textStyle) — EmbeddedLineChartBuilder
+- useLogScale() — EmbeddedLineChartBuilder

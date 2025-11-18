@@ -2,15 +2,15 @@
 
 ### Methods
 
-- copy()
-- getAttributes()
-- getEmail()
-- getName()
-- getNextSibling()
-- getParent()
-- getPreviousSibling()
-- getType()
-- isAtDocumentEnd()
-- merge()
-- removeFromParent()
-- setAttributes(attributes)
+- copy() — Person
+- getAttributes() — Object
+- getEmail() — String
+- getName() — String
+- getNextSibling() — Element
+- getParent() — ContainerElement
+- getPreviousSibling() — Element
+- getType() — ElementType
+- isAtDocumentEnd() — Boolean
+- merge() — Person
+- removeFromParent() — Person
+- setAttributes(attributes) — Person

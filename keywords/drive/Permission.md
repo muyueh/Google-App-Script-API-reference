@@ -2,10 +2,10 @@
 
 ### Properties
 
-- VIEW
-- EDIT
-- COMMENT
-- OWNER
-- ORGANIZER
-- FILE_ORGANIZER
-- NONE
+- VIEW — Enum
+- EDIT — Enum
+- COMMENT — Enum
+- OWNER — Enum
+- ORGANIZER — Enum
+- FILE_ORGANIZER — Enum
+- NONE — Enum

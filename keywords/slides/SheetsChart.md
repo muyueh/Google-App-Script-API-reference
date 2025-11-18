@@ -2,49 +2,49 @@
 
 ### Methods
 
-- alignOnPage(alignmentPosition)
-- asImage()
-- bringForward()
-- bringToFront()
-- duplicate()
-- getChartId()
-- getConnectionSites()
-- getDescription()
-- getEmbedType()
-- getHeight()
-- getInherentHeight()
-- getInherentWidth()
-- getLeft()
-- getLink()
-- getObjectId()
-- getPageElementType()
-- getParentGroup()
-- getParentPage()
-- getRotation()
-- getSpreadsheetId()
-- getTitle()
-- getTop()
-- getTransform()
-- getWidth()
-- preconcatenateTransform(transform)
-- refresh()
-- remove()
-- removeLink()
-- scaleHeight(ratio)
-- scaleWidth(ratio)
-- select()
-- select(replace)
-- sendBackward()
-- sendToBack()
-- setDescription(description)
-- setHeight(height)
-- setLeft(left)
-- setLinkSlide(slideIndex)
-- setLinkSlide(slide)
-- setLinkSlide(slidePosition)
-- setLinkUrl(url)
-- setRotation(angle)
-- setTitle(title)
-- setTop(top)
-- setTransform(transform)
-- setWidth(width)
+- alignOnPage(alignmentPosition) — SheetsChart
+- asImage() — Image
+- bringForward() — SheetsChart
+- bringToFront() — SheetsChart
+- duplicate() — PageElement
+- getChartId() — Integer
+- getConnectionSites() — ConnectionSite[]
+- getDescription() — String
+- getEmbedType() — SheetsChartEmbedType
+- getHeight() — Number
+- getInherentHeight() — Number
+- getInherentWidth() — Number
+- getLeft() — Number
+- getLink() — Link
+- getObjectId() — String
+- getPageElementType() — PageElementType
+- getParentGroup() — Group
+- getParentPage() — Page
+- getRotation() — Number
+- getSpreadsheetId() — String
+- getTitle() — String
+- getTop() — Number
+- getTransform() — AffineTransform
+- getWidth() — Number
+- preconcatenateTransform(transform) — SheetsChart
+- refresh() — void
+- remove() — void
+- removeLink() — void
+- scaleHeight(ratio) — SheetsChart
+- scaleWidth(ratio) — SheetsChart
+- select() — void
+- select(replace) — void
+- sendBackward() — SheetsChart
+- sendToBack() — SheetsChart
+- setDescription(description) — SheetsChart
+- setHeight(height) — SheetsChart
+- setLeft(left) — SheetsChart
+- setLinkSlide(slideIndex) — Link
+- setLinkSlide(slide) — Link
+- setLinkSlide(slidePosition) — Link
+- setLinkUrl(url) — Link
+- setRotation(angle) — SheetsChart
+- setTitle(title) — SheetsChart
+- setTop(top) — SheetsChart
+- setTransform(transform) — SheetsChart
+- setWidth(width) — SheetsChart

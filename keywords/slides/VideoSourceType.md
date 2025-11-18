@@ -2,5 +2,5 @@
 
 ### Properties
 
-- UNSUPPORTED
-- YOUTUBE
+- UNSUPPORTED — Enum
+- YOUTUBE — Enum

@@ -2,11 +2,11 @@
 
 ### Methods
 
-- copy()
-- getDatasetId()
-- getParameters()
-- getProjectId()
-- getRawQuery()
-- getTableId()
-- getTableProjectId()
-- getType()
+- copy() — DataSourceSpecBuilder
+- getDatasetId() — String
+- getParameters() — DataSourceParameter[]
+- getProjectId() — String
+- getRawQuery() — String
+- getTableId() — String
+- getTableProjectId() — String
+- getType() — DataSourceType

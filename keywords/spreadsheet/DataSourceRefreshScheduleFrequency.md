@@ -2,7 +2,7 @@
 
 ### Methods
 
-- getDaysOfTheMonth()
-- getDaysOfTheWeek()
-- getFrequencyType()
-- getStartHour()
+- getDaysOfTheMonth() — Integer[]
+- getDaysOfTheWeek() — Weekday[]
+- getFrequencyType() — FrequencyType
+- getStartHour() — Integer

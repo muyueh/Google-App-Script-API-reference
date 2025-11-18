@@ -2,5 +2,5 @@
 
 ### Methods
 
-- getListId()
-- getListParagraphs()
+- getListId() — String
+- getListParagraphs() — Paragraph[]

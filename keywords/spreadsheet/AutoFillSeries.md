@@ -2,5 +2,5 @@
 
 ### Properties
 
-- DEFAULT_SERIES
-- ALTERNATE_SERIES
+- DEFAULT_SERIES — Enum
+- ALTERNATE_SERIES — Enum

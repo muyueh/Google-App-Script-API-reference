@@ -2,6 +2,6 @@
 
 ### Methods
 
-- requireSelectAtLeast(number)
-- requireSelectAtMost(number)
-- requireSelectExactly(number)
+- requireSelectAtLeast(number) — CheckboxValidationBuilder
+- requireSelectAtMost(number) — CheckboxValidationBuilder
+- requireSelectExactly(number) — CheckboxValidationBuilder

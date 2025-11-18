@@ -2,6 +2,6 @@
 
 ### Properties
 
-- GRID
-- OBJECT
-- DATASOURCE
+- GRID — Enum
+- OBJECT — Enum
+- DATASOURCE — Enum

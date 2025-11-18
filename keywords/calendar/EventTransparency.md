@@ -2,5 +2,5 @@
 
 ### Properties
 
-- OPAQUE
-- TRANSPARENT
+- OPAQUE — Enum
+- TRANSPARENT — Enum

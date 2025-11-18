@@ -2,11 +2,11 @@
 
 ### Methods
 
-- duplicate()
-- getHelpText()
-- getId()
-- getIndex()
-- getTitle()
-- getType()
-- setHelpText(text)
-- setTitle(title)
+- duplicate() — SectionHeaderItem
+- getHelpText() — String
+- getId() — Integer
+- getIndex() — Integer
+- getTitle() — String
+- getType() — ItemType
+- setHelpText(text) — SectionHeaderItem
+- setTitle(title) — SectionHeaderItem

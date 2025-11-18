@@ -2,7 +2,7 @@
 
 ### Methods
 
-- getCountLimit()
-- getPivotGroup()
-- remove()
-- setCountLimit(countLimit)
+- getCountLimit() — Integer
+- getPivotGroup() — PivotGroup
+- remove() — void
+- setCountLimit(countLimit) — PivotGroupLimit

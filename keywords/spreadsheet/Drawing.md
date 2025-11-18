@@ -2,14 +2,15 @@
 
 ### Methods
 
-- getContainerInfo()
-- getHeight()
-- getOnAction()
-- getSheet()
-- getWidth()
-- getZIndex()
-- remove()
-- setHeight(height)
-- setOnAction(macroName)
-- setWidth(width)
-- setZIndex(zIndex)
+- getContainerInfo() — ContainerInfo
+- getHeight() — Integer
+- getOnAction() — String
+- getSheet() — Sheet
+- getWidth() — Integer
+- getZIndex() — Number
+- remove() — void
+- setHeight(height) — Drawing
+- setOnAction(macroName) — Drawing
+- setPosition(anchorRowPos, anchorColPos, offsetX, offsetY) — Drawing
+- setWidth(width) — Drawing
+- setZIndex(zIndex) — Drawing

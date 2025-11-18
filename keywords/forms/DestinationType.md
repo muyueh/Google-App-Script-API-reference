@@ -2,4 +2,4 @@
 
 ### Properties
 
-- SPREADSHEET
+- SPREADSHEET — Enum

@@ -1,0 +1,8 @@
+## [DataSourceTableColumn](https://developers.google.com/apps-script/reference/spreadsheet/data-source-table-column)
+
+### Methods
+
+|                                                                 Method                                                                  |                                              Return type                                               |                                                         Brief description                                                         |
+|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| [getDataSourceColumn()](https://developers.google.com/apps-script/reference/spreadsheet/data-source-table-column#getDataSourceColumn()) | [DataSourceColumn](https://developers.google.com/apps-script/reference/spreadsheet/data-source-column) | Gets the data source column.                                                                                                      |
+| [remove()](https://developers.google.com/apps-script/reference/spreadsheet/data-source-table-column#remove())                           | `void`                                                                                                 | Removes the column from the [DataSourceTable](https://developers.google.com/apps-script/reference/spreadsheet/data-source-table). |

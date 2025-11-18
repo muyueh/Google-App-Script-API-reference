@@ -2,58 +2,66 @@
 
 ### Methods
 
-- addPositionedImage(image)
-- appendHorizontalRule()
-- appendInlineImage(image)
-- appendInlineImage(image)
-- appendPageBreak()
-- appendPageBreak(pageBreak)
-- appendText(text)
-- appendText(text)
-- clear()
-- copy()
-- editAsText()
-- findElement(elementType)
-- findText(searchPattern)
-- getAlignment()
-- getAttributes()
-- getChild(childIndex)
-- getChildIndex(child)
-- getHeading()
-- getIndentEnd()
-- getIndentFirstLine()
-- getIndentStart()
-- getLineSpacing()
-- getLinkUrl()
-- getNextSibling()
-- getNumChildren()
-- getParent()
-- getPositionedImage(id)
-- getPositionedImages()
-- getPreviousSibling()
-- getSpacingAfter()
-- getSpacingBefore()
-- getText()
-- getTextAlignment()
-- getType()
-- insertHorizontalRule(childIndex)
-- insertPageBreak(childIndex)
-- isAtDocumentEnd()
-- isLeftToRight()
-- merge()
-- removeChild(child)
-- removeFromParent()
-- removePositionedImage(id)
-- setAlignment(alignment)
-- setAttributes(attributes)
-- setHeading(heading)
-- setIndentEnd(indentEnd)
-- setIndentFirstLine(indentFirstLine)
-- setIndentStart(indentStart)
-- setLeftToRight(leftToRight)
-- setLineSpacing(multiplier)
-- setLinkUrl(url)
-- setSpacingAfter(spacingAfter)
-- setSpacingBefore(spacingBefore)
-- setText(text)
-- setTextAlignment(textAlignment)
+- addPositionedImage(image) — PositionedImage
+- appendHorizontalRule() — HorizontalRule
+- appendInlineImage(image) — InlineImage
+- appendInlineImage(image) — InlineImage
+- appendPageBreak() — PageBreak
+- appendPageBreak(pageBreak) — PageBreak
+- appendText(text) — Text
+- appendText(text) — Text
+- clear() — Paragraph
+- copy() — Paragraph
+- editAsText() — Text
+- findElement(elementType) — RangeElement
+- findElement(elementType, from) — RangeElement
+- findText(searchPattern) — RangeElement
+- findText(searchPattern, from) — RangeElement
+- getAlignment() — HorizontalAlignment
+- getAttributes() — Object
+- getChild(childIndex) — Element
+- getChildIndex(child) — Integer
+- getHeading() — ParagraphHeading
+- getIndentEnd() — Number
+- getIndentFirstLine() — Number
+- getIndentStart() — Number
+- getLineSpacing() — Number
+- getLinkUrl() — String
+- getNextSibling() — Element
+- getNumChildren() — Integer
+- getParent() — ContainerElement
+- getPositionedImage(id) — PositionedImage
+- getPositionedImages() — PositionedImage[]
+- getPreviousSibling() — Element
+- getSpacingAfter() — Number
+- getSpacingBefore() — Number
+- getText() — String
+- getTextAlignment() — TextAlignment
+- getType() — ElementType
+- insertHorizontalRule(childIndex) — HorizontalRule
+- insertInlineImage(childIndex, image) — InlineImage
+- insertInlineImage(childIndex, image) — InlineImage
+- insertPageBreak(childIndex) — PageBreak
+- insertPageBreak(childIndex, pageBreak) — PageBreak
+- insertText(childIndex, text) — Text
+- insertText(childIndex, text) — Text
+- isAtDocumentEnd() — Boolean
+- isLeftToRight() — Boolean
+- merge() — Paragraph
+- removeChild(child) — Paragraph
+- removeFromParent() — Paragraph
+- removePositionedImage(id) — Boolean
+- replaceText(searchPattern, replacement) — Element
+- setAlignment(alignment) — Paragraph
+- setAttributes(attributes) — Paragraph
+- setHeading(heading) — Paragraph
+- setIndentEnd(indentEnd) — Paragraph
+- setIndentFirstLine(indentFirstLine) — Paragraph
+- setIndentStart(indentStart) — Paragraph
+- setLeftToRight(leftToRight) — Paragraph
+- setLineSpacing(multiplier) — Paragraph
+- setLinkUrl(url) — Paragraph
+- setSpacingAfter(spacingAfter) — Paragraph
+- setSpacingBefore(spacingBefore) — Paragraph
+- setText(text) — void
+- setTextAlignment(textAlignment) — Paragraph

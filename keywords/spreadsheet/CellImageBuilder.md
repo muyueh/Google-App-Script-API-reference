@@ -2,15 +2,15 @@
 
 ### Properties
 
-- valueType
+- valueType — ValueType
 
 ### Methods
 
-- build()
-- getAltTextDescription()
-- getAltTextTitle()
-- getContentUrl()
-- setAltTextDescription(description)
-- setAltTextTitle(title)
-- setSourceUrl(url)
-- toBuilder()
+- build() — CellImage
+- getAltTextDescription() — String
+- getAltTextTitle() — String
+- getContentUrl() — String
+- setAltTextDescription(description) — CellImage
+- setAltTextTitle(title) — CellImage
+- setSourceUrl(url) — CellImageBuilder
+- toBuilder() — CellImageBuilder

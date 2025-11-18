@@ -2,5 +2,5 @@
 
 ### Properties
 
-- UNSUPPORTED
-- IMAGE
+- UNSUPPORTED — Enum
+- IMAGE — Enum

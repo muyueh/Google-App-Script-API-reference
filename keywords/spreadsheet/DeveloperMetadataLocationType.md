@@ -2,7 +2,7 @@
 
 ### Properties
 
-- SPREADSHEET
-- SHEET
-- ROW
-- COLUMN
+- SPREADSHEET — Enum
+- SHEET — Enum
+- ROW — Enum
+- COLUMN — Enum

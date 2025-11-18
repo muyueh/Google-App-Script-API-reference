@@ -2,7 +2,7 @@
 
 ### Properties
 
-- UNSUPPORTED
-- NONE
-- SOLID
-- PICTURE
+- UNSUPPORTED — Enum
+- NONE — Enum
+- SOLID — Enum
+- PICTURE — Enum

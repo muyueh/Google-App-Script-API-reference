@@ -2,7 +2,7 @@
 
 ### Properties
 
-- UNSUPPORTED
-- TOP
-- MIDDLE
-- BOTTOM
+- UNSUPPORTED — Enum
+- TOP — Enum
+- MIDDLE — Enum
+- BOTTOM — Enum

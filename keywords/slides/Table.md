@@ -2,46 +2,47 @@
 
 ### Methods
 
-- alignOnPage(alignmentPosition)
-- appendColumn()
-- appendRow()
-- bringForward()
-- bringToFront()
-- duplicate()
-- getColumn(columnIndex)
-- getConnectionSites()
-- getDescription()
-- getHeight()
-- getInherentHeight()
-- getInherentWidth()
-- getLeft()
-- getNumColumns()
-- getNumRows()
-- getObjectId()
-- getPageElementType()
-- getParentGroup()
-- getParentPage()
-- getRotation()
-- getRow(rowIndex)
-- getTitle()
-- getTop()
-- getTransform()
-- getWidth()
-- insertColumn(index)
-- insertRow(index)
-- preconcatenateTransform(transform)
-- remove()
-- scaleHeight(ratio)
-- scaleWidth(ratio)
-- select()
-- select(replace)
-- sendBackward()
-- sendToBack()
-- setDescription(description)
-- setHeight(height)
-- setLeft(left)
-- setRotation(angle)
-- setTitle(title)
-- setTop(top)
-- setTransform(transform)
-- setWidth(width)
+- alignOnPage(alignmentPosition) — Table
+- appendColumn() — TableColumn
+- appendRow() — TableRow
+- bringForward() — Table
+- bringToFront() — Table
+- duplicate() — PageElement
+- getCell(rowIndex, columnIndex) — TableCell
+- getColumn(columnIndex) — TableColumn
+- getConnectionSites() — ConnectionSite[]
+- getDescription() — String
+- getHeight() — Number
+- getInherentHeight() — Number
+- getInherentWidth() — Number
+- getLeft() — Number
+- getNumColumns() — Integer
+- getNumRows() — Integer
+- getObjectId() — String
+- getPageElementType() — PageElementType
+- getParentGroup() — Group
+- getParentPage() — Page
+- getRotation() — Number
+- getRow(rowIndex) — TableRow
+- getTitle() — String
+- getTop() — Number
+- getTransform() — AffineTransform
+- getWidth() — Number
+- insertColumn(index) — TableColumn
+- insertRow(index) — TableRow
+- preconcatenateTransform(transform) — Table
+- remove() — void
+- scaleHeight(ratio) — Table
+- scaleWidth(ratio) — Table
+- select() — void
+- select(replace) — void
+- sendBackward() — Table
+- sendToBack() — Table
+- setDescription(description) — Table
+- setHeight(height) — Table
+- setLeft(left) — Table
+- setRotation(angle) — Table
+- setTitle(title) — Table
+- setTop(top) — Table
+- setTransform(transform) — Table
+- setWidth(width) — Table

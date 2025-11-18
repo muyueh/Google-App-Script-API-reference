@@ -2,49 +2,63 @@
 
 ### Methods
 
-- duplicate()
-- getBackground()
-- getColorScheme()
-- getGroups()
-- getImages()
-- getLayout()
-- getLines()
-- getNotesPage()
-- getObjectId()
-- getPageElementById(id)
-- getPageElements()
-- getPageType()
-- getPlaceholder(placeholderType)
-- getPlaceholders()
-- getShapes()
-- getSheetsCharts()
-- getSlideLinkingMode()
-- getSourcePresentationId()
-- getSourceSlideObjectId()
-- getTables()
-- getVideos()
-- getWordArts()
-- group(pageElements)
-- insertGroup(group)
-- insertImage(blobSource)
-- insertImage(image)
-- insertImage(imageUrl)
-- insertLine(line)
-- insertPageElement(pageElement)
-- insertShape(shape)
-- insertShape(shapeType)
-- insertSheetsChart(sourceChart)
-- insertSheetsChart(sheetsChart)
-- insertSheetsChartAsImage(sourceChart)
-- insertTable(table)
-- insertTextBox(text)
-- insertVideo(videoUrl)
-- insertVideo(video)
-- insertWordArt(wordArt)
-- isSkipped()
-- move(index)
-- refreshSlide()
-- remove()
-- selectAsCurrentPage()
-- setSkipped(isSkipped)
-- unlink()
+- duplicate() — Slide
+- getBackground() — PageBackground
+- getColorScheme() — ColorScheme
+- getGroups() — Group[]
+- getImages() — Image[]
+- getLayout() — Layout
+- getLines() — Line[]
+- getNotesPage() — NotesPage
+- getObjectId() — String
+- getPageElementById(id) — PageElement
+- getPageElements() — PageElement[]
+- getPageType() — PageType
+- getPlaceholder(placeholderType) — PageElement
+- getPlaceholder(placeholderType, placeholderIndex) — PageElement
+- getPlaceholders() — PageElement[]
+- getShapes() — Shape[]
+- getSheetsCharts() — SheetsChart[]
+- getSlideLinkingMode() — SlideLinkingMode
+- getSourcePresentationId() — String
+- getSourceSlideObjectId() — String
+- getTables() — Table[]
+- getVideos() — Video[]
+- getWordArts() — WordArt[]
+- group(pageElements) — Group
+- insertGroup(group) — Group
+- insertImage(blobSource) — Image
+- insertImage(blobSource, left, top, width, height) — Image
+- insertImage(image) — Image
+- insertImage(imageUrl) — Image
+- insertImage(imageUrl, left, top, width, height) — Image
+- insertLine(line) — Line
+- insertLine(lineCategory, startConnectionSite, endConnectionSite) — Line
+- insertLine(lineCategory, startLeft, startTop, endLeft, endTop) — Line
+- insertPageElement(pageElement) — PageElement
+- insertShape(shape) — Shape
+- insertShape(shapeType) — Shape
+- insertShape(shapeType, left, top, width, height) — Shape
+- insertSheetsChart(sourceChart) — SheetsChart
+- insertSheetsChart(sourceChart, left, top, width, height) — SheetsChart
+- insertSheetsChart(sheetsChart) — SheetsChart
+- insertSheetsChartAsImage(sourceChart) — Image
+- insertSheetsChartAsImage(sourceChart, left, top, width, height) — Image
+- insertTable(numRows, numColumns) — Table
+- insertTable(numRows, numColumns, left, top, width, height) — Table
+- insertTable(table) — Table
+- insertTextBox(text) — Shape
+- insertTextBox(text, left, top, width, height) — Shape
+- insertVideo(videoUrl) — Video
+- insertVideo(videoUrl, left, top, width, height) — Video
+- insertVideo(video) — Video
+- insertWordArt(wordArt) — WordArt
+- isSkipped() — Boolean
+- move(index) — void
+- refreshSlide() — void
+- remove() — void
+- replaceAllText(findText, replaceText) — Integer
+- replaceAllText(findText, replaceText, matchCase) — Integer
+- selectAsCurrentPage() — void
+- setSkipped(isSkipped) — void
+- unlink() — void

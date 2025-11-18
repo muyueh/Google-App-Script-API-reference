@@ -2,9 +2,9 @@
 
 ### Methods
 
-- applyListPreset(listPreset)
-- getGlyph()
-- getList()
-- getNestingLevel()
-- isInList()
-- removeFromList()
+- applyListPreset(listPreset) — ListStyle
+- getGlyph() — String
+- getList() — List
+- getNestingLevel() — Integer
+- isInList() — Boolean
+- removeFromList() — ListStyle

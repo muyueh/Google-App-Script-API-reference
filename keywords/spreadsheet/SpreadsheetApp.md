@@ -2,67 +2,69 @@
 
 ### Properties
 
-- AutoFillSeries
-- BandingTheme
-- BooleanCriteria
-- BorderStyle
-- ColorType
-- CopyPasteType
-- DataExecutionErrorCode
-- DataExecutionState
-- DataSourceParameterType
-- DataSourceRefreshScope
-- DataSourceType
-- DataValidationCriteria
-- DateTimeGroupingRuleType
-- DeveloperMetadataLocationType
-- DeveloperMetadataVisibility
-- Dimension
-- Direction
-- FrequencyType
-- GroupControlTogglePosition
-- InterpolationType
-- PivotTableSummarizeFunction
-- PivotValueDisplayType
-- ProtectionType
-- RecalculationInterval
-- RelativeDate
-- SheetType
-- SortOrder
-- TextDirection
-- TextToColumnsDelimiter
-- ThemeColorType
-- ValueType
-- WrapStrategy
+- AutoFillSeries — AutoFillSeries
+- BandingTheme — BandingTheme
+- BooleanCriteria — BooleanCriteria
+- BorderStyle — BorderStyle
+- ColorType — ColorType
+- CopyPasteType — CopyPasteType
+- DataExecutionErrorCode — DataExecutionErrorCode
+- DataExecutionState — DataExecutionState
+- DataSourceParameterType — DataSourceParameterType
+- DataSourceRefreshScope — DataSourceRefreshScope
+- DataSourceType — DataSourceType
+- DataValidationCriteria — DataValidationCriteria
+- DateTimeGroupingRuleType — DateTimeGroupingRuleType
+- DeveloperMetadataLocationType — DeveloperMetadataLocationType
+- DeveloperMetadataVisibility — DeveloperMetadataVisibility
+- Dimension — Dimension
+- Direction — Direction
+- FrequencyType — FrequencyType
+- GroupControlTogglePosition — GroupControlTogglePosition
+- InterpolationType — InterpolationType
+- PivotTableSummarizeFunction — PivotTableSummarizeFunction
+- PivotValueDisplayType — PivotValueDisplayType
+- ProtectionType — ProtectionType
+- RecalculationInterval — RecalculationInterval
+- RelativeDate — RelativeDate
+- SheetType — SheetType
+- SortOrder — SortOrder
+- TextDirection — TextDirection
+- TextToColumnsDelimiter — TextToColumnsDelimiter
+- ThemeColorType — ThemeColorType
+- ValueType — ValueType
+- WrapStrategy — WrapStrategy
 
 ### Methods
 
-- create(name)
-- enableAllDataSourcesExecution()
-- enableBigQueryExecution()
-- enableLookerExecution()
-- flush()
-- getActive()
-- getActiveRange()
-- getActiveRangeList()
-- getActiveSheet()
-- getActiveSpreadsheet()
-- getCurrentCell()
-- getSelection()
-- getUi()
-- newCellImage()
-- newColor()
-- newConditionalFormatRule()
-- newDataSourceSpec()
-- newDataValidation()
-- newFilterCriteria()
-- newRichTextValue()
-- newTextStyle()
-- open(file)
-- openById(id)
-- openByUrl(url)
-- setActiveRange(range)
-- setActiveRangeList(rangeList)
-- setActiveSheet(sheet)
-- setActiveSpreadsheet(newActiveSpreadsheet)
-- setCurrentCell(cell)
+- create(name) — Spreadsheet
+- create(name, rows, columns) — Spreadsheet
+- enableAllDataSourcesExecution() — void
+- enableBigQueryExecution() — void
+- enableLookerExecution() — void
+- flush() — void
+- getActive() — Spreadsheet
+- getActiveRange() — Range
+- getActiveRangeList() — RangeList
+- getActiveSheet() — Sheet
+- getActiveSpreadsheet() — Spreadsheet
+- getCurrentCell() — Range
+- getSelection() — Selection
+- getUi() — Ui
+- newCellImage() — CellImageBuilder
+- newColor() — ColorBuilder
+- newConditionalFormatRule() — ConditionalFormatRuleBuilder
+- newDataSourceSpec() — DataSourceSpecBuilder
+- newDataValidation() — DataValidationBuilder
+- newFilterCriteria() — FilterCriteriaBuilder
+- newRichTextValue() — RichTextValueBuilder
+- newTextStyle() — TextStyleBuilder
+- open(file) — Spreadsheet
+- openById(id) — Spreadsheet
+- openByUrl(url) — Spreadsheet
+- setActiveRange(range) — Range
+- setActiveRangeList(rangeList) — RangeList
+- setActiveSheet(sheet) — Sheet
+- setActiveSheet(sheet, restoreSelection) — Sheet
+- setActiveSpreadsheet(newActiveSpreadsheet) — void
+- setCurrentCell(cell) — Range

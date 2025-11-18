@@ -2,9 +2,9 @@
 
 ### Methods
 
-- cancelDataRefresh()
-- forceRefreshData()
-- getDataSource()
-- getStatus()
-- refreshData()
-- waitForCompletion(timeoutInSeconds)
+- cancelDataRefresh() — DataSourceChart
+- forceRefreshData() — DataSourceChart
+- getDataSource() — DataSource
+- getStatus() — DataExecutionStatus
+- refreshData() — DataSourceChart
+- waitForCompletion(timeoutInSeconds) — DataExecutionStatus

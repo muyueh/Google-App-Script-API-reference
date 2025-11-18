@@ -2,5 +2,5 @@
 
 ### Properties
 
-- LEFT_TO_RIGHT
-- RIGHT_TO_LEFT
+- LEFT_TO_RIGHT — Enum
+- RIGHT_TO_LEFT — Enum

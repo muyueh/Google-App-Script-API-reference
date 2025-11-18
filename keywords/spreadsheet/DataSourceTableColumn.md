@@ -2,5 +2,5 @@
 
 ### Methods
 
-- getDataSourceColumn()
-- remove()
+- getDataSourceColumn() — DataSourceColumn
+- remove() — void

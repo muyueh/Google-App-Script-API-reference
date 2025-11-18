@@ -2,6 +2,6 @@
 
 ### Properties
 
-- CORRECT
-- INCORRECT
-- GENERAL
+- CORRECT — Enum
+- INCORRECT — Enum
+- GENERAL — Enum

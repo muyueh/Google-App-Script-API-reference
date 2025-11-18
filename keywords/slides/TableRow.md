@@ -2,9 +2,9 @@
 
 ### Methods
 
-- getCell(cellIndex)
-- getIndex()
-- getMinimumHeight()
-- getNumCells()
-- getParentTable()
-- remove()
+- getCell(cellIndex) — TableCell
+- getIndex() — Integer
+- getMinimumHeight() — Number
+- getNumCells() — Integer
+- getParentTable() — Table
+- remove() — void

@@ -2,10 +2,10 @@
 
 ### Properties
 
-- UNSUPPORTED
-- NONE
-- TEXT
-- TABLE_CELL
-- PAGE
-- PAGE_ELEMENT
-- CURRENT_PAGE
+- UNSUPPORTED — Enum
+- NONE — Enum
+- TEXT — Enum
+- TABLE_CELL — Enum
+- PAGE — Enum
+- PAGE_ELEMENT — Enum
+- CURRENT_PAGE — Enum

@@ -2,178 +2,198 @@
 
 ### Methods
 
-- activate()
-- activateAsCurrentCell()
-- addDeveloperMetadata(key)
-- applyColumnBanding()
-- applyColumnBanding(bandingTheme)
-- applyRowBanding()
-- applyRowBanding(bandingTheme)
-- autoFillToNeighbor(series)
-- breakApart()
-- canEdit()
-- check()
-- clear()
-- clear(options)
-- clearContent()
-- clearDataValidations()
-- clearFormat()
-- clearNote()
-- collapseGroups()
-- copyTo(destination)
-- createDataSourcePivotTable(dataSource)
-- createDataSourceTable(dataSource)
-- createDeveloperMetadataFinder()
-- createFilter()
-- createPivotTable(sourceData)
-- createTextFinder(findText)
-- deleteCells(shiftDimension)
-- expandGroups()
-- getA1Notation()
-- getBackground()
-- getBackgroundObject()
-- getBackgroundObjects()
-- getBackgrounds()
-- getBandings()
-- getColumn()
-- getDataRegion()
-- getDataRegion(dimension)
-- getDataSourceFormula()
-- getDataSourceFormulas()
-- getDataSourcePivotTables()
-- getDataSourceTables()
-- getDataSourceUrl()
-- getDataTable()
-- getDataTable(firstRowIsHeader)
-- getDataValidation()
-- getDataValidations()
-- getDeveloperMetadata()
-- getDisplayValue()
-- getDisplayValues()
-- getFilter()
-- getFontColorObject()
-- getFontColorObjects()
-- getFontFamilies()
-- getFontFamily()
-- getFontLine()
-- getFontLines()
-- getFontSize()
-- getFontSizes()
-- getFontStyle()
-- getFontStyles()
-- getFontWeight()
-- getFontWeights()
-- getFormula()
-- getFormulaR1C1()
-- getFormulas()
-- getFormulasR1C1()
-- getGridId()
-- getHeight()
-- getHorizontalAlignment()
-- getHorizontalAlignments()
-- getLastColumn()
-- getLastRow()
-- getMergedRanges()
-- getNextDataCell(direction)
-- getNote()
-- getNotes()
-- getNumColumns()
-- getNumRows()
-- getNumberFormat()
-- getNumberFormats()
-- getRichTextValue()
-- getRichTextValues()
-- getRow()
-- getRowIndex()
-- getSheet()
-- getTextDirection()
-- getTextDirections()
-- getTextRotation()
-- getTextRotations()
-- getTextStyle()
-- getTextStyles()
-- getValue()
-- getValues()
-- getVerticalAlignment()
-- getVerticalAlignments()
-- getWidth()
-- getWrap()
-- getWrapStrategies()
-- getWrapStrategy()
-- getWraps()
-- insertCells(shiftDimension)
-- insertCheckboxes()
-- insertCheckboxes(checkedValue)
-- isBlank()
-- isChecked()
-- isEndColumnBounded()
-- isEndRowBounded()
-- isPartOfMerge()
-- isStartColumnBounded()
-- isStartRowBounded()
-- merge()
-- mergeAcross()
-- mergeVertically()
-- moveTo(target)
-- protect()
-- randomize()
-- removeCheckboxes()
-- removeDuplicates()
-- removeDuplicates(columnsToCompare)
-- setBackground(color)
-- setBackgroundObject(color)
-- setBackgroundObjects(color)
-- setBackgrounds(color)
-- setDataValidation(rule)
-- setDataValidations(rules)
-- setFontColor(color)
-- setFontColorObject(color)
-- setFontColorObjects(colors)
-- setFontColors(colors)
-- setFontFamilies(fontFamilies)
-- setFontFamily(fontFamily)
-- setFontLine(fontLine)
-- setFontLines(fontLines)
-- setFontSize(size)
-- setFontSizes(sizes)
-- setFontStyle(fontStyle)
-- setFontStyles(fontStyles)
-- setFontWeight(fontWeight)
-- setFontWeights(fontWeights)
-- setFormula(formula)
-- setFormulaR1C1(formula)
-- setFormulas(formulas)
-- setFormulasR1C1(formulas)
-- setHorizontalAlignment(alignment)
-- setHorizontalAlignments(alignments)
-- setNote(note)
-- setNotes(notes)
-- setNumberFormat(numberFormat)
-- setNumberFormats(numberFormats)
-- setRichTextValue(value)
-- setRichTextValues(values)
-- setShowHyperlink(showHyperlink)
-- setTextDirection(direction)
-- setTextDirections(directions)
-- setTextRotation(degrees)
-- setTextRotation(rotation)
-- setTextRotations(rotations)
-- setTextStyle(style)
-- setTextStyles(styles)
-- setValue(value)
-- setValues(values)
-- setVerticalAlignment(alignment)
-- setVerticalAlignments(alignments)
-- setVerticalText(isVertical)
-- setWrap(isWrapEnabled)
-- setWrapStrategies(strategies)
-- setWrapStrategy(strategy)
-- setWraps(isWrapEnabled)
-- shiftColumnGroupDepth(delta)
-- shiftRowGroupDepth(delta)
-- sort(sortSpecObj)
-- splitTextToColumns()
-- splitTextToColumns(delimiter)
-- splitTextToColumns(delimiter)
-- trimWhitespace()
-- uncheck()
+- activate() — Range
+- activateAsCurrentCell() — Range
+- addDeveloperMetadata(key) — Range
+- addDeveloperMetadata(key, visibility) — Range
+- addDeveloperMetadata(key, value) — Range
+- addDeveloperMetadata(key, value, visibility) — Range
+- applyColumnBanding() — Banding
+- applyColumnBanding(bandingTheme) — Banding
+- applyColumnBanding(bandingTheme, showHeader, showFooter) — Banding
+- applyRowBanding() — Banding
+- applyRowBanding(bandingTheme) — Banding
+- applyRowBanding(bandingTheme, showHeader, showFooter) — Banding
+- autoFill(destination, series) — void
+- autoFillToNeighbor(series) — void
+- breakApart() — Range
+- canEdit() — Boolean
+- check() — Range
+- clear() — Range
+- clear(options) — Range
+- clearContent() — Range
+- clearDataValidations() — Range
+- clearFormat() — Range
+- clearNote() — Range
+- collapseGroups() — Range
+- copyFormatToRange(gridId, column, columnEnd, row, rowEnd) — void
+- copyFormatToRange(sheet, column, columnEnd, row, rowEnd) — void
+- copyTo(destination) — void
+- copyTo(destination, copyPasteType, transposed) — void
+- copyTo(destination, options) — void
+- copyValuesToRange(gridId, column, columnEnd, row, rowEnd) — void
+- copyValuesToRange(sheet, column, columnEnd, row, rowEnd) — void
+- createDataSourcePivotTable(dataSource) — DataSourcePivotTable
+- createDataSourceTable(dataSource) — DataSourceTable
+- createDeveloperMetadataFinder() — DeveloperMetadataFinder
+- createFilter() — Filter
+- createPivotTable(sourceData) — PivotTable
+- createTextFinder(findText) — TextFinder
+- deleteCells(shiftDimension) — void
+- expandGroups() — Range
+- getA1Notation() — String
+- getBackground() — String
+- getBackgroundObject() — Color
+- getBackgroundObjects() — Color[][]
+- getBackgrounds() — String[][]
+- getBandings() — Banding[]
+- getCell(row, column) — Range
+- getColumn() — Integer
+- getDataRegion() — Range
+- getDataRegion(dimension) — Range
+- getDataSourceFormula() — DataSourceFormula
+- getDataSourceFormulas() — DataSourceFormula[]
+- getDataSourcePivotTables() — DataSourcePivotTable[]
+- getDataSourceTables() — DataSourceTable[]
+- getDataSourceUrl() — String
+- getDataTable() — DataTable
+- getDataTable(firstRowIsHeader) — DataTable
+- getDataValidation() — DataValidation
+- getDataValidations() — DataValidation[][]
+- getDeveloperMetadata() — DeveloperMetadata[]
+- getDisplayValue() — String
+- getDisplayValues() — String[][]
+- getFilter() — Filter
+- getFontColorObject() — Color
+- getFontColorObjects() — Color[][]
+- getFontFamilies() — String[][]
+- getFontFamily() — String
+- getFontLine() — String
+- getFontLines() — String[][]
+- getFontSize() — Integer
+- getFontSizes() — Integer[][]
+- getFontStyle() — String
+- getFontStyles() — String[][]
+- getFontWeight() — String
+- getFontWeights() — String[][]
+- getFormula() — String
+- getFormulaR1C1() — String
+- getFormulas() — String[][]
+- getFormulasR1C1() — String[][]
+- getGridId() — Integer
+- getHeight() — Integer
+- getHorizontalAlignment() — String
+- getHorizontalAlignments() — String[][]
+- getLastColumn() — Integer
+- getLastRow() — Integer
+- getMergedRanges() — Range[]
+- getNextDataCell(direction) — Range
+- getNote() — String
+- getNotes() — String[][]
+- getNumColumns() — Integer
+- getNumRows() — Integer
+- getNumberFormat() — String
+- getNumberFormats() — String[][]
+- getRichTextValue() — RichTextValue
+- getRichTextValues() — RichTextValue[][]
+- getRow() — Integer
+- getRowIndex() — Integer
+- getSheet() — Sheet
+- getTextDirection() — TextDirection
+- getTextDirections() — TextDirection[][]
+- getTextRotation() — TextRotation
+- getTextRotations() — TextRotation[][]
+- getTextStyle() — TextStyle
+- getTextStyles() — TextStyle[][]
+- getValue() — Object
+- getValues() — Object[][]
+- getVerticalAlignment() — String
+- getVerticalAlignments() — String[][]
+- getWidth() — Integer
+- getWrap() — Boolean
+- getWrapStrategies() — WrapStrategy[][]
+- getWrapStrategy() — WrapStrategy
+- getWraps() — Boolean[][]
+- insertCells(shiftDimension) — Range
+- insertCheckboxes() — Range
+- insertCheckboxes(checkedValue) — Range
+- insertCheckboxes(checkedValue, uncheckedValue) — Range
+- isBlank() — Boolean
+- isChecked() — Boolean
+- isEndColumnBounded() — Boolean
+- isEndRowBounded() — Boolean
+- isPartOfMerge() — Boolean
+- isStartColumnBounded() — Boolean
+- isStartRowBounded() — Boolean
+- merge() — Range
+- mergeAcross() — Range
+- mergeVertically() — Range
+- moveTo(target) — void
+- offset(rowOffset, columnOffset) — Range
+- offset(rowOffset, columnOffset, numRows) — Range
+- offset(rowOffset, columnOffset, numRows, numColumns) — Range
+- protect() — Protection
+- randomize() — Range
+- removeCheckboxes() — Range
+- removeDuplicates() — Range
+- removeDuplicates(columnsToCompare) — Range
+- setBackground(color) — Range
+- setBackgroundObject(color) — Range
+- setBackgroundObjects(color) — Range
+- setBackgroundRGB(red, green, blue) — Range
+- setBackgrounds(color) — Range
+- setBorder(top, left, bottom, right, vertical, horizontal) — Range
+- setBorder(top, left, bottom, right, vertical, horizontal, color, style) — Range
+- setDataValidation(rule) — Range
+- setDataValidations(rules) — Range
+- setFontColor(color) — Range
+- setFontColorObject(color) — Range
+- setFontColorObjects(colors) — Range
+- setFontColors(colors) — Range
+- setFontFamilies(fontFamilies) — Range
+- setFontFamily(fontFamily) — Range
+- setFontLine(fontLine) — Range
+- setFontLines(fontLines) — Range
+- setFontSize(size) — Range
+- setFontSizes(sizes) — Range
+- setFontStyle(fontStyle) — Range
+- setFontStyles(fontStyles) — Range
+- setFontWeight(fontWeight) — Range
+- setFontWeights(fontWeights) — Range
+- setFormula(formula) — Range
+- setFormulaR1C1(formula) — Range
+- setFormulas(formulas) — Range
+- setFormulasR1C1(formulas) — Range
+- setHorizontalAlignment(alignment) — Range
+- setHorizontalAlignments(alignments) — Range
+- setNote(note) — Range
+- setNotes(notes) — Range
+- setNumberFormat(numberFormat) — Range
+- setNumberFormats(numberFormats) — Range
+- setRichTextValue(value) — Range
+- setRichTextValues(values) — Range
+- setShowHyperlink(showHyperlink) — Range
+- setTextDirection(direction) — Range
+- setTextDirections(directions) — Range
+- setTextRotation(degrees) — Range
+- setTextRotation(rotation) — Range
+- setTextRotations(rotations) — Range
+- setTextStyle(style) — Range
+- setTextStyles(styles) — Range
+- setValue(value) — Range
+- setValues(values) — Range
+- setVerticalAlignment(alignment) — Range
+- setVerticalAlignments(alignments) — Range
+- setVerticalText(isVertical) — Range
+- setWrap(isWrapEnabled) — Range
+- setWrapStrategies(strategies) — Range
+- setWrapStrategy(strategy) — Range
+- setWraps(isWrapEnabled) — Range
+- shiftColumnGroupDepth(delta) — Range
+- shiftRowGroupDepth(delta) — Range
+- sort(sortSpecObj) — Range
+- splitTextToColumns() — void
+- splitTextToColumns(delimiter) — void
+- splitTextToColumns(delimiter) — void
+- trimWhitespace() — Range
+- uncheck() — Range

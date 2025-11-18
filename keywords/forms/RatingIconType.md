@@ -2,6 +2,6 @@
 
 ### Properties
 
-- STAR
-- HEART
-- THUMB_UP
+- STAR — Enum
+- HEART — Enum
+- THUMB_UP — Enum

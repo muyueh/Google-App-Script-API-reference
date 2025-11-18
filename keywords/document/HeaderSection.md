@@ -2,37 +2,48 @@
 
 ### Methods
 
-- appendHorizontalRule()
-- appendImage(image)
-- appendImage(image)
-- appendListItem(listItem)
-- appendListItem(text)
-- appendParagraph(paragraph)
-- appendParagraph(text)
-- appendTable()
-- appendTable(cells)
-- appendTable(table)
-- clear()
-- copy()
-- editAsText()
-- findElement(elementType)
-- findText(searchPattern)
-- getAttributes()
-- getChild(childIndex)
-- getChildIndex(child)
-- getImages()
-- getListItems()
-- getNumChildren()
-- getParagraphs()
-- getParent()
-- getTables()
-- getText()
-- getTextAlignment()
-- getType()
-- insertHorizontalRule(childIndex)
-- insertTable(childIndex)
-- removeChild(child)
-- removeFromParent()
-- setAttributes(attributes)
-- setText(text)
-- setTextAlignment(textAlignment)
+- appendHorizontalRule() — HorizontalRule
+- appendImage(image) — InlineImage
+- appendImage(image) — InlineImage
+- appendListItem(listItem) — ListItem
+- appendListItem(text) — ListItem
+- appendParagraph(paragraph) — Paragraph
+- appendParagraph(text) — Paragraph
+- appendTable() — Table
+- appendTable(cells) — Table
+- appendTable(table) — Table
+- clear() — HeaderSection
+- copy() — HeaderSection
+- editAsText() — Text
+- findElement(elementType) — RangeElement
+- findElement(elementType, from) — RangeElement
+- findText(searchPattern) — RangeElement
+- findText(searchPattern, from) — RangeElement
+- getAttributes() — Object
+- getChild(childIndex) — Element
+- getChildIndex(child) — Integer
+- getImages() — InlineImage[]
+- getListItems() — ListItem[]
+- getNumChildren() — Integer
+- getParagraphs() — Paragraph[]
+- getParent() — ContainerElement
+- getTables() — Table[]
+- getText() — String
+- getTextAlignment() — TextAlignment
+- getType() — ElementType
+- insertHorizontalRule(childIndex) — HorizontalRule
+- insertImage(childIndex, image) — InlineImage
+- insertImage(childIndex, image) — InlineImage
+- insertListItem(childIndex, listItem) — ListItem
+- insertListItem(childIndex, text) — ListItem
+- insertParagraph(childIndex, paragraph) — Paragraph
+- insertParagraph(childIndex, text) — Paragraph
+- insertTable(childIndex) — Table
+- insertTable(childIndex, cells) — Table
+- insertTable(childIndex, table) — Table
+- removeChild(child) — HeaderSection
+- removeFromParent() — HeaderSection
+- replaceText(searchPattern, replacement) — Element
+- setAttributes(attributes) — HeaderSection
+- setText(text) — HeaderSection
+- setTextAlignment(textAlignment) — HeaderSection

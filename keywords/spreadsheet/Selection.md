@@ -2,8 +2,8 @@
 
 ### Methods
 
-- getActiveRange()
-- getActiveRangeList()
-- getActiveSheet()
-- getCurrentCell()
-- getNextDataRange(direction)
+- getActiveRange() — Range
+- getActiveRangeList() — RangeList
+- getActiveSheet() — Sheet
+- getCurrentCell() — Range
+- getNextDataRange(direction) — Range

@@ -2,12 +2,12 @@
 
 ### Methods
 
-- getMaxColorObject()
-- getMaxType()
-- getMaxValue()
-- getMidColorObject()
-- getMidType()
-- getMidValue()
-- getMinColorObject()
-- getMinType()
-- getMinValue()
+- getMaxColorObject() — Color
+- getMaxType() — InterpolationType
+- getMaxValue() — String
+- getMidColorObject() — Color
+- getMidType() — InterpolationType
+- getMidValue() — String
+- getMinColorObject() — Color
+- getMinType() — InterpolationType
+- getMinValue() — String

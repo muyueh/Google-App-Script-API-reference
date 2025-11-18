@@ -2,7 +2,7 @@
 
 ### Methods
 
-- getAs(contentType)
-- getBlob()
-- getContentUrl()
-- getSourceUrl()
+- getAs(contentType) — Blob
+- getBlob() — Blob
+- getContentUrl() — String
+- getSourceUrl() — String

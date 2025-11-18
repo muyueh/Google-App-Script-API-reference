@@ -2,7 +2,7 @@
 
 ### Properties
 
-- UP
-- DOWN
-- PREVIOUS
-- NEXT
+- UP — Enum
+- DOWN — Enum
+- PREVIOUS — Enum
+- NEXT — Enum

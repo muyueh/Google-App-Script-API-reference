@@ -2,5 +2,5 @@
 
 ### Methods
 
-- getAlpha()
-- getColor()
+- getAlpha() — Number
+- getColor() — Color

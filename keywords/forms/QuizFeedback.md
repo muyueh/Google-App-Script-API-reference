@@ -2,5 +2,5 @@
 
 ### Methods
 
-- getLinkUrls()
-- getText()
+- getLinkUrls() — String[]
+- getText() — String

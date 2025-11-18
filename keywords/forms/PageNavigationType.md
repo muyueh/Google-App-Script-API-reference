@@ -2,7 +2,7 @@
 
 ### Properties
 
-- CONTINUE
-- GO_TO_PAGE
-- RESTART
-- SUBMIT
+- CONTINUE — Enum
+- GO_TO_PAGE — Enum
+- RESTART — Enum
+- SUBMIT — Enum

@@ -2,57 +2,68 @@
 
 ### Methods
 
-- appendHorizontalRule()
-- appendImage(image)
-- appendImage(image)
-- appendListItem(listItem)
-- appendListItem(text)
-- appendParagraph(paragraph)
-- appendParagraph(text)
-- appendTable()
-- appendTable(cells)
-- appendTable(table)
-- clear()
-- copy()
-- editAsText()
-- findElement(elementType)
-- findText(searchPattern)
-- getAttributes()
-- getBackgroundColor()
-- getChild(childIndex)
-- getChildIndex(child)
-- getColSpan()
-- getLinkUrl()
-- getNextSibling()
-- getNumChildren()
-- getPaddingBottom()
-- getPaddingLeft()
-- getPaddingRight()
-- getPaddingTop()
-- getParent()
-- getParentRow()
-- getParentTable()
-- getPreviousSibling()
-- getRowSpan()
-- getText()
-- getTextAlignment()
-- getType()
-- getVerticalAlignment()
-- getWidth()
-- insertHorizontalRule(childIndex)
-- insertTable(childIndex)
-- isAtDocumentEnd()
-- merge()
-- removeChild(child)
-- removeFromParent()
-- setAttributes(attributes)
-- setBackgroundColor(color)
-- setLinkUrl(url)
-- setPaddingBottom(paddingBottom)
-- setPaddingLeft(paddingLeft)
-- setPaddingRight(paddingRight)
-- setPaddingTop(paddingTop)
-- setText(text)
-- setTextAlignment(textAlignment)
-- setVerticalAlignment(alignment)
-- setWidth(width)
+- appendHorizontalRule() — HorizontalRule
+- appendImage(image) — InlineImage
+- appendImage(image) — InlineImage
+- appendListItem(listItem) — ListItem
+- appendListItem(text) — ListItem
+- appendParagraph(paragraph) — Paragraph
+- appendParagraph(text) — Paragraph
+- appendTable() — Table
+- appendTable(cells) — Table
+- appendTable(table) — Table
+- clear() — TableCell
+- copy() — TableCell
+- editAsText() — Text
+- findElement(elementType) — RangeElement
+- findElement(elementType, from) — RangeElement
+- findText(searchPattern) — RangeElement
+- findText(searchPattern, from) — RangeElement
+- getAttributes() — Object
+- getBackgroundColor() — String
+- getChild(childIndex) — Element
+- getChildIndex(child) — Integer
+- getColSpan() — Integer
+- getLinkUrl() — String
+- getNextSibling() — Element
+- getNumChildren() — Integer
+- getPaddingBottom() — Number
+- getPaddingLeft() — Number
+- getPaddingRight() — Number
+- getPaddingTop() — Number
+- getParent() — ContainerElement
+- getParentRow() — TableRow
+- getParentTable() — Table
+- getPreviousSibling() — Element
+- getRowSpan() — Integer
+- getText() — String
+- getTextAlignment() — TextAlignment
+- getType() — ElementType
+- getVerticalAlignment() — VerticalAlignment
+- getWidth() — Number
+- insertHorizontalRule(childIndex) — HorizontalRule
+- insertImage(childIndex, image) — InlineImage
+- insertImage(childIndex, image) — InlineImage
+- insertListItem(childIndex, listItem) — ListItem
+- insertListItem(childIndex, text) — ListItem
+- insertParagraph(childIndex, paragraph) — Paragraph
+- insertParagraph(childIndex, text) — Paragraph
+- insertTable(childIndex) — Table
+- insertTable(childIndex, cells) — Table
+- insertTable(childIndex, table) — Table
+- isAtDocumentEnd() — Boolean
+- merge() — TableCell
+- removeChild(child) — TableCell
+- removeFromParent() — TableCell
+- replaceText(searchPattern, replacement) — Element
+- setAttributes(attributes) — TableCell
+- setBackgroundColor(color) — TableCell
+- setLinkUrl(url) — TableCell
+- setPaddingBottom(paddingBottom) — TableCell
+- setPaddingLeft(paddingLeft) — TableCell
+- setPaddingRight(paddingRight) — TableCell
+- setPaddingTop(paddingTop) — TableCell
+- setText(text) — TableCell
+- setTextAlignment(textAlignment) — TableCell
+- setVerticalAlignment(alignment) — TableCell
+- setWidth(width) — TableCell

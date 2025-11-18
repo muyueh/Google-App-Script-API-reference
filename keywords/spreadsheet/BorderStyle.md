@@ -2,9 +2,9 @@
 
 ### Properties
 
-- DOTTED
-- DASHED
-- SOLID
-- SOLID_MEDIUM
-- SOLID_THICK
-- DOUBLE
+- DOTTED — Enum
+- DASHED — Enum
+- SOLID — Enum
+- SOLID_MEDIUM — Enum
+- SOLID_THICK — Enum
+- DOUBLE — Enum

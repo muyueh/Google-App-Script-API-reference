@@ -2,28 +2,29 @@
 
 ### Methods
 
-- clearValidation()
-- createChoice(value)
-- createResponse(responses)
-- duplicate()
-- getChoices()
-- getFeedbackForCorrect()
-- getFeedbackForIncorrect()
-- getHelpText()
-- getId()
-- getIndex()
-- getPoints()
-- getTitle()
-- getType()
-- hasOtherOption()
-- isRequired()
-- setChoiceValues(values)
-- setChoices(choices)
-- setFeedbackForCorrect(feedback)
-- setFeedbackForIncorrect(feedback)
-- setHelpText(text)
-- setPoints(points)
-- setRequired(enabled)
-- setTitle(title)
-- setValidation(validation)
-- showOtherOption(enabled)
+- clearValidation() — CheckboxItem
+- createChoice(value) — Choice
+- createChoice(value, isCorrect) — Choice
+- createResponse(responses) — ItemResponse
+- duplicate() — CheckboxItem
+- getChoices() — Choice[]
+- getFeedbackForCorrect() — QuizFeedback
+- getFeedbackForIncorrect() — QuizFeedback
+- getHelpText() — String
+- getId() — Integer
+- getIndex() — Integer
+- getPoints() — Integer
+- getTitle() — String
+- getType() — ItemType
+- hasOtherOption() — Boolean
+- isRequired() — Boolean
+- setChoiceValues(values) — CheckboxItem
+- setChoices(choices) — CheckboxItem
+- setFeedbackForCorrect(feedback) — CheckboxItem
+- setFeedbackForIncorrect(feedback) — CheckboxItem
+- setHelpText(text) — CheckboxItem
+- setPoints(points) — CheckboxItem
+- setRequired(enabled) — CheckboxItem
+- setTitle(title) — CheckboxItem
+- setValidation(validation) — CheckboxItem
+- showOtherOption(enabled) — CheckboxItem

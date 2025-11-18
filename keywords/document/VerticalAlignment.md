@@ -2,6 +2,6 @@
 
 ### Properties
 
-- BOTTOM
-- CENTER
-- TOP
+- BOTTOM — Enum
+- CENTER — Enum
+- TOP — Enum

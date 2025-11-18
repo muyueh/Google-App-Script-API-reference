@@ -5,7 +5,7 @@ from pathlib import Path
 
 def remove_links(text: str) -> str:
     """Strip markdown links and inline code markers."""
-    text = re.sub(r"\[([^\]]+)\]\([^\)]+\)", r"\1", text)
+    text = re.sub(r"\[(.*?)\]\([^\)]+\)", r"\1", text)
     text = text.replace("`", "")
     return text.strip()
 
@@ -21,7 +21,12 @@ def process_table_row(row: str) -> str | None:
         return None
 
     first = cells[0].strip()
-    if not first or " " in first or first.lower() in {
+    if "(" in first:
+        name_portion = first.split("(", 1)[0].strip()
+    else:
+        name_portion = first
+
+    if not name_portion or " " in name_portion or name_portion.lower() in {
         "name",
         "brief description",
         "property",
@@ -41,7 +46,45 @@ def process_table_row(row: str) -> str | None:
         first = first[:-1]
         close_count -= 1
 
+    return_type = ""
+    if len(cells) > 1:
+        candidate = cells[1].strip()
+        if candidate and candidate.lower() not in {
+            "type",
+            "return type",
+            "description",
+            "brief description",
+        }:
+            return_type = candidate
+
+    if return_type:
+        return f"- {first} — {return_type}"
     return f"- {first}"
+
+
+def build_keyword_lines(lines: list[str]) -> list[str]:
+    """Create the stripped-down keyword representation of a doc file."""
+
+    output: list[str] = []
+
+    for line in lines:
+        stripped = line.strip()
+
+        if not stripped:
+            output.append("")
+            continue
+
+        if stripped.startswith("#"):
+            output.append(remove_links(stripped))
+            continue
+
+        if stripped.startswith("|"):
+            bullet = process_table_row(stripped)
+            if bullet:
+                output.append(bullet)
+            continue
+
+    return collapse_blank_lines(output)
 
 
 def collapse_blank_lines(lines: list[str]) -> list[str]:
@@ -94,79 +137,110 @@ def extract_class_names(section: list[str]) -> list[str]:
     return names
 
 
-def convert_file(path: Path, output_root: Path) -> list[Path]:
-    lines = path.read_text().splitlines()
-    output: list[str] = []
+def prepare_content(lines: list[str]) -> tuple[list[str], dict[str, list[str]], list[str] | None]:
+    preamble, sections = split_sections(lines)
+    normalized_sections: dict[str, list[str]] = {}
+    for name, content in sections.items():
+        normalized_sections[remove_links(name)] = content
+    classes_section = normalized_sections.pop("Classes", None)
+    return preamble, normalized_sections, classes_section
 
-    for line in lines:
-        stripped = line.strip()
 
-        if not stripped:
-            output.append("")
-            continue
-
-        if stripped.startswith("#"):
-            output.append(remove_links(stripped))
-            continue
-
-        if stripped.startswith("|"):
-            bullet = process_table_row(stripped)
-            if bullet:
-                output.append(bullet)
-            continue
-
-    cleaned = collapse_blank_lines(output)
-    preamble, sections = split_sections(cleaned)
-
-    service_dir = output_root / path.stem
+def write_service_files(
+    service_dir: Path,
+    preamble: list[str],
+    sections: dict[str, list[str]],
+    classes_section: list[str] | None,
+    desired_sections: list[str],
+    collapse: bool,
+) -> list[Path]:
     service_dir.mkdir(parents=True, exist_ok=True)
     written_paths: list[Path] = []
 
-    classes_section = sections.pop("Classes", None)
-    class_names: list[str] = extract_class_names(classes_section) if classes_section else []
-
-    readme_lines = collapse_blank_lines(preamble)
+    readme_lines = list(preamble)
     if classes_section:
-        if readme_lines and readme_lines[-1] != "":
+        if readme_lines and readme_lines[-1].strip():
             readme_lines.append("")
-        readme_lines.extend(collapse_blank_lines(classes_section))
+        readme_lines.extend(classes_section)
 
-    readme_path = service_dir / "README.md"
-    readme_path.write_text("\n".join(readme_lines).strip() + "\n")
-    written_paths.append(readme_path)
+    readme_content = collapse_blank_lines(readme_lines) if collapse else readme_lines
+    readme_text = "\n".join(readme_content).strip() if collapse else "\n".join(readme_content).rstrip("\n")
+    if readme_text:
+        readme_path = service_dir / "README.md"
+        readme_path.write_text(readme_text + "\n")
+        written_paths.append(readme_path)
 
-    desired_sections = class_names or list(sections.keys())
     seen = set()
     for name in desired_sections:
         section = sections.get(name)
         if not section:
             continue
         seen.add(name)
+        section_lines = collapse_blank_lines(section) if collapse else section
+        section_text = "\n".join(section_lines).strip() if collapse else "\n".join(section_lines).rstrip("\n")
+        if not section_text:
+            continue
         file_path = service_dir / f"{sanitize_filename(name)}.md"
-        file_path.write_text("\n".join(collapse_blank_lines(section)).strip() + "\n")
+        file_path.write_text(section_text + "\n")
         written_paths.append(file_path)
 
-    # Include any sections that were not in the classes list.
     for name, section in sections.items():
         if name in seen:
             continue
+        section_lines = collapse_blank_lines(section) if collapse else section
+        section_text = "\n".join(section_lines).strip() if collapse else "\n".join(section_lines).rstrip("\n")
+        if not section_text:
+            continue
         file_path = service_dir / f"{sanitize_filename(name)}.md"
-        file_path.write_text("\n".join(collapse_blank_lines(section)).strip() + "\n")
+        file_path.write_text(section_text + "\n")
         written_paths.append(file_path)
 
     return written_paths
 
 
+def convert_file(path: Path, keyword_root: Path, complete_root: Path) -> None:
+    lines = path.read_text().splitlines()
+
+    keyword_lines = build_keyword_lines(lines)
+    keyword_preamble, keyword_sections, keyword_classes = prepare_content(keyword_lines)
+
+    complete_preamble, complete_sections, complete_classes = prepare_content(lines)
+
+    class_names = extract_class_names(complete_classes) if complete_classes else []
+    desired_sections = class_names or list(complete_sections.keys())
+
+    write_service_files(
+        keyword_root / path.stem,
+        keyword_preamble,
+        keyword_sections,
+        keyword_classes,
+        desired_sections,
+        collapse=True,
+    )
+
+    write_service_files(
+        complete_root / path.stem,
+        complete_preamble,
+        complete_sections,
+        complete_classes,
+        desired_sections,
+        collapse=False,
+    )
+
+
 def main() -> None:
-    output_root = Path("keywords")
-    if output_root.exists():
-        shutil.rmtree(output_root)
-    output_root.mkdir(parents=True)
+    keyword_root = Path("keywords")
+    complete_root = Path("complete")
+
+    for root in (keyword_root, complete_root):
+        if root.exists():
+            shutil.rmtree(root)
+        root.mkdir(parents=True)
 
     for path in sorted(Path.cwd().glob("*.md")):
         if path.name == "README.md" or path.name.endswith("-keywords.md"):
             continue
-        convert_file(path, output_root)
+        convert_file(path, keyword_root, complete_root)
 
 
 if __name__ == "__main__":

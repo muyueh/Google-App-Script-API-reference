@@ -2,62 +2,64 @@
 
 ### Methods
 
-- addCommenter(emailAddress)
-- addCommenter(user)
-- addCommenters(emailAddresses)
-- addEditor(emailAddress)
-- addEditor(user)
-- addEditors(emailAddresses)
-- addViewer(emailAddress)
-- addViewer(user)
-- addViewers(emailAddresses)
-- getAccess(email)
-- getAccess(user)
-- getAs(contentType)
-- getBlob()
-- getDateCreated()
-- getDescription()
-- getDownloadUrl()
-- getEditors()
-- getId()
-- getLastUpdated()
-- getMimeType()
-- getName()
-- getOwner()
-- getParents()
-- getResourceKey()
-- getSecurityUpdateEligible()
-- getSecurityUpdateEnabled()
-- getSharingAccess()
-- getSharingPermission()
-- getSize()
-- getTargetId()
-- getTargetMimeType()
-- getTargetResourceKey()
-- getThumbnail()
-- getUrl()
-- getViewers()
-- isShareableByEditors()
-- isStarred()
-- isTrashed()
-- makeCopy()
-- makeCopy(destination)
-- makeCopy(name)
-- moveTo(destination)
-- removeCommenter(emailAddress)
-- removeCommenter(user)
-- removeEditor(emailAddress)
-- removeEditor(user)
-- removeViewer(emailAddress)
-- removeViewer(user)
-- revokePermissions(emailAddress)
-- revokePermissions(user)
-- setContent(content)
-- setDescription(description)
-- setName(name)
-- setOwner(emailAddress)
-- setOwner(user)
-- setSecurityUpdateEnabled(enabled)
-- setShareableByEditors(shareable)
-- setStarred(starred)
-- setTrashed(trashed)
+- addCommenter(emailAddress) — File
+- addCommenter(user) — File
+- addCommenters(emailAddresses) — File
+- addEditor(emailAddress) — File
+- addEditor(user) — File
+- addEditors(emailAddresses) — File
+- addViewer(emailAddress) — File
+- addViewer(user) — File
+- addViewers(emailAddresses) — File
+- getAccess(email) — Permission
+- getAccess(user) — Permission
+- getAs(contentType) — Blob
+- getBlob() — Blob
+- getDateCreated() — Date
+- getDescription() — String
+- getDownloadUrl() — String
+- getEditors() — User[]
+- getId() — String
+- getLastUpdated() — Date
+- getMimeType() — String
+- getName() — String
+- getOwner() — User
+- getParents() — FolderIterator
+- getResourceKey() — String
+- getSecurityUpdateEligible() — Boolean
+- getSecurityUpdateEnabled() — Boolean
+- getSharingAccess() — Access
+- getSharingPermission() — Permission
+- getSize() — Integer
+- getTargetId() — String
+- getTargetMimeType() — String
+- getTargetResourceKey() — String
+- getThumbnail() — Blob
+- getUrl() — String
+- getViewers() — User[]
+- isShareableByEditors() — Boolean
+- isStarred() — Boolean
+- isTrashed() — Boolean
+- makeCopy() — File
+- makeCopy(destination) — File
+- makeCopy(name) — File
+- makeCopy(name, destination) — File
+- moveTo(destination) — File
+- removeCommenter(emailAddress) — File
+- removeCommenter(user) — File
+- removeEditor(emailAddress) — File
+- removeEditor(user) — File
+- removeViewer(emailAddress) — File
+- removeViewer(user) — File
+- revokePermissions(emailAddress) — File
+- revokePermissions(user) — File
+- setContent(content) — File
+- setDescription(description) — File
+- setName(name) — File
+- setOwner(emailAddress) — File
+- setOwner(user) — File
+- setSecurityUpdateEnabled(enabled) — File
+- setShareableByEditors(shareable) — File
+- setSharing(accessType, permissionType) — File
+- setStarred(starred) — File
+- setTrashed(trashed) — File

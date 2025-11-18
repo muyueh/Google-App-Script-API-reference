@@ -2,49 +2,52 @@
 
 ### Methods
 
-- addEmailReminder(minutesBefore)
-- addGuest(email)
-- addPopupReminder(minutesBefore)
-- addSmsReminder(minutesBefore)
-- anyoneCanAddSelf()
-- deleteEventSeries()
-- deleteTag(key)
-- getAllTagKeys()
-- getColor()
-- getCreators()
-- getDateCreated()
-- getDescription()
-- getEmailReminders()
-- getEventType()
-- getGuestByEmail(email)
-- getGuestList()
-- getGuestList(includeOwner)
-- getId()
-- getLastUpdated()
-- getLocation()
-- getMyStatus()
-- getOriginalCalendarId()
-- getPopupReminders()
-- getSmsReminders()
-- getTag(key)
-- getTitle()
-- getTransparency()
-- getVisibility()
-- guestsCanInviteOthers()
-- guestsCanModify()
-- guestsCanSeeGuests()
-- isOwnedByMe()
-- removeAllReminders()
-- removeGuest(email)
-- resetRemindersToDefault()
-- setAnyoneCanAddSelf(anyoneCanAddSelf)
-- setColor(color)
-- setDescription(description)
-- setGuestsCanInviteOthers(guestsCanInviteOthers)
-- setGuestsCanModify(guestsCanModify)
-- setGuestsCanSeeGuests(guestsCanSeeGuests)
-- setLocation(location)
-- setMyStatus(status)
-- setTitle(title)
-- setTransparency(transparency)
-- setVisibility(visibility)
+- addEmailReminder(minutesBefore) — CalendarEventSeries
+- addGuest(email) — CalendarEventSeries
+- addPopupReminder(minutesBefore) — CalendarEventSeries
+- addSmsReminder(minutesBefore) — CalendarEventSeries
+- anyoneCanAddSelf() — Boolean
+- deleteEventSeries() — void
+- deleteTag(key) — CalendarEventSeries
+- getAllTagKeys() — String[]
+- getColor() — String
+- getCreators() — String[]
+- getDateCreated() — Date
+- getDescription() — String
+- getEmailReminders() — Integer[]
+- getEventType() — EventType
+- getGuestByEmail(email) — EventGuest
+- getGuestList() — EventGuest[]
+- getGuestList(includeOwner) — EventGuest[]
+- getId() — String
+- getLastUpdated() — Date
+- getLocation() — String
+- getMyStatus() — GuestStatus
+- getOriginalCalendarId() — String
+- getPopupReminders() — Integer[]
+- getSmsReminders() — Integer[]
+- getTag(key) — String
+- getTitle() — String
+- getTransparency() — EventTransparency
+- getVisibility() — Visibility
+- guestsCanInviteOthers() — Boolean
+- guestsCanModify() — Boolean
+- guestsCanSeeGuests() — Boolean
+- isOwnedByMe() — Boolean
+- removeAllReminders() — CalendarEventSeries
+- removeGuest(email) — CalendarEventSeries
+- resetRemindersToDefault() — CalendarEventSeries
+- setAnyoneCanAddSelf(anyoneCanAddSelf) — CalendarEventSeries
+- setColor(color) — CalendarEventSeries
+- setDescription(description) — CalendarEventSeries
+- setGuestsCanInviteOthers(guestsCanInviteOthers) — CalendarEventSeries
+- setGuestsCanModify(guestsCanModify) — CalendarEventSeries
+- setGuestsCanSeeGuests(guestsCanSeeGuests) — CalendarEventSeries
+- setLocation(location) — CalendarEventSeries
+- setMyStatus(status) — CalendarEventSeries
+- setRecurrence(recurrence, startDate) — CalendarEventSeries
+- setRecurrence(recurrence, startTime, endTime) — CalendarEventSeries
+- setTag(key, value) — CalendarEventSeries
+- setTitle(title) — CalendarEventSeries
+- setTransparency(transparency) — CalendarEventSeries
+- setVisibility(visibility) — CalendarEventSeries

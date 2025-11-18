@@ -2,12 +2,12 @@
 
 ### Methods
 
-- copy()
-- getAttributes()
-- getNextSibling()
-- getParent()
-- getPreviousSibling()
-- getType()
-- isAtDocumentEnd()
-- removeFromParent()
-- setAttributes(attributes)
+- copy() — HorizontalRule
+- getAttributes() — Object
+- getNextSibling() — Element
+- getParent() — ContainerElement
+- getPreviousSibling() — Element
+- getType() — ElementType
+- isAtDocumentEnd() — Boolean
+- removeFromParent() — HorizontalRule
+- setAttributes(attributes) — HorizontalRule

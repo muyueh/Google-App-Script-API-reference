@@ -2,8 +2,8 @@
 
 ### Properties
 
-- UNSUPPORTED
-- URL
-- SLIDE_POSITION
-- SLIDE_ID
-- SLIDE_INDEX
+- UNSUPPORTED — Enum
+- URL — Enum
+- SLIDE_POSITION — Enum
+- SLIDE_ID — Enum
+- SLIDE_INDEX — Enum

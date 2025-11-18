@@ -2,81 +2,84 @@
 
 ### Methods
 
-- addCheckboxGridItem()
-- addCheckboxItem()
-- addDateItem()
-- addDateTimeItem()
-- addDurationItem()
-- addEditor(emailAddress)
-- addEditor(user)
-- addEditors(emailAddresses)
-- addGridItem()
-- addImageItem()
-- addListItem()
-- addMultipleChoiceItem()
-- addPageBreakItem()
-- addParagraphTextItem()
-- addPublishedReader(emailAddress)
-- addPublishedReader(user)
-- addPublishedReaders(emailAddresses)
-- addRatingItem()
-- addScaleItem()
-- addSectionHeaderItem()
-- addTextItem()
-- addTimeItem()
-- addVideoItem()
-- canEditResponse()
-- collectsEmail()
-- createResponse()
-- deleteAllResponses()
-- deleteItem(index)
-- deleteItem(item)
-- deleteResponse(responseId)
-- getConfirmationMessage()
-- getCustomClosedFormMessage()
-- getDescription()
-- getDestinationId()
-- getDestinationType()
-- getEditUrl()
-- getEditors()
-- getId()
-- getItemById(id)
-- getItems()
-- getItems(itemType)
-- getPublishedReaders()
-- getPublishedUrl()
-- getResponse(responseId)
-- getResponses()
-- getResponses(timestamp)
-- getShuffleQuestions()
-- getSummaryUrl()
-- getTitle()
-- hasLimitOneResponsePerUser()
-- hasProgressBar()
-- hasRespondAgainLink()
-- isAcceptingResponses()
-- isPublished()
-- isPublishingSummary()
-- isQuiz()
-- removeDestination()
-- removeEditor(emailAddress)
-- removeEditor(user)
-- removePublishedReader(emailAddress)
-- removePublishedReader(user)
-- setAcceptingResponses(enabled)
-- setAllowResponseEdits(enabled)
-- setCollectEmail(collect)
-- setConfirmationMessage(message)
-- setCustomClosedFormMessage(message)
-- setDescription(description)
-- setIsQuiz(enabled)
-- setLimitOneResponsePerUser(enabled)
-- setProgressBar(enabled)
-- setPublished(enabled)
-- setPublishingSummary(enabled)
-- setShowLinkToRespondAgain(enabled)
-- setShuffleQuestions(shuffle)
-- setTitle(title)
-- shortenFormUrl(url)
-- submitGrades(responses)
-- supportsAdvancedResponderPermissions()
+- addCheckboxGridItem() — CheckboxGridItem
+- addCheckboxItem() — CheckboxItem
+- addDateItem() — DateItem
+- addDateTimeItem() — DateTimeItem
+- addDurationItem() — DurationItem
+- addEditor(emailAddress) — Form
+- addEditor(user) — Form
+- addEditors(emailAddresses) — Form
+- addGridItem() — GridItem
+- addImageItem() — ImageItem
+- addListItem() — ListItem
+- addMultipleChoiceItem() — MultipleChoiceItem
+- addPageBreakItem() — PageBreakItem
+- addParagraphTextItem() — ParagraphTextItem
+- addPublishedReader(emailAddress) — Form
+- addPublishedReader(user) — Form
+- addPublishedReaders(emailAddresses) — Form
+- addRatingItem() — RatingItem
+- addScaleItem() — ScaleItem
+- addSectionHeaderItem() — SectionHeaderItem
+- addTextItem() — TextItem
+- addTimeItem() — TimeItem
+- addVideoItem() — VideoItem
+- canEditResponse() — Boolean
+- collectsEmail() — Boolean
+- createResponse() — FormResponse
+- deleteAllResponses() — Form
+- deleteItem(index) — void
+- deleteItem(item) — void
+- deleteResponse(responseId) — Form
+- getConfirmationMessage() — String
+- getCustomClosedFormMessage() — String
+- getDescription() — String
+- getDestinationId() — String
+- getDestinationType() — DestinationType
+- getEditUrl() — String
+- getEditors() — User[]
+- getId() — String
+- getItemById(id) — Item
+- getItems() — Item[]
+- getItems(itemType) — Item[]
+- getPublishedReaders() — User[]
+- getPublishedUrl() — String
+- getResponse(responseId) — FormResponse
+- getResponses() — FormResponse[]
+- getResponses(timestamp) — FormResponse[]
+- getShuffleQuestions() — Boolean
+- getSummaryUrl() — String
+- getTitle() — String
+- hasLimitOneResponsePerUser() — Boolean
+- hasProgressBar() — Boolean
+- hasRespondAgainLink() — Boolean
+- isAcceptingResponses() — Boolean
+- isPublished() — Boolean
+- isPublishingSummary() — Boolean
+- isQuiz() — Boolean
+- moveItem(from, to) — Item
+- moveItem(item, toIndex) — Item
+- removeDestination() — Form
+- removeEditor(emailAddress) — Form
+- removeEditor(user) — Form
+- removePublishedReader(emailAddress) — Form
+- removePublishedReader(user) — Form
+- setAcceptingResponses(enabled) — Form
+- setAllowResponseEdits(enabled) — Form
+- setCollectEmail(collect) — Form
+- setConfirmationMessage(message) — Form
+- setCustomClosedFormMessage(message) — Form
+- setDescription(description) — Form
+- setDestination(type, id) — Form
+- setIsQuiz(enabled) — Form
+- setLimitOneResponsePerUser(enabled) — Form
+- setProgressBar(enabled) — Form
+- setPublished(enabled) — Form
+- setPublishingSummary(enabled) — Form
+- setShowLinkToRespondAgain(enabled) — Form
+- setShuffleQuestions(shuffle) — Form
+- setTitle(title) — Form
+- shortenFormUrl(url) — String
+- submitGrades(responses) — Form
+- supportsAdvancedResponderPermissions() — Boolean

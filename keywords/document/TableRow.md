@@ -2,36 +2,41 @@
 
 ### Methods
 
-- appendTableCell()
-- appendTableCell(textContents)
-- appendTableCell(tableCell)
-- clear()
-- copy()
-- editAsText()
-- findElement(elementType)
-- findText(searchPattern)
-- getAttributes()
-- getCell(cellIndex)
-- getChild(childIndex)
-- getChildIndex(child)
-- getLinkUrl()
-- getMinimumHeight()
-- getNextSibling()
-- getNumCells()
-- getNumChildren()
-- getParent()
-- getParentTable()
-- getPreviousSibling()
-- getText()
-- getTextAlignment()
-- getType()
-- insertTableCell(childIndex)
-- isAtDocumentEnd()
-- merge()
-- removeCell(cellIndex)
-- removeChild(child)
-- removeFromParent()
-- setAttributes(attributes)
-- setLinkUrl(url)
-- setMinimumHeight(minHeight)
-- setTextAlignment(textAlignment)
+- appendTableCell() — TableCell
+- appendTableCell(textContents) — TableCell
+- appendTableCell(tableCell) — TableCell
+- clear() — TableRow
+- copy() — TableRow
+- editAsText() — Text
+- findElement(elementType) — RangeElement
+- findElement(elementType, from) — RangeElement
+- findText(searchPattern) — RangeElement
+- findText(searchPattern, from) — RangeElement
+- getAttributes() — Object
+- getCell(cellIndex) — TableCell
+- getChild(childIndex) — Element
+- getChildIndex(child) — Integer
+- getLinkUrl() — String
+- getMinimumHeight() — Number
+- getNextSibling() — Element
+- getNumCells() — Integer
+- getNumChildren() — Integer
+- getParent() — ContainerElement
+- getParentTable() — Table
+- getPreviousSibling() — Element
+- getText() — String
+- getTextAlignment() — TextAlignment
+- getType() — ElementType
+- insertTableCell(childIndex) — TableCell
+- insertTableCell(childIndex, textContents) — TableCell
+- insertTableCell(childIndex, tableCell) — TableCell
+- isAtDocumentEnd() — Boolean
+- merge() — TableRow
+- removeCell(cellIndex) — TableCell
+- removeChild(child) — TableRow
+- removeFromParent() — TableRow
+- replaceText(searchPattern, replacement) — Element
+- setAttributes(attributes) — TableRow
+- setLinkUrl(url) — TableRow
+- setMinimumHeight(minHeight) — TableRow
+- setTextAlignment(textAlignment) — TableRow

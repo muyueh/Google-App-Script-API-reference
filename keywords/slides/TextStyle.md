@@ -2,37 +2,40 @@
 
 ### Methods
 
-- getBackgroundColor()
-- getBaselineOffset()
-- getFontFamily()
-- getFontSize()
-- getFontWeight()
-- getForegroundColor()
-- getLink()
-- hasLink()
-- isBackgroundTransparent()
-- isBold()
-- isItalic()
-- isSmallCaps()
-- isStrikethrough()
-- isUnderline()
-- removeLink()
-- setBackgroundColor(color)
-- setBackgroundColor(hexColor)
-- setBackgroundColor(color)
-- setBackgroundColorTransparent()
-- setBaselineOffset(offset)
-- setBold(bold)
-- setFontFamily(fontFamily)
-- setFontSize(fontSize)
-- setForegroundColor(foregroundColor)
-- setForegroundColor(hexColor)
-- setForegroundColor(color)
-- setItalic(italic)
-- setLinkSlide(slideIndex)
-- setLinkSlide(slide)
-- setLinkSlide(slidePosition)
-- setLinkUrl(url)
-- setSmallCaps(smallCaps)
-- setStrikethrough(strikethrough)
-- setUnderline(underline)
+- getBackgroundColor() — Color
+- getBaselineOffset() — TextBaselineOffset
+- getFontFamily() — String
+- getFontSize() — Number
+- getFontWeight() — Integer
+- getForegroundColor() — Color
+- getLink() — Link
+- hasLink() — Boolean
+- isBackgroundTransparent() — Boolean
+- isBold() — Boolean
+- isItalic() — Boolean
+- isSmallCaps() — Boolean
+- isStrikethrough() — Boolean
+- isUnderline() — Boolean
+- removeLink() — TextStyle
+- setBackgroundColor(color) — TextStyle
+- setBackgroundColor(red, green, blue) — TextStyle
+- setBackgroundColor(hexColor) — TextStyle
+- setBackgroundColor(color) — TextStyle
+- setBackgroundColorTransparent() — TextStyle
+- setBaselineOffset(offset) — TextStyle
+- setBold(bold) — TextStyle
+- setFontFamily(fontFamily) — TextStyle
+- setFontFamilyAndWeight(fontFamily, fontWeight) — TextStyle
+- setFontSize(fontSize) — TextStyle
+- setForegroundColor(foregroundColor) — TextStyle
+- setForegroundColor(red, green, blue) — TextStyle
+- setForegroundColor(hexColor) — TextStyle
+- setForegroundColor(color) — TextStyle
+- setItalic(italic) — TextStyle
+- setLinkSlide(slideIndex) — TextStyle
+- setLinkSlide(slide) — TextStyle
+- setLinkSlide(slidePosition) — TextStyle
+- setLinkUrl(url) — TextStyle
+- setSmallCaps(smallCaps) — TextStyle
+- setStrikethrough(strikethrough) — TextStyle
+- setUnderline(underline) — TextStyle

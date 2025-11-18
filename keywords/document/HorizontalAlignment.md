@@ -2,7 +2,7 @@
 
 ### Properties
 
-- LEFT
-- CENTER
-- RIGHT
-- JUSTIFY
+- LEFT — Enum
+- CENTER — Enum
+- RIGHT — Enum
+- JUSTIFY — Enum

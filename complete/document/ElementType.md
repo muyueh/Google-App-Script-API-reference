@@ -1,0 +1,31 @@
+## [ElementType](https://developers.google.com/apps-script/reference/document/element-type)
+
+### Properties
+
+|                Property                |  Type  |                                                                                  Description                                                                                  |
+|----------------------------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `BODY_SECTION`                         | `Enum` | The type corresponding to the [Body](https://developers.google.com/apps-script/reference/document/body) element.                                                              |
+| `COMMENT_SECTION`                      | `Enum` | The type corresponding to the CommentSection element.                                                                                                                         |
+| `DATE`                                 | `Enum` | The type corresponding to the [Date](https://developers.google.com/apps-script/reference/document/date) element.                                                              |
+| `EQUATION`                             | `Enum` | The type corresponding to the [Equation](https://developers.google.com/apps-script/reference/document/equation) element.                                                      |
+| `EQUATION_FUNCTION`                    | `Enum` | The type corresponding to the [EquationFunction](https://developers.google.com/apps-script/reference/document/equation-function) element.                                     |
+| `EQUATION_FUNCTION_ARGUMENT_SEPARATOR` | `Enum` | The type corresponding to the [EquationFunctionArgumentSeparator](https://developers.google.com/apps-script/reference/document/equation-function-argument-separator) element. |
+| `EQUATION_SYMBOL`                      | `Enum` | The type corresponding to the [EquationSymbol](https://developers.google.com/apps-script/reference/document/equation-symbol) element.                                         |
+| `RICH_LINK`                            | `Enum` | The type corresponding to the [RichLink](https://developers.google.com/apps-script/reference/document/rich-link) element.                                                     |
+| `FOOTER_SECTION`                       | `Enum` | The type corresponding to the [FooterSection](https://developers.google.com/apps-script/reference/document/footer-section) element.                                           |
+| `FOOTNOTE`                             | `Enum` | The type corresponding to the [Footnote](https://developers.google.com/apps-script/reference/document/footnote) element.                                                      |
+| `FOOTNOTE_SECTION`                     | `Enum` | The type corresponding to the [FootnoteSection](https://developers.google.com/apps-script/reference/document/footnote-section) element.                                       |
+| `HEADER_SECTION`                       | `Enum` | The type corresponding to the [HeaderSection](https://developers.google.com/apps-script/reference/document/header-section) element.                                           |
+| `HORIZONTAL_RULE`                      | `Enum` | The type corresponding to the [HorizontalRule](https://developers.google.com/apps-script/reference/document/horizontal-rule) element.                                         |
+| `INLINE_DRAWING`                       | `Enum` | The type corresponding to the [InlineDrawing](https://developers.google.com/apps-script/reference/document/inline-drawing) element.                                           |
+| `INLINE_IMAGE`                         | `Enum` | The type corresponding to the [InlineImage](https://developers.google.com/apps-script/reference/document/inline-image) element.                                               |
+| `LIST_ITEM`                            | `Enum` | The type corresponding to the [ListItem](https://developers.google.com/apps-script/reference/document/list-item) element.                                                     |
+| `PAGE_BREAK`                           | `Enum` | The type corresponding to the [PageBreak](https://developers.google.com/apps-script/reference/document/page-break) element.                                                   |
+| `PARAGRAPH`                            | `Enum` | The type corresponding to the [Paragraph](https://developers.google.com/apps-script/reference/document/paragraph) element.                                                    |
+| `PERSON`                               | `Enum` | The type corresponding to the [Person](https://developers.google.com/apps-script/reference/document/person) element.                                                          |
+| `TABLE`                                | `Enum` | The type corresponding to the [Table](https://developers.google.com/apps-script/reference/document/table) element.                                                            |
+| `TABLE_CELL`                           | `Enum` | The type corresponding to the [TableCell](https://developers.google.com/apps-script/reference/document/table-cell) element.                                                   |
+| `TABLE_OF_CONTENTS`                    | `Enum` | The type corresponding to the [TableOfContents](https://developers.google.com/apps-script/reference/document/table-of-contents) element.                                      |
+| `TABLE_ROW`                            | `Enum` | The type corresponding to the [TableRow](https://developers.google.com/apps-script/reference/document/table-row) element.                                                     |
+| `TEXT`                                 | `Enum` | The type corresponding to the [Text](https://developers.google.com/apps-script/reference/document/text) element.                                                              |
+| `UNSUPPORTED`                          | `Enum` | The type corresponding to [UnsupportedElement](https://developers.google.com/apps-script/reference/document/unsupported-element).                                             |

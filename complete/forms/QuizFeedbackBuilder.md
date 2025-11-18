@@ -1,0 +1,11 @@
+## [QuizFeedbackBuilder](https://developers.google.com/apps-script/reference/forms/quiz-feedback-builder)
+
+### Methods
+
+|                                                               Method                                                                |                                              Return type                                               |                       Brief description                       |
+|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [addLink(url)](https://developers.google.com/apps-script/reference/forms/quiz-feedback-builder#addLink(String))                     | [QuizFeedbackBuilder](https://developers.google.com/apps-script/reference/forms/quiz-feedback-builder) | Adds a link to the feedback's supplemental material.          |
+| [addLink(url, displayText)](https://developers.google.com/apps-script/reference/forms/quiz-feedback-builder#addLink(String,String)) | [QuizFeedbackBuilder](https://developers.google.com/apps-script/reference/forms/quiz-feedback-builder) | Adds a link to the feedback's supplemental material.          |
+| [build()](https://developers.google.com/apps-script/reference/forms/quiz-feedback-builder#build())                                  | [QuizFeedback](https://developers.google.com/apps-script/reference/forms/quiz-feedback)                | Builds a Feedback of the corresponding type for this builder. |
+| [copy()](https://developers.google.com/apps-script/reference/forms/quiz-feedback-builder#copy())                                    | [QuizFeedbackBuilder](https://developers.google.com/apps-script/reference/forms/quiz-feedback-builder) | Returns a copy of this builder.                               |
+| [setText(text)](https://developers.google.com/apps-script/reference/forms/quiz-feedback-builder#setText(String))                    | [QuizFeedbackBuilder](https://developers.google.com/apps-script/reference/forms/quiz-feedback-builder) | Sets the feedback text.                                       |

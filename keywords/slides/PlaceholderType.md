@@ -2,21 +2,21 @@
 
 ### Properties
 
-- UNSUPPORTED
-- NONE
-- BODY
-- CHART
-- CLIP_ART
-- CENTERED_TITLE
-- DIAGRAM
-- DATE_AND_TIME
-- FOOTER
-- HEADER
-- MEDIA
-- OBJECT
-- PICTURE
-- SLIDE_NUMBER
-- SUBTITLE
-- TABLE
-- TITLE
-- SLIDE_IMAGE
+- UNSUPPORTED — Enum
+- NONE — Enum
+- BODY — Enum
+- CHART — Enum
+- CLIP_ART — Enum
+- CENTERED_TITLE — Enum
+- DIAGRAM — Enum
+- DATE_AND_TIME — Enum
+- FOOTER — Enum
+- HEADER — Enum
+- MEDIA — Enum
+- OBJECT — Enum
+- PICTURE — Enum
+- SLIDE_NUMBER — Enum
+- SUBTITLE — Enum
+- TABLE — Enum
+- TITLE — Enum
+- SLIDE_IMAGE — Enum

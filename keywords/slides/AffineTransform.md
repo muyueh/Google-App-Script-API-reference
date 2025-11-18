@@ -2,10 +2,10 @@
 
 ### Methods
 
-- getScaleX()
-- getScaleY()
-- getShearX()
-- getShearY()
-- getTranslateX()
-- getTranslateY()
-- toBuilder()
+- getScaleX() — Number
+- getScaleY() — Number
+- getShearX() — Number
+- getShearY() — Number
+- getTranslateX() — Number
+- getTranslateY() — Number
+- toBuilder() — AffineTransformBuilder

@@ -2,45 +2,45 @@
 
 ### Methods
 
-- alignOnPage(alignmentPosition)
-- bringForward()
-- bringToFront()
-- duplicate()
-- getConnectionSites()
-- getDescription()
-- getHeight()
-- getInherentHeight()
-- getInherentWidth()
-- getLeft()
-- getLink()
-- getObjectId()
-- getPageElementType()
-- getParentGroup()
-- getParentPage()
-- getRenderedText()
-- getRotation()
-- getTitle()
-- getTop()
-- getTransform()
-- getWidth()
-- preconcatenateTransform(transform)
-- remove()
-- removeLink()
-- scaleHeight(ratio)
-- scaleWidth(ratio)
-- select()
-- select(replace)
-- sendBackward()
-- sendToBack()
-- setDescription(description)
-- setHeight(height)
-- setLeft(left)
-- setLinkSlide(slideIndex)
-- setLinkSlide(slide)
-- setLinkSlide(slidePosition)
-- setLinkUrl(url)
-- setRotation(angle)
-- setTitle(title)
-- setTop(top)
-- setTransform(transform)
-- setWidth(width)
+- alignOnPage(alignmentPosition) — WordArt
+- bringForward() — WordArt
+- bringToFront() — WordArt
+- duplicate() — PageElement
+- getConnectionSites() — ConnectionSite[]
+- getDescription() — String
+- getHeight() — Number
+- getInherentHeight() — Number
+- getInherentWidth() — Number
+- getLeft() — Number
+- getLink() — Link
+- getObjectId() — String
+- getPageElementType() — PageElementType
+- getParentGroup() — Group
+- getParentPage() — Page
+- getRenderedText() — String
+- getRotation() — Number
+- getTitle() — String
+- getTop() — Number
+- getTransform() — AffineTransform
+- getWidth() — Number
+- preconcatenateTransform(transform) — WordArt
+- remove() — void
+- removeLink() — void
+- scaleHeight(ratio) — WordArt
+- scaleWidth(ratio) — WordArt
+- select() — void
+- select(replace) — void
+- sendBackward() — WordArt
+- sendToBack() — WordArt
+- setDescription(description) — WordArt
+- setHeight(height) — WordArt
+- setLeft(left) — WordArt
+- setLinkSlide(slideIndex) — Link
+- setLinkSlide(slide) — Link
+- setLinkSlide(slidePosition) — Link
+- setLinkUrl(url) — Link
+- setRotation(angle) — WordArt
+- setTitle(title) — WordArt
+- setTop(top) — WordArt
+- setTransform(transform) — WordArt
+- setWidth(width) — WordArt

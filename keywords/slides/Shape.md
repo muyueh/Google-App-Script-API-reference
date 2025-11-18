@@ -2,58 +2,60 @@
 
 ### Methods
 
-- alignOnPage(alignmentPosition)
-- bringForward()
-- bringToFront()
-- duplicate()
-- getAutofit()
-- getBorder()
-- getConnectionSites()
-- getContentAlignment()
-- getDescription()
-- getFill()
-- getHeight()
-- getInherentHeight()
-- getInherentWidth()
-- getLeft()
-- getLink()
-- getObjectId()
-- getPageElementType()
-- getParentGroup()
-- getParentPage()
-- getParentPlaceholder()
-- getPlaceholderIndex()
-- getPlaceholderType()
-- getRotation()
-- getShapeType()
-- getText()
-- getTitle()
-- getTop()
-- getTransform()
-- getWidth()
-- preconcatenateTransform(transform)
-- remove()
-- removeLink()
-- replaceWithImage(blobSource)
-- replaceWithImage(imageUrl)
-- replaceWithSheetsChart(sourceChart)
-- replaceWithSheetsChartAsImage(sourceChart)
-- scaleHeight(ratio)
-- scaleWidth(ratio)
-- select()
-- select(replace)
-- sendBackward()
-- sendToBack()
-- setContentAlignment(contentAlignment)
-- setDescription(description)
-- setHeight(height)
-- setLeft(left)
-- setLinkSlide(slideIndex)
-- setLinkSlide(slide)
-- setLinkSlide(slidePosition)
-- setLinkUrl(url)
-- setRotation(angle)
-- setTitle(title)
-- setTop(top)
-- setTransform(transform)
-- setWidth(width)
+- alignOnPage(alignmentPosition) — Shape
+- bringForward() — Shape
+- bringToFront() — Shape
+- duplicate() — PageElement
+- getAutofit() — Autofit
+- getBorder() — Border
+- getConnectionSites() — ConnectionSite[]
+- getContentAlignment() — ContentAlignment
+- getDescription() — String
+- getFill() — Fill
+- getHeight() — Number
+- getInherentHeight() — Number
+- getInherentWidth() — Number
+- getLeft() — Number
+- getLink() — Link
+- getObjectId() — String
+- getPageElementType() — PageElementType
+- getParentGroup() — Group
+- getParentPage() — Page
+- getParentPlaceholder() — PageElement
+- getPlaceholderIndex() — Integer
+- getPlaceholderType() — PlaceholderType
+- getRotation() — Number
+- getShapeType() — ShapeType
+- getText() — TextRange
+- getTitle() — String
+- getTop() — Number
+- getTransform() — AffineTransform
+- getWidth() — Number
+- preconcatenateTransform(transform) — Shape
+- remove() — void
+- removeLink() — void
+- replaceWithImage(blobSource) — Image
+- replaceWithImage(blobSource, crop) — Image
+- replaceWithImage(imageUrl) — Image
+- replaceWithImage(imageUrl, crop) — Image
+- replaceWithSheetsChart(sourceChart) — SheetsChart
+- replaceWithSheetsChartAsImage(sourceChart) — Image
+- scaleHeight(ratio) — Shape
+- scaleWidth(ratio) — Shape
+- select() — void
+- select(replace) — void
+- sendBackward() — Shape
+- sendToBack() — Shape
+- setContentAlignment(contentAlignment) — Shape
+- setDescription(description) — Shape
+- setHeight(height) — Shape
+- setLeft(left) — Shape
+- setLinkSlide(slideIndex) — Link
+- setLinkSlide(slide) — Link
+- setLinkSlide(slidePosition) — Link
+- setLinkUrl(url) — Link
+- setRotation(angle) — Shape
+- setTitle(title) — Shape
+- setTop(top) — Shape
+- setTransform(transform) — Shape
+- setWidth(width) — Shape

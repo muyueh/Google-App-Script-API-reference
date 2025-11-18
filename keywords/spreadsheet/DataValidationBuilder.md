@@ -2,33 +2,41 @@
 
 ### Methods
 
-- build()
-- copy()
-- getAllowInvalid()
-- getCriteriaType()
-- getCriteriaValues()
-- getHelpText()
-- requireCheckbox()
-- requireCheckbox(checkedValue)
-- requireDate()
-- requireDateAfter(date)
-- requireDateBefore(date)
-- requireDateEqualTo(date)
-- requireDateOnOrAfter(date)
-- requireDateOnOrBefore(date)
-- requireFormulaSatisfied(formula)
-- requireNumberEqualTo(number)
-- requireNumberGreaterThan(number)
-- requireNumberGreaterThanOrEqualTo(number)
-- requireNumberLessThan(number)
-- requireNumberLessThanOrEqualTo(number)
-- requireNumberNotEqualTo(number)
-- requireTextContains(text)
-- requireTextDoesNotContain(text)
-- requireTextEqualTo(text)
-- requireTextIsEmail()
-- requireTextIsUrl()
-- requireValueInList(values)
-- requireValueInRange(range)
-- setAllowInvalid(allowInvalidData)
-- setHelpText(helpText)
+- build() — DataValidation
+- copy() — DataValidationBuilder
+- getAllowInvalid() — Boolean
+- getCriteriaType() — DataValidationCriteria
+- getCriteriaValues() — Object[]
+- getHelpText() — String
+- requireCheckbox() — DataValidationBuilder
+- requireCheckbox(checkedValue) — DataValidationBuilder
+- requireCheckbox(checkedValue, uncheckedValue) — DataValidationBuilder
+- requireDate() — DataValidationBuilder
+- requireDateAfter(date) — DataValidationBuilder
+- requireDateBefore(date) — DataValidationBuilder
+- requireDateBetween(start, end) — DataValidationBuilder
+- requireDateEqualTo(date) — DataValidationBuilder
+- requireDateNotBetween(start, end) — DataValidationBuilder
+- requireDateOnOrAfter(date) — DataValidationBuilder
+- requireDateOnOrBefore(date) — DataValidationBuilder
+- requireFormulaSatisfied(formula) — DataValidationBuilder
+- requireNumberBetween(start, end) — DataValidationBuilder
+- requireNumberEqualTo(number) — DataValidationBuilder
+- requireNumberGreaterThan(number) — DataValidationBuilder
+- requireNumberGreaterThanOrEqualTo(number) — DataValidationBuilder
+- requireNumberLessThan(number) — DataValidationBuilder
+- requireNumberLessThanOrEqualTo(number) — DataValidationBuilder
+- requireNumberNotBetween(start, end) — DataValidationBuilder
+- requireNumberNotEqualTo(number) — DataValidationBuilder
+- requireTextContains(text) — DataValidationBuilder
+- requireTextDoesNotContain(text) — DataValidationBuilder
+- requireTextEqualTo(text) — DataValidationBuilder
+- requireTextIsEmail() — DataValidationBuilder
+- requireTextIsUrl() — DataValidationBuilder
+- requireValueInList(values) — DataValidationBuilder
+- requireValueInList(values, showDropdown) — DataValidationBuilder
+- requireValueInRange(range) — DataValidationBuilder
+- requireValueInRange(range, showDropdown) — DataValidationBuilder
+- setAllowInvalid(allowInvalidData) — DataValidationBuilder
+- setHelpText(helpText) — DataValidationBuilder
+- withCriteria(criteria, args) — DataValidationBuilder

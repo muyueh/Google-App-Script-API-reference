@@ -2,9 +2,9 @@
 
 ### Methods
 
-- getBackgroundColor()
-- getDataSourceColumn()
-- getDimensionIndex()
-- getForegroundColor()
-- getSortOrder()
-- isAscending()
+- getBackgroundColor() — Color
+- getDataSourceColumn() — DataSourceColumn
+- getDimensionIndex() — Integer
+- getForegroundColor() — Color
+- getSortOrder() — SortOrder
+- isAscending() — Boolean

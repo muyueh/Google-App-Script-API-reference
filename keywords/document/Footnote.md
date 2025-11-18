@@ -2,13 +2,13 @@
 
 ### Methods
 
-- copy()
-- getAttributes()
-- getFootnoteContents()
-- getNextSibling()
-- getParent()
-- getPreviousSibling()
-- getType()
-- isAtDocumentEnd()
-- removeFromParent()
-- setAttributes(attributes)
+- copy() — Footnote
+- getAttributes() — Object
+- getFootnoteContents() — FootnoteSection
+- getNextSibling() — Element
+- getParent() — ContainerElement
+- getPreviousSibling() — Element
+- getType() — ElementType
+- isAtDocumentEnd() — Boolean
+- removeFromParent() — Footnote
+- setAttributes(attributes) — Footnote

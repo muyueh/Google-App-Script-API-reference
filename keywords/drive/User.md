@@ -2,7 +2,7 @@
 
 ### Methods
 
-- getDomain()
-- getEmail()
-- getName()
-- getPhotoUrl()
+- getDomain() — String
+- getEmail() — String
+- getName() — String
+- getPhotoUrl() — String

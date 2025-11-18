@@ -2,10 +2,10 @@
 
 ### Properties
 
-- UNSUPPORTED
-- SOLID
-- DOT
-- DASH
-- DASH_DOT
-- LONG_DASH
-- LONG_DASH_DOT
+- UNSUPPORTED — Enum
+- SOLID — Enum
+- DOT — Enum
+- DASH — Enum
+- DASH_DOT — Enum
+- LONG_DASH — Enum
+- LONG_DASH_DOT — Enum

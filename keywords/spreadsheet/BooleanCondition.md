@@ -2,11 +2,11 @@
 
 ### Methods
 
-- getBackgroundObject()
-- getBold()
-- getCriteriaType()
-- getCriteriaValues()
-- getFontColorObject()
-- getItalic()
-- getStrikethrough()
-- getUnderline()
+- getBackgroundObject() — Color
+- getBold() — Boolean
+- getCriteriaType() — BooleanCriteria
+- getCriteriaValues() — Object[]
+- getFontColorObject() — Color
+- getItalic() — Boolean
+- getStrikethrough() — Boolean
+- getUnderline() — Boolean

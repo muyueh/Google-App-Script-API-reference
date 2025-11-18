@@ -2,7 +2,7 @@
 
 ### Properties
 
-- UNSUPPORTED
-- STRAIGHT
-- BENT
-- CURVED
+- UNSUPPORTED — Enum
+- STRAIGHT — Enum
+- BENT — Enum
+- CURVED — Enum

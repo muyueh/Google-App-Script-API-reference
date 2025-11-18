@@ -2,5 +2,5 @@
 
 ### Methods
 
-- getDegrees()
-- isVertical()
+- getDegrees() — Integer
+- isVertical() — Boolean

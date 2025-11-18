@@ -2,47 +2,47 @@
 
 ### Methods
 
-- alignOnPage(alignmentPosition)
-- asGroup()
-- asImage()
-- asLine()
-- asShape()
-- asSheetsChart()
-- asSpeakerSpotlight()
-- asTable()
-- asVideo()
-- asWordArt()
-- bringForward()
-- bringToFront()
-- duplicate()
-- getConnectionSites()
-- getDescription()
-- getHeight()
-- getInherentHeight()
-- getInherentWidth()
-- getLeft()
-- getObjectId()
-- getPageElementType()
-- getParentGroup()
-- getParentPage()
-- getRotation()
-- getTitle()
-- getTop()
-- getTransform()
-- getWidth()
-- preconcatenateTransform(transform)
-- remove()
-- scaleHeight(ratio)
-- scaleWidth(ratio)
-- select()
-- select(replace)
-- sendBackward()
-- sendToBack()
-- setDescription(description)
-- setHeight(height)
-- setLeft(left)
-- setRotation(angle)
-- setTitle(title)
-- setTop(top)
-- setTransform(transform)
-- setWidth(width)
+- alignOnPage(alignmentPosition) — PageElement
+- asGroup() — Group
+- asImage() — Image
+- asLine() — Line
+- asShape() — Shape
+- asSheetsChart() — SheetsChart
+- asSpeakerSpotlight() — SpeakerSpotlight
+- asTable() — Table
+- asVideo() — Video
+- asWordArt() — WordArt
+- bringForward() — PageElement
+- bringToFront() — PageElement
+- duplicate() — PageElement
+- getConnectionSites() — ConnectionSite[]
+- getDescription() — String
+- getHeight() — Number
+- getInherentHeight() — Number
+- getInherentWidth() — Number
+- getLeft() — Number
+- getObjectId() — String
+- getPageElementType() — PageElementType
+- getParentGroup() — Group
+- getParentPage() — Page
+- getRotation() — Number
+- getTitle() — String
+- getTop() — Number
+- getTransform() — AffineTransform
+- getWidth() — Number
+- preconcatenateTransform(transform) — PageElement
+- remove() — void
+- scaleHeight(ratio) — PageElement
+- scaleWidth(ratio) — PageElement
+- select() — void
+- select(replace) — void
+- sendBackward() — PageElement
+- sendToBack() — PageElement
+- setDescription(description) — PageElement
+- setHeight(height) — PageElement
+- setLeft(left) — PageElement
+- setRotation(angle) — PageElement
+- setTitle(title) — PageElement
+- setTop(top) — PageElement
+- setTransform(transform) — PageElement
+- setWidth(width) — PageElement

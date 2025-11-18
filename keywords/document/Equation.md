@@ -2,25 +2,28 @@
 
 ### Methods
 
-- clear()
-- copy()
-- editAsText()
-- findElement(elementType)
-- findText(searchPattern)
-- getAttributes()
-- getChild(childIndex)
-- getChildIndex(child)
-- getLinkUrl()
-- getNextSibling()
-- getNumChildren()
-- getParent()
-- getPreviousSibling()
-- getText()
-- getTextAlignment()
-- getType()
-- isAtDocumentEnd()
-- merge()
-- removeFromParent()
-- setAttributes(attributes)
-- setLinkUrl(url)
-- setTextAlignment(textAlignment)
+- clear() — Equation
+- copy() — Equation
+- editAsText() — Text
+- findElement(elementType) — RangeElement
+- findElement(elementType, from) — RangeElement
+- findText(searchPattern) — RangeElement
+- findText(searchPattern, from) — RangeElement
+- getAttributes() — Object
+- getChild(childIndex) — Element
+- getChildIndex(child) — Integer
+- getLinkUrl() — String
+- getNextSibling() — Element
+- getNumChildren() — Integer
+- getParent() — ContainerElement
+- getPreviousSibling() — Element
+- getText() — String
+- getTextAlignment() — TextAlignment
+- getType() — ElementType
+- isAtDocumentEnd() — Boolean
+- merge() — Equation
+- removeFromParent() — Equation
+- replaceText(searchPattern, replacement) — Element
+- setAttributes(attributes) — Equation
+- setLinkUrl(url) — Equation
+- setTextAlignment(textAlignment) — Equation

@@ -2,6 +2,6 @@
 
 ### Properties
 
-- NORMAL
-- SUPERSCRIPT
-- SUBSCRIPT
+- NORMAL — Enum
+- SUPERSCRIPT — Enum
+- SUBSCRIPT — Enum

@@ -2,36 +2,41 @@
 
 ### Methods
 
-- createDraftReply(body)
-- createDraftReplyAll(body)
-- forward(recipient)
-- getAttachments()
-- getAttachments(options)
-- getBcc()
-- getBody()
-- getCc()
-- getDate()
-- getFrom()
-- getHeader(name)
-- getId()
-- getPlainBody()
-- getRawContent()
-- getReplyTo()
-- getSubject()
-- getThread()
-- getTo()
-- isDraft()
-- isInChats()
-- isInInbox()
-- isInPriorityInbox()
-- isInTrash()
-- isStarred()
-- isUnread()
-- markRead()
-- markUnread()
-- moveToTrash()
-- refresh()
-- reply(body)
-- replyAll(body)
-- star()
-- unstar()
+- createDraftReply(body) — GmailDraft
+- createDraftReply(body, options) — GmailDraft
+- createDraftReplyAll(body) — GmailDraft
+- createDraftReplyAll(body, options) — GmailDraft
+- forward(recipient) — GmailMessage
+- forward(recipient, options) — GmailMessage
+- getAttachments() — GmailAttachment[]
+- getAttachments(options) — GmailAttachment[]
+- getBcc() — String
+- getBody() — String
+- getCc() — String
+- getDate() — Date
+- getFrom() — String
+- getHeader(name) — String
+- getId() — String
+- getPlainBody() — String
+- getRawContent() — String
+- getReplyTo() — String
+- getSubject() — String
+- getThread() — GmailThread
+- getTo() — String
+- isDraft() — Boolean
+- isInChats() — Boolean
+- isInInbox() — Boolean
+- isInPriorityInbox() — Boolean
+- isInTrash() — Boolean
+- isStarred() — Boolean
+- isUnread() — Boolean
+- markRead() — GmailMessage
+- markUnread() — GmailMessage
+- moveToTrash() — GmailMessage
+- refresh() — GmailMessage
+- reply(body) — GmailMessage
+- reply(body, options) — GmailMessage
+- replyAll(body) — GmailMessage
+- replyAll(body, options) — GmailMessage
+- star() — GmailMessage
+- unstar() — GmailMessage

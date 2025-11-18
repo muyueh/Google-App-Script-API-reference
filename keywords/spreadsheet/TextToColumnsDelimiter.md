@@ -2,7 +2,7 @@
 
 ### Properties
 
-- COMMA
-- SEMICOLON
-- PERIOD
-- SPACE
+- COMMA — Enum
+- SEMICOLON — Enum
+- PERIOD — Enum
+- SPACE — Enum

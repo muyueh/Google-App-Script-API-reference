@@ -2,110 +2,147 @@
 
 ### Methods
 
-- activate()
-- addDeveloperMetadata(key)
-- appendRow(rowContents)
-- asDataSourceSheet()
-- autoResizeColumn(columnPosition)
-- clear()
-- clear(options)
-- clearConditionalFormatRules()
-- clearContents()
-- clearFormats()
-- clearNotes()
-- collapseAllColumnGroups()
-- collapseAllRowGroups()
-- copyTo(spreadsheet)
-- createDeveloperMetadataFinder()
-- createTextFinder(findText)
-- deleteColumn(columnPosition)
-- deleteRow(rowPosition)
-- expandAllColumnGroups()
-- expandAllRowGroups()
-- expandColumnGroupsUpToDepth(groupDepth)
-- expandRowGroupsUpToDepth(groupDepth)
-- getActiveCell()
-- getActiveRange()
-- getActiveRangeList()
-- getBandings()
-- getCharts()
-- getColumnGroupControlPosition()
-- getColumnGroupDepth(columnIndex)
-- getColumnWidth(columnPosition)
-- getConditionalFormatRules()
-- getCurrentCell()
-- getDataRange()
-- getDataSourceFormulas()
-- getDataSourcePivotTables()
-- getDataSourceTables()
-- getDeveloperMetadata()
-- getDrawings()
-- getFilter()
-- getFormUrl()
-- getFrozenColumns()
-- getFrozenRows()
-- getImages()
-- getIndex()
-- getLastColumn()
-- getLastRow()
-- getMaxColumns()
-- getMaxRows()
-- getName()
-- getNamedRanges()
-- getParent()
-- getPivotTables()
-- getProtections(type)
-- getRange(a1Notation)
-- getRangeList(a1Notations)
-- getRowGroupControlPosition()
-- getRowGroupDepth(rowIndex)
-- getRowHeight(rowPosition)
-- getSelection()
-- getSheetId()
-- getSheetName()
-- getSlicers()
-- getTabColorObject()
-- getType()
-- hasHiddenGridlines()
-- hideColumn(column)
-- hideColumns(columnIndex)
-- hideRow(row)
-- hideRows(rowIndex)
-- hideSheet()
-- insertChart(chart)
-- insertColumnAfter(afterPosition)
-- insertColumnBefore(beforePosition)
-- insertColumns(columnIndex)
-- insertRowAfter(afterPosition)
-- insertRowBefore(beforePosition)
-- insertRows(rowIndex)
-- isColumnHiddenByUser(columnPosition)
-- isRightToLeft()
-- isRowHiddenByFilter(rowPosition)
-- isRowHiddenByUser(rowPosition)
-- isSheetHidden()
-- newChart()
-- protect()
-- removeChart(chart)
-- setActiveRange(range)
-- setActiveRangeList(rangeList)
-- setActiveSelection(range)
-- setActiveSelection(a1Notation)
-- setColumnGroupControlPosition(position)
-- setConditionalFormatRules(rules)
-- setCurrentCell(cell)
-- setFrozenColumns(columns)
-- setFrozenRows(rows)
-- setHiddenGridlines(hideGridlines)
-- setName(name)
-- setRightToLeft(rightToLeft)
-- setRowGroupControlPosition(position)
-- setTabColor(color)
-- setTabColorObject(color)
-- showColumns(columnIndex)
-- showRows(rowIndex)
-- showSheet()
-- sort(columnPosition)
-- unhideColumn(column)
-- unhideRow(row)
-- updateChart(chart)
+- activate() — Sheet
+- addDeveloperMetadata(key) — Sheet
+- addDeveloperMetadata(key, visibility) — Sheet
+- addDeveloperMetadata(key, value) — Sheet
+- addDeveloperMetadata(key, value, visibility) — Sheet
+- appendRow(rowContents) — Sheet
+- asDataSourceSheet() — DataSourceSheet
+- autoResizeColumn(columnPosition) — Sheet
+- autoResizeColumns(startColumn, numColumns) — Sheet
+- autoResizeRows(startRow, numRows) — Sheet
+- clear() — Sheet
+- clear(options) — Sheet
+- clearConditionalFormatRules() — void
+- clearContents() — Sheet
+- clearFormats() — Sheet
+- clearNotes() — Sheet
+- collapseAllColumnGroups() — Sheet
+- collapseAllRowGroups() — Sheet
+- copyTo(spreadsheet) — Sheet
+- createDeveloperMetadataFinder() — DeveloperMetadataFinder
+- createTextFinder(findText) — TextFinder
+- deleteColumn(columnPosition) — Sheet
+- deleteColumns(columnPosition, howMany) — void
+- deleteRow(rowPosition) — Sheet
+- deleteRows(rowPosition, howMany) — void
+- expandAllColumnGroups() — Sheet
+- expandAllRowGroups() — Sheet
+- expandColumnGroupsUpToDepth(groupDepth) — Sheet
+- expandRowGroupsUpToDepth(groupDepth) — Sheet
+- getActiveCell() — Range
+- getActiveRange() — Range
+- getActiveRangeList() — RangeList
+- getBandings() — Banding[]
+- getCharts() — EmbeddedChart[]
+- getColumnGroup(columnIndex, groupDepth) — Group
+- getColumnGroupControlPosition() — GroupControlTogglePosition
+- getColumnGroupDepth(columnIndex) — Integer
+- getColumnWidth(columnPosition) — Integer
+- getConditionalFormatRules() — ConditionalFormatRule[]
+- getCurrentCell() — Range
+- getDataRange() — Range
+- getDataSourceFormulas() — DataSourceFormula[]
+- getDataSourcePivotTables() — DataSourcePivotTable[]
+- getDataSourceTables() — DataSourceTable[]
+- getDeveloperMetadata() — DeveloperMetadata[]
+- getDrawings() — Drawing[]
+- getFilter() — Filter
+- getFormUrl() — String
+- getFrozenColumns() — Integer
+- getFrozenRows() — Integer
+- getImages() — OverGridImage[]
+- getIndex() — Integer
+- getLastColumn() — Integer
+- getLastRow() — Integer
+- getMaxColumns() — Integer
+- getMaxRows() — Integer
+- getName() — String
+- getNamedRanges() — NamedRange[]
+- getParent() — Spreadsheet
+- getPivotTables() — PivotTable[]
+- getProtections(type) — Protection[]
+- getRange(row, column) — Range
+- getRange(row, column, numRows) — Range
+- getRange(row, column, numRows, numColumns) — Range
+- getRange(a1Notation) — Range
+- getRangeList(a1Notations) — RangeList
+- getRowGroup(rowIndex, groupDepth) — Group
+- getRowGroupControlPosition() — GroupControlTogglePosition
+- getRowGroupDepth(rowIndex) — Integer
+- getRowHeight(rowPosition) — Integer
+- getSelection() — Selection
+- getSheetId() — Integer
+- getSheetName() — String
+- getSheetValues(startRow, startColumn, numRows, numColumns) — Object[][]
+- getSlicers() — Slicer[]
+- getTabColorObject() — Color
+- getType() — SheetType
+- hasHiddenGridlines() — Boolean
+- hideColumn(column) — void
+- hideColumns(columnIndex) — void
+- hideColumns(columnIndex, numColumns) — void
+- hideRow(row) — void
+- hideRows(rowIndex) — void
+- hideRows(rowIndex, numRows) — void
+- hideSheet() — Sheet
+- insertChart(chart) — void
+- insertColumnAfter(afterPosition) — Sheet
+- insertColumnBefore(beforePosition) — Sheet
+- insertColumns(columnIndex) — void
+- insertColumns(columnIndex, numColumns) — void
+- insertColumnsAfter(afterPosition, howMany) — Sheet
+- insertColumnsBefore(beforePosition, howMany) — Sheet
+- insertImage(blobSource, column, row) — OverGridImage
+- insertImage(blobSource, column, row, offsetX, offsetY) — OverGridImage
+- insertImage(url, column, row) — OverGridImage
+- insertImage(url, column, row, offsetX, offsetY) — OverGridImage
+- insertRowAfter(afterPosition) — Sheet
+- insertRowBefore(beforePosition) — Sheet
+- insertRows(rowIndex) — void
+- insertRows(rowIndex, numRows) — void
+- insertRowsAfter(afterPosition, howMany) — Sheet
+- insertRowsBefore(beforePosition, howMany) — Sheet
+- insertSlicer(range, anchorRowPos, anchorColPos) — Slicer
+- insertSlicer(range, anchorRowPos, anchorColPos, offsetX, offsetY) — Slicer
+- isColumnHiddenByUser(columnPosition) — Boolean
+- isRightToLeft() — Boolean
+- isRowHiddenByFilter(rowPosition) — Boolean
+- isRowHiddenByUser(rowPosition) — Boolean
+- isSheetHidden() — Boolean
+- moveColumns(columnSpec, destinationIndex) — void
+- moveRows(rowSpec, destinationIndex) — void
+- newChart() — EmbeddedChartBuilder
+- protect() — Protection
+- removeChart(chart) — void
+- setActiveRange(range) — Range
+- setActiveRangeList(rangeList) — RangeList
+- setActiveSelection(range) — Range
+- setActiveSelection(a1Notation) — Range
+- setColumnGroupControlPosition(position) — Sheet
+- setColumnWidth(columnPosition, width) — Sheet
+- setColumnWidths(startColumn, numColumns, width) — Sheet
+- setConditionalFormatRules(rules) — void
+- setCurrentCell(cell) — Range
+- setFrozenColumns(columns) — void
+- setFrozenRows(rows) — void
+- setHiddenGridlines(hideGridlines) — Sheet
+- setName(name) — Sheet
+- setRightToLeft(rightToLeft) — Sheet
+- setRowGroupControlPosition(position) — Sheet
+- setRowHeight(rowPosition, height) — Sheet
+- setRowHeights(startRow, numRows, height) — Sheet
+- setRowHeightsForced(startRow, numRows, height) — Sheet
+- setTabColor(color) — Sheet
+- setTabColorObject(color) — Sheet
+- showColumns(columnIndex) — void
+- showColumns(columnIndex, numColumns) — void
+- showRows(rowIndex) — void
+- showRows(rowIndex, numRows) — void
+- showSheet() — Sheet
+- sort(columnPosition) — Sheet
+- sort(columnPosition, ascending) — Sheet
+- unhideColumn(column) — void
+- unhideRow(row) — void
+- updateChart(chart) — void

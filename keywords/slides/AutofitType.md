@@ -2,7 +2,7 @@
 
 ### Properties
 
-- UNSUPPORTED
-- NONE
-- TEXT_AUTOFIT
-- SHAPE_AUTOFIT
+- UNSUPPORTED — Enum
+- NONE — Enum
+- TEXT_AUTOFIT — Enum
+- SHAPE_AUTOFIT — Enum

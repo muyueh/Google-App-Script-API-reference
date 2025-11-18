@@ -2,6 +2,6 @@
 
 ### Methods
 
-- getId()
-- getPosition()
-- remove()
+- getId() — String
+- getPosition() — Position
+- remove() — void

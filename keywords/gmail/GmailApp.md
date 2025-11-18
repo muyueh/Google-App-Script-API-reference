@@ -2,56 +2,66 @@
 
 ### Methods
 
-- createLabel(name)
-- deleteLabel(label)
-- getAliases()
-- getDraft(draftId)
-- getDraftMessages()
-- getDrafts()
-- getInboxThreads()
-- getInboxUnreadCount()
-- getMessageById(id)
-- getMessagesForThread(thread)
-- getMessagesForThreads(threads)
-- getPriorityInboxThreads()
-- getPriorityInboxUnreadCount()
-- getSpamThreads()
-- getSpamUnreadCount()
-- getStarredThreads()
-- getStarredUnreadCount()
-- getThreadById(id)
-- getTrashThreads()
-- getUserLabelByName(name)
-- getUserLabels()
-- markMessageRead(message)
-- markMessageUnread(message)
-- markMessagesRead(messages)
-- markMessagesUnread(messages)
-- markThreadImportant(thread)
-- markThreadRead(thread)
-- markThreadUnimportant(thread)
-- markThreadUnread(thread)
-- markThreadsImportant(threads)
-- markThreadsRead(threads)
-- markThreadsUnimportant(threads)
-- markThreadsUnread(threads)
-- moveMessageToTrash(message)
-- moveMessagesToTrash(messages)
-- moveThreadToArchive(thread)
-- moveThreadToInbox(thread)
-- moveThreadToSpam(thread)
-- moveThreadToTrash(thread)
-- moveThreadsToArchive(threads)
-- moveThreadsToInbox(threads)
-- moveThreadsToSpam(threads)
-- moveThreadsToTrash(threads)
-- refreshMessage(message)
-- refreshMessages(messages)
-- refreshThread(thread)
-- refreshThreads(threads)
-- search(query)
-- setCurrentMessageAccessToken(accessToken)
-- starMessage(message)
-- starMessages(messages)
-- unstarMessage(message)
-- unstarMessages(messages)
+- createDraft(recipient, subject, body) — GmailDraft
+- createDraft(recipient, subject, body, options) — GmailDraft
+- createLabel(name) — GmailLabel
+- deleteLabel(label) — GmailApp
+- getAliases() — String[]
+- getDraft(draftId) — GmailDraft
+- getDraftMessages() — GmailMessage[]
+- getDrafts() — GmailDraft[]
+- getInboxThreads() — GmailThread[]
+- getInboxThreads(start, max) — GmailThread[]
+- getInboxUnreadCount() — Integer
+- getMessageById(id) — GmailMessage
+- getMessagesForThread(thread) — GmailMessage[]
+- getMessagesForThreads(threads) — GmailMessage[][]
+- getPriorityInboxThreads() — GmailThread[]
+- getPriorityInboxThreads(start, max) — GmailThread[]
+- getPriorityInboxUnreadCount() — Integer
+- getSpamThreads() — GmailThread[]
+- getSpamThreads(start, max) — GmailThread[]
+- getSpamUnreadCount() — Integer
+- getStarredThreads() — GmailThread[]
+- getStarredThreads(start, max) — GmailThread[]
+- getStarredUnreadCount() — Integer
+- getThreadById(id) — GmailThread
+- getTrashThreads() — GmailThread[]
+- getTrashThreads(start, max) — GmailThread[]
+- getUserLabelByName(name) — GmailLabel
+- getUserLabels() — GmailLabel[]
+- markMessageRead(message) — GmailApp
+- markMessageUnread(message) — GmailApp
+- markMessagesRead(messages) — GmailApp
+- markMessagesUnread(messages) — GmailApp
+- markThreadImportant(thread) — GmailApp
+- markThreadRead(thread) — GmailApp
+- markThreadUnimportant(thread) — GmailApp
+- markThreadUnread(thread) — GmailApp
+- markThreadsImportant(threads) — GmailApp
+- markThreadsRead(threads) — GmailApp
+- markThreadsUnimportant(threads) — GmailApp
+- markThreadsUnread(threads) — GmailApp
+- moveMessageToTrash(message) — GmailApp
+- moveMessagesToTrash(messages) — GmailApp
+- moveThreadToArchive(thread) — GmailApp
+- moveThreadToInbox(thread) — GmailApp
+- moveThreadToSpam(thread) — GmailApp
+- moveThreadToTrash(thread) — GmailApp
+- moveThreadsToArchive(threads) — GmailApp
+- moveThreadsToInbox(threads) — GmailApp
+- moveThreadsToSpam(threads) — GmailApp
+- moveThreadsToTrash(threads) — GmailApp
+- refreshMessage(message) — GmailApp
+- refreshMessages(messages) — GmailApp
+- refreshThread(thread) — GmailApp
+- refreshThreads(threads) — GmailApp
+- search(query) — GmailThread[]
+- search(query, start, max) — GmailThread[]
+- sendEmail(recipient, subject, body) — GmailApp
+- sendEmail(recipient, subject, body, options) — GmailApp
+- setCurrentMessageAccessToken(accessToken) — void
+- starMessage(message) — GmailApp
+- starMessages(messages) — GmailApp
+- unstarMessage(message) — GmailApp
+- unstarMessages(messages) — GmailApp
