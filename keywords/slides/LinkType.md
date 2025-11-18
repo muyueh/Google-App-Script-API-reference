@@ -1,0 +1,9 @@
+## LinkType
+
+### Properties
+
+- UNSUPPORTED
+- URL
+- SLIDE_POSITION
+- SLIDE_ID
+- SLIDE_INDEX

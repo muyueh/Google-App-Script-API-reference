@@ -1,0 +1,6 @@
+## DeveloperMetadataVisibility
+
+### Properties
+
+- DOCUMENT
+- PROJECT

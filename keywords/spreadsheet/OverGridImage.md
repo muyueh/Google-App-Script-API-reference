@@ -1,0 +1,27 @@
+## OverGridImage
+
+### Methods
+
+- assignScript(functionName)
+- getAltTextDescription()
+- getAltTextTitle()
+- getAnchorCell()
+- getAnchorCellXOffset()
+- getAnchorCellYOffset()
+- getHeight()
+- getInherentHeight()
+- getInherentWidth()
+- getScript()
+- getSheet()
+- getWidth()
+- remove()
+- replace(blob)
+- replace(url)
+- resetSize()
+- setAltTextDescription(description)
+- setAltTextTitle(title)
+- setAnchorCell(cell)
+- setAnchorCellXOffset(offset)
+- setAnchorCellYOffset(offset)
+- setHeight(height)
+- setWidth(width)

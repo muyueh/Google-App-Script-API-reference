@@ -1,0 +1,5 @@
+## PageRange
+
+### Methods
+
+- getPages()

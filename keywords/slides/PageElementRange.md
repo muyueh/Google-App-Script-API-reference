@@ -1,0 +1,5 @@
+## PageElementRange
+
+### Methods
+
+- getPageElements()

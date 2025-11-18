@@ -1,0 +1,6 @@
+## DataSourceTableColumn
+
+### Methods
+
+- getDataSourceColumn()
+- remove()

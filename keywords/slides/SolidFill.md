@@ -1,0 +1,6 @@
+## SolidFill
+
+### Methods
+
+- getAlpha()
+- getColor()

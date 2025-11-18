@@ -1,0 +1,25 @@
+## TableOfContents
+
+### Methods
+
+- clear()
+- copy()
+- editAsText()
+- findElement(elementType)
+- findText(searchPattern)
+- getAttributes()
+- getChild(childIndex)
+- getChildIndex(child)
+- getLinkUrl()
+- getNextSibling()
+- getNumChildren()
+- getParent()
+- getPreviousSibling()
+- getText()
+- getTextAlignment()
+- getType()
+- isAtDocumentEnd()
+- removeFromParent()
+- setAttributes(attributes)
+- setLinkUrl(url)
+- setTextAlignment(textAlignment)

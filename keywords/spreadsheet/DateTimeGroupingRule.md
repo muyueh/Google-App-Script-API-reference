@@ -1,0 +1,5 @@
+## DateTimeGroupingRule
+
+### Methods
+
+- getRuleType()

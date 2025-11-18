@@ -1,0 +1,26 @@
+## InlineImage
+
+### Methods
+
+- copy()
+- getAltDescription()
+- getAltTitle()
+- getAs(contentType)
+- getAttributes()
+- getBlob()
+- getHeight()
+- getLinkUrl()
+- getNextSibling()
+- getParent()
+- getPreviousSibling()
+- getType()
+- getWidth()
+- isAtDocumentEnd()
+- merge()
+- removeFromParent()
+- setAltDescription(description)
+- setAltTitle(title)
+- setAttributes(attributes)
+- setHeight(height)
+- setLinkUrl(url)
+- setWidth(width)

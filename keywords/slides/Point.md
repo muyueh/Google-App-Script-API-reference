@@ -1,0 +1,6 @@
+## Point
+
+### Methods
+
+- getX()
+- getY()

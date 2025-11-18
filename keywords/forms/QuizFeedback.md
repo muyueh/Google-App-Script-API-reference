@@ -1,0 +1,6 @@
+## QuizFeedback
+
+### Methods
+
+- getLinkUrls()
+- getText()

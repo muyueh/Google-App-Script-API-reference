@@ -1,0 +1,14 @@
+## PageElementType
+
+### Properties
+
+- UNSUPPORTED
+- SHAPE
+- IMAGE
+- VIDEO
+- TABLE
+- GROUP
+- LINE
+- WORD_ART
+- SHEETS_CHART
+- SPEAKER_SPOTLIGHT

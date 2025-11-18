@@ -1,0 +1,6 @@
+## ConnectionSite
+
+### Methods
+
+- getIndex()
+- getPageElement()

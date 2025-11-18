@@ -1,0 +1,5 @@
+## GridValidationBuilder
+
+### Methods
+
+- requireLimitOneResponsePerColumn()

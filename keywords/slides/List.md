@@ -1,0 +1,6 @@
+## List
+
+### Methods
+
+- getListId()
+- getListParagraphs()

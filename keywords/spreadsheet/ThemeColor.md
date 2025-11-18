@@ -1,0 +1,6 @@
+## ThemeColor
+
+### Methods
+
+- getColorType()
+- getThemeColorType()

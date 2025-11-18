@@ -1,0 +1,6 @@
+## SortOrder
+
+### Properties
+
+- ASCENDING
+- DESCENDING

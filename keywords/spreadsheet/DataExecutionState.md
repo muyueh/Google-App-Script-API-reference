@@ -1,0 +1,9 @@
+## DataExecutionState
+
+### Properties
+
+- DATA_EXECUTION_STATE_UNSUPPORTED
+- RUNNING
+- SUCCESS
+- ERROR
+- NOT_STARTED

@@ -1,0 +1,6 @@
+## VideoSourceType
+
+### Properties
+
+- UNSUPPORTED
+- YOUTUBE

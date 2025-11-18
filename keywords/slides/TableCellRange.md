@@ -1,0 +1,5 @@
+## TableCellRange
+
+### Methods
+
+- getTableCells()

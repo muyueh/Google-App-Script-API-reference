@@ -1,0 +1,8 @@
+## PivotValueDisplayType
+
+### Properties
+
+- DEFAULT
+- PERCENT_OF_ROW_TOTAL
+- PERCENT_OF_COLUMN_TOTAL
+- PERCENT_OF_GRAND_TOTAL

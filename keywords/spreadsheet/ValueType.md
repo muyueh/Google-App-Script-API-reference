@@ -1,0 +1,5 @@
+## ValueType
+
+### Properties
+
+- IMAGE
