@@ -1,0 +1,6 @@
+## GroupControlTogglePosition
+
+### Properties
+
+- BEFORE
+- AFTER

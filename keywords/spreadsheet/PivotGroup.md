@@ -1,0 +1,28 @@
+## PivotGroup
+
+### Methods
+
+- areLabelsRepeated()
+- clearGroupingRule()
+- clearSort()
+- getDateTimeGroupingRule()
+- getDimension()
+- getGroupLimit()
+- getIndex()
+- getPivotTable()
+- getSourceDataColumn()
+- getSourceDataSourceColumn()
+- hideRepeatedLabels()
+- isSortAscending()
+- moveToIndex(index)
+- remove()
+- removeManualGroupingRule(groupName)
+- resetDisplayName()
+- setDateTimeGroupingRule(dateTimeGroupingRuleType)
+- setDisplayName(name)
+- setGroupLimit(countLimit)
+- showRepeatedLabels()
+- showTotals(showTotals)
+- sortAscending()
+- sortDescending()
+- totalsAreShown()

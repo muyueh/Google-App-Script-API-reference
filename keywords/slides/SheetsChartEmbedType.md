@@ -1,0 +1,6 @@
+## SheetsChartEmbedType
+
+### Properties
+
+- UNSUPPORTED
+- IMAGE

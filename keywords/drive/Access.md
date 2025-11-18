@@ -1,0 +1,9 @@
+## Access
+
+### Properties
+
+- ANYONE
+- ANYONE_WITH_LINK
+- DOMAIN
+- DOMAIN_WITH_LINK
+- PRIVATE

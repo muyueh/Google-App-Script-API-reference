@@ -1,0 +1,14 @@
+## ThemeColorType
+
+### Properties
+
+- UNSUPPORTED
+- TEXT
+- BACKGROUND
+- ACCENT1
+- ACCENT2
+- ACCENT3
+- ACCENT4
+- ACCENT5
+- ACCENT6
+- HYPERLINK

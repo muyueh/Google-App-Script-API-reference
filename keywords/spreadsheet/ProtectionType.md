@@ -1,0 +1,6 @@
+## ProtectionType
+
+### Properties
+
+- RANGE
+- SHEET

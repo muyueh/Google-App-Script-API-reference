@@ -1,0 +1,6 @@
+## DataSourceRefreshScope
+
+### Properties
+
+- DATA_SOURCE_REFRESH_SCOPE_UNSUPPORTED
+- ALL_DATA_SOURCES

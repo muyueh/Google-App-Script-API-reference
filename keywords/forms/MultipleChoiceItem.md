@@ -1,0 +1,27 @@
+## MultipleChoiceItem
+
+### Methods
+
+- createChoice(value)
+- createResponse(response)
+- duplicate()
+- getChoices()
+- getFeedbackForCorrect()
+- getFeedbackForIncorrect()
+- getHelpText()
+- getId()
+- getIndex()
+- getPoints()
+- getTitle()
+- getType()
+- hasOtherOption()
+- isRequired()
+- setChoiceValues(values)
+- setChoices(choices)
+- setFeedbackForCorrect(feedback)
+- setFeedbackForIncorrect(feedback)
+- setHelpText(text)
+- setPoints(points)
+- setRequired(enabled)
+- setTitle(title)
+- showOtherOption(enabled)

@@ -1,0 +1,5 @@
+## DestinationType
+
+### Properties
+
+- SPREADSHEET

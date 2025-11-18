@@ -1,0 +1,11 @@
+## SelectionType
+
+### Properties
+
+- UNSUPPORTED
+- NONE
+- TEXT
+- TABLE_CELL
+- PAGE
+- PAGE_ELEMENT
+- CURRENT_PAGE

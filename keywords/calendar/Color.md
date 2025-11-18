@@ -1,0 +1,25 @@
+## Color
+
+### Properties
+
+- BLUE
+- BROWN
+- CHARCOAL
+- CHESTNUT
+- GRAY
+- GREEN
+- INDIGO
+- LIME
+- MUSTARD
+- OLIVE
+- ORANGE
+- PINK
+- PLUM
+- PURPLE
+- RED
+- RED_ORANGE
+- SEA_BLUE
+- SLATE
+- TEAL
+- TURQOISE
+- YELLOW

@@ -1,0 +1,10 @@
+## EventType
+
+### Properties
+
+- DEFAULT
+- BIRTHDAY
+- FOCUS_TIME
+- FROM_GMAIL
+- OUT_OF_OFFICE
+- WORKING_LOCATION

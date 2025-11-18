@@ -1,0 +1,45 @@
+# Forms Service
+
+## Classes
+
+- Alignment
+- CheckboxGridItem
+- CheckboxGridValidation
+- CheckboxGridValidationBuilder
+- CheckboxItem
+- CheckboxValidation
+- CheckboxValidationBuilder
+- Choice
+- DateItem
+- DateTimeItem
+- DestinationType
+- DurationItem
+- FeedbackType
+- Form
+- FormApp
+- FormResponse
+- GridItem
+- GridValidation
+- GridValidationBuilder
+- ImageItem
+- Item
+- ItemResponse
+- ItemType
+- ListItem
+- MultipleChoiceItem
+- PageBreakItem
+- PageNavigationType
+- ParagraphTextItem
+- ParagraphTextValidation
+- ParagraphTextValidationBuilder
+- QuizFeedback
+- QuizFeedbackBuilder
+- RatingIconType
+- RatingItem
+- ScaleItem
+- SectionHeaderItem
+- TextItem
+- TextValidation
+- TextValidationBuilder
+- TimeItem
+- VideoItem

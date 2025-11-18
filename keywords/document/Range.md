@@ -1,0 +1,5 @@
+## Range
+
+### Methods
+
+- getRangeElements()

@@ -1,0 +1,6 @@
+## EventTransparency
+
+### Properties
+
+- OPAQUE
+- TRANSPARENT

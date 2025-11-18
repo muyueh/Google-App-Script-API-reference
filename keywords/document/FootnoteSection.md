@@ -1,0 +1,27 @@
+## FootnoteSection
+
+### Methods
+
+- appendParagraph(paragraph)
+- appendParagraph(text)
+- clear()
+- copy()
+- editAsText()
+- findElement(elementType)
+- findText(searchPattern)
+- getAttributes()
+- getChild(childIndex)
+- getChildIndex(child)
+- getNextSibling()
+- getNumChildren()
+- getParagraphs()
+- getParent()
+- getPreviousSibling()
+- getText()
+- getTextAlignment()
+- getType()
+- removeChild(child)
+- removeFromParent()
+- setAttributes(attributes)
+- setText(text)
+- setTextAlignment(textAlignment)

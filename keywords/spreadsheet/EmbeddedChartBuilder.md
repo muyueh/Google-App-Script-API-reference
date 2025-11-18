@@ -1,0 +1,25 @@
+## EmbeddedChartBuilder
+
+### Methods
+
+- addRange(range)
+- asAreaChart()
+- asBarChart()
+- asColumnChart()
+- asComboChart()
+- asHistogramChart()
+- asLineChart()
+- asPieChart()
+- asScatterChart()
+- asTableChart()
+- build()
+- clearRanges()
+- getChartType()
+- getContainer()
+- getRanges()
+- removeRange(range)
+- setChartType(type)
+- setHiddenDimensionStrategy(strategy)
+- setMergeStrategy(mergeStrategy)
+- setNumHeaders(headers)
+- setTransposeRowsAndColumns(transpose)

@@ -1,0 +1,25 @@
+## TextRange
+
+### Methods
+
+- appendParagraph(text)
+- appendRange(textRange)
+- appendText(text)
+- asRenderedString()
+- asString()
+- clear()
+- find(pattern)
+- getAutoTexts()
+- getEndIndex()
+- getLength()
+- getLinks()
+- getListParagraphs()
+- getListStyle()
+- getParagraphStyle()
+- getParagraphs()
+- getRuns()
+- getStartIndex()
+- getTextStyle()
+- isEmpty()
+- select()
+- setText(newText)

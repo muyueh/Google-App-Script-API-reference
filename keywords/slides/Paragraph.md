@@ -1,0 +1,6 @@
+## Paragraph
+
+### Methods
+
+- getIndex()
+- getRange()

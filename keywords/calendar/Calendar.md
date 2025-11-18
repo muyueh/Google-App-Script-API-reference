@@ -1,0 +1,25 @@
+## Calendar
+
+### Methods
+
+- createEventFromDescription(description)
+- deleteCalendar()
+- getColor()
+- getDescription()
+- getEventById(iCalId)
+- getEventSeriesById(iCalId)
+- getEventsForDay(date)
+- getId()
+- getName()
+- getTimeZone()
+- isHidden()
+- isMyPrimaryCalendar()
+- isOwnedByMe()
+- isSelected()
+- setColor(color)
+- setDescription(description)
+- setHidden(hidden)
+- setName(name)
+- setSelected(selected)
+- setTimeZone(timeZone)
+- unsubscribeFromCalendar()

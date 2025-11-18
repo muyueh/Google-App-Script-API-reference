@@ -1,0 +1,6 @@
+## TextRotation
+
+### Methods
+
+- getDegrees()
+- isVertical()
