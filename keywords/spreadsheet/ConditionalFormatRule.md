@@ -2,7 +2,7 @@
 
 ### Methods
 
-- copy()
-- getBooleanCondition()
-- getGradientCondition()
-- getRanges()
+- copy() — ConditionalFormatRuleBuilder
+- getBooleanCondition() — BooleanCondition
+- getGradientCondition() — GradientCondition
+- getRanges() — Range[]

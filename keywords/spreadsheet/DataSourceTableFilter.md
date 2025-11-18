@@ -2,8 +2,8 @@
 
 ### Methods
 
-- getDataSourceColumn()
-- getDataSourceTable()
-- getFilterCriteria()
-- remove()
-- setFilterCriteria(filterCriteria)
+- getDataSourceColumn() — DataSourceColumn
+- getDataSourceTable() — DataSourceTable
+- getFilterCriteria() — FilterCriteria
+- remove() — void
+- setFilterCriteria(filterCriteria) — DataSourceTableFilter

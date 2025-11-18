@@ -2,43 +2,43 @@
 
 ### Methods
 
-- alignOnPage(alignmentPosition)
-- bringForward()
-- bringToFront()
-- duplicate()
-- getBorder()
-- getConnectionSites()
-- getDescription()
-- getHeight()
-- getInherentHeight()
-- getInherentWidth()
-- getLeft()
-- getObjectId()
-- getPageElementType()
-- getParentGroup()
-- getParentPage()
-- getRotation()
-- getSource()
-- getThumbnailUrl()
-- getTitle()
-- getTop()
-- getTransform()
-- getUrl()
-- getVideoId()
-- getWidth()
-- preconcatenateTransform(transform)
-- remove()
-- scaleHeight(ratio)
-- scaleWidth(ratio)
-- select()
-- select(replace)
-- sendBackward()
-- sendToBack()
-- setDescription(description)
-- setHeight(height)
-- setLeft(left)
-- setRotation(angle)
-- setTitle(title)
-- setTop(top)
-- setTransform(transform)
-- setWidth(width)
+- alignOnPage(alignmentPosition) — Video
+- bringForward() — Video
+- bringToFront() — Video
+- duplicate() — PageElement
+- getBorder() — Border
+- getConnectionSites() — ConnectionSite[]
+- getDescription() — String
+- getHeight() — Number
+- getInherentHeight() — Number
+- getInherentWidth() — Number
+- getLeft() — Number
+- getObjectId() — String
+- getPageElementType() — PageElementType
+- getParentGroup() — Group
+- getParentPage() — Page
+- getRotation() — Number
+- getSource() — VideoSourceType
+- getThumbnailUrl() — String
+- getTitle() — String
+- getTop() — Number
+- getTransform() — AffineTransform
+- getUrl() — String
+- getVideoId() — String
+- getWidth() — Number
+- preconcatenateTransform(transform) — Video
+- remove() — void
+- scaleHeight(ratio) — Video
+- scaleWidth(ratio) — Video
+- select() — void
+- select(replace) — void
+- sendBackward() — Video
+- sendToBack() — Video
+- setDescription(description) — Video
+- setHeight(height) — Video
+- setLeft(left) — Video
+- setRotation(angle) — Video
+- setTitle(title) — Video
+- setTop(top) — Video
+- setTransform(transform) — Video
+- setWidth(width) — Video

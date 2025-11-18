@@ -2,4 +2,4 @@
 
 ### Methods
 
-- getPages()
+- getPages() — Page[]

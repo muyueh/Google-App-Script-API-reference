@@ -2,6 +2,6 @@
 
 ### Properties
 
-- NORMAL
-- HEAD
-- MERGED
+- NORMAL — Enum
+- HEAD — Enum
+- MERGED — Enum

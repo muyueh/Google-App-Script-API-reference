@@ -2,10 +2,10 @@
 
 ### Methods
 
-- getDashStyle()
-- getLineFill()
-- getWeight()
-- isVisible()
-- setDashStyle(style)
-- setTransparent()
-- setWeight(points)
+- getDashStyle() — DashStyle
+- getLineFill() — LineFill
+- getWeight() — Number
+- isVisible() — Boolean
+- setDashStyle(style) — Border
+- setTransparent() — Border
+- setWeight(points) — Border

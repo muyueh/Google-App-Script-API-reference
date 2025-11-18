@@ -2,38 +2,42 @@
 
 ### Methods
 
-- activate()
-- breakApart()
-- check()
-- clear()
-- clear(options)
-- clearContent()
-- clearDataValidations()
-- clearFormat()
-- clearNote()
-- getRanges()
-- insertCheckboxes()
-- insertCheckboxes(checkedValue)
-- removeCheckboxes()
-- setBackground(color)
-- setFontColor(color)
-- setFontFamily(fontFamily)
-- setFontLine(fontLine)
-- setFontSize(size)
-- setFontStyle(fontStyle)
-- setFontWeight(fontWeight)
-- setFormula(formula)
-- setFormulaR1C1(formula)
-- setHorizontalAlignment(alignment)
-- setNote(note)
-- setNumberFormat(numberFormat)
-- setShowHyperlink(showHyperlink)
-- setTextDirection(direction)
-- setTextRotation(degrees)
-- setValue(value)
-- setVerticalAlignment(alignment)
-- setVerticalText(isVertical)
-- setWrap(isWrapEnabled)
-- setWrapStrategy(strategy)
-- trimWhitespace()
-- uncheck()
+- activate() — RangeList
+- breakApart() — RangeList
+- check() — RangeList
+- clear() — RangeList
+- clear(options) — RangeList
+- clearContent() — RangeList
+- clearDataValidations() — RangeList
+- clearFormat() — RangeList
+- clearNote() — RangeList
+- getRanges() — Range[]
+- insertCheckboxes() — RangeList
+- insertCheckboxes(checkedValue) — RangeList
+- insertCheckboxes(checkedValue, uncheckedValue) — RangeList
+- removeCheckboxes() — RangeList
+- setBackground(color) — RangeList
+- setBackgroundRGB(red, green, blue) — RangeList
+- setBorder(top, left, bottom, right, vertical, horizontal) — RangeList
+- setBorder(top, left, bottom, right, vertical, horizontal, color, style) — RangeList
+- setFontColor(color) — RangeList
+- setFontFamily(fontFamily) — RangeList
+- setFontLine(fontLine) — RangeList
+- setFontSize(size) — RangeList
+- setFontStyle(fontStyle) — RangeList
+- setFontWeight(fontWeight) — RangeList
+- setFormula(formula) — RangeList
+- setFormulaR1C1(formula) — RangeList
+- setHorizontalAlignment(alignment) — RangeList
+- setNote(note) — RangeList
+- setNumberFormat(numberFormat) — RangeList
+- setShowHyperlink(showHyperlink) — RangeList
+- setTextDirection(direction) — RangeList
+- setTextRotation(degrees) — RangeList
+- setValue(value) — RangeList
+- setVerticalAlignment(alignment) — RangeList
+- setVerticalText(isVertical) — RangeList
+- setWrap(isWrapEnabled) — RangeList
+- setWrapStrategy(strategy) — RangeList
+- trimWhitespace() — RangeList
+- uncheck() — RangeList

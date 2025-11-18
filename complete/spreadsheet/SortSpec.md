@@ -1,0 +1,12 @@
+## [SortSpec](https://developers.google.com/apps-script/reference/spreadsheet/sort-spec)
+
+### Methods
+
+|                                                          Method                                                          |                                              Return type                                               |                           Brief description                            |
+|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [getBackgroundColor()](https://developers.google.com/apps-script/reference/spreadsheet/sort-spec#getBackgroundColor())   | [Color](https://developers.google.com/apps-script/reference/spreadsheet/color)                         | Returns the background color used for sorting, or `null` if absent.    |
+| [getDataSourceColumn()](https://developers.google.com/apps-script/reference/spreadsheet/sort-spec#getDataSourceColumn()) | [DataSourceColumn](https://developers.google.com/apps-script/reference/spreadsheet/data-source-column) | Gets the data source column the sort spec acts on.                     |
+| [getDimensionIndex()](https://developers.google.com/apps-script/reference/spreadsheet/sort-spec#getDimensionIndex())     | `Integer`                                                                                              | Returns the dimension index or `null` if not linked to a local filter. |
+| [getForegroundColor()](https://developers.google.com/apps-script/reference/spreadsheet/sort-spec#getForegroundColor())   | [Color](https://developers.google.com/apps-script/reference/spreadsheet/color)                         | Returns the foreground color used for sorting, or `null` if absent.    |
+| [getSortOrder()](https://developers.google.com/apps-script/reference/spreadsheet/sort-spec#getSortOrder())               | [SortOrder](https://developers.google.com/apps-script/reference/spreadsheet/sort-order)                | Returns the sort order.                                                |
+| [isAscending()](https://developers.google.com/apps-script/reference/spreadsheet/sort-spec#isAscending())                 | `Boolean`                                                                                              | Returns whether the sort order is ascending.                           |

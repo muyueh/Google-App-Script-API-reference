@@ -2,111 +2,111 @@
 
 ## Classes
 
-- AutoFillSeries
-- Banding
-- BandingTheme
-- BigQueryDataSourceSpec
-- BigQueryDataSourceSpecBuilder
-- BooleanCondition
-- BooleanCriteria
-- BorderStyle
-- CellImage
-- CellImageBuilder
-- Color
-- ColorBuilder
-- ConditionalFormatRule
-- ConditionalFormatRuleBuilder
-- ContainerInfo
-- CopyPasteType
-- DataExecutionErrorCode
-- DataExecutionState
-- DataExecutionStatus
-- DataSource
-- DataSourceChart
-- DataSourceColumn
-- DataSourceFormula
-- DataSourceParameter
-- DataSourceParameterType
-- DataSourcePivotTable
-- DataSourceRefreshSchedule
-- DataSourceRefreshScheduleFrequency
-- DataSourceRefreshScope
-- DataSourceSheet
-- DataSourceSheetFilter
-- DataSourceSpec
-- DataSourceSpecBuilder
-- DataSourceTable
-- DataSourceTableColumn
-- DataSourceTableFilter
-- DataSourceType
-- DataValidation
-- DataValidationBuilder
-- DataValidationCriteria
-- DateTimeGroupingRule
-- DateTimeGroupingRuleType
-- DeveloperMetadata
-- DeveloperMetadataFinder
-- DeveloperMetadataLocation
-- DeveloperMetadataLocationType
-- DeveloperMetadataVisibility
-- Dimension
-- Direction
-- Drawing
-- EmbeddedAreaChartBuilder
-- EmbeddedBarChartBuilder
-- EmbeddedChart
-- EmbeddedChartBuilder
-- EmbeddedColumnChartBuilder
-- EmbeddedComboChartBuilder
-- EmbeddedHistogramChartBuilder
-- EmbeddedLineChartBuilder
-- EmbeddedPieChartBuilder
-- EmbeddedScatterChartBuilder
-- EmbeddedTableChartBuilder
-- Filter
-- FilterCriteria
-- FilterCriteriaBuilder
-- FrequencyType
-- GradientCondition
-- Group
-- GroupControlTogglePosition
-- InterpolationType
-- LookerDataSourceSpec
-- LookerDataSourceSpecBuilder
-- NamedRange
-- OverGridImage
-- PageProtection
-- PivotFilter
-- PivotGroup
-- PivotGroupLimit
-- PivotTable
-- PivotTableSummarizeFunction
-- PivotValue
-- PivotValueDisplayType
-- Protection
-- ProtectionType
-- Range
-- RangeList
-- RecalculationInterval
-- RelativeDate
-- RichTextValue
-- RichTextValueBuilder
-- Selection
-- Sheet
-- SheetType
-- Slicer
-- SortOrder
-- SortSpec
-- Spreadsheet
-- SpreadsheetApp
-- SpreadsheetTheme
-- TextDirection
-- TextFinder
-- TextRotation
-- TextStyle
-- TextStyleBuilder
-- TextToColumnsDelimiter
-- ThemeColor
-- ThemeColorType
-- ValueType
-- WrapStrategy
+- AutoFillSeries — An enumeration of the types of series used to calculate auto-filled values.
+- Banding — Access and modify bandings, the color patterns applied to rows or columns of a range.
+- BandingTheme — An enumeration of banding themes.
+- BigQueryDataSourceSpec — Access the existing BigQuery data source specification.
+- BigQueryDataSourceSpecBuilder — The builder for BigQueryDataSourceSpecBuilder.
+- BooleanCondition — Access boolean conditions in ConditionalFormatRules.
+- BooleanCriteria — An enumeration representing the boolean criteria that can be used in conditional format or filter.
+- BorderStyle — Styles that can be set on a range using Range.setBorder(top, left, bottom, right, vertical, horizontal, color, style)).
+- CellImage — Represents an image value in a cell.
+- CellImageBuilder — Builder for CellImage.
+- Color — A representation for a color.
+- ColorBuilder — The builder for ColorBuilder.
+- ConditionalFormatRule — Access conditional formatting rules.
+- ConditionalFormatRuleBuilder — Builder for conditional format rules.
+- ContainerInfo — Access the chart's position within a sheet.
+- CopyPasteType — An enumeration of possible special paste types.
+- DataExecutionErrorCode — An enumeration of data execution error codes.
+- DataExecutionState — An enumeration of data execution states.
+- DataExecutionStatus — The data execution status.
+- DataSource — Access and modify existing data source.
+- DataSourceChart — Access and modify an existing data source chart.
+- DataSourceColumn — Access and modify a data source column.
+- DataSourceFormula — Access and modify existing data source formulas.
+- DataSourceParameter — Access existing data source parameters.
+- DataSourceParameterType — An enumeration of data source parameter types.
+- DataSourcePivotTable — Access and modify existing data source pivot table.
+- DataSourceRefreshSchedule — Access and modify an existing refresh schedule.
+- DataSourceRefreshScheduleFrequency — Access a refresh schedule's frequency, which specifies how often and when to refresh.
+- DataSourceRefreshScope — An enumeration of scopes for refreshes.
+- DataSourceSheet — Access and modify existing data source sheet.
+- DataSourceSheetFilter — Access and modify an existing data source sheet filter.
+- DataSourceSpec — Access the general settings of an existing data source spec.
+- DataSourceSpecBuilder — The builder for DataSourceSpec.
+- DataSourceTable — Access and modify existing data source table.
+- DataSourceTableColumn — Access and modify an existing column in a DataSourceTable.
+- DataSourceTableFilter — Access and modify an existing data source table filter.
+- DataSourceType — An enumeration of data source types.
+- DataValidation — Access data validation rules.
+- DataValidationBuilder — Builder for data validation rules.
+- DataValidationCriteria — An enumeration representing the data validation criteria that can be set on a range.
+- DateTimeGroupingRule — Access an existing date-time grouping rule.
+- DateTimeGroupingRuleType — The types of date-time grouping rule.
+- DeveloperMetadata — Access and modify developer metadata.
+- DeveloperMetadataFinder — Search for developer metadata in a spreadsheet.
+- DeveloperMetadataLocation — Access developer metadata location information.
+- DeveloperMetadataLocationType — An enumeration of the types of developer metadata location types.
+- DeveloperMetadataVisibility — An enumeration of the types of developer metadata visibility.
+- Dimension — An enumeration of possible directions along which data can be stored in a spreadsheet.
+- Direction — An enumeration representing the possible directions that one can move within a spreadsheet using the arrow keys.
+- Drawing — Represents a drawing over a sheet in a spreadsheet.
+- EmbeddedAreaChartBuilder — Builder for area charts.
+- EmbeddedBarChartBuilder — Builder for bar charts.
+- EmbeddedChart — Represents a chart that has been embedded into a spreadsheet.
+- EmbeddedChartBuilder — Builder used to edit an EmbeddedChart.
+- EmbeddedColumnChartBuilder — Builder for column charts.
+- EmbeddedComboChartBuilder — Builder for combo charts.
+- EmbeddedHistogramChartBuilder — Builder for histogram charts.
+- EmbeddedLineChartBuilder — Builder for line charts.
+- EmbeddedPieChartBuilder — Builder for pie charts.
+- EmbeddedScatterChartBuilder — Builder for scatter charts.
+- EmbeddedTableChartBuilder — Builder for table charts.
+- Filter — Use this class to modify existing filters on Grid sheets, the default type of sheet.
+- FilterCriteria — Use this class to get information about or copy the criteria on existing filters.
+- FilterCriteriaBuilder — Builder for filter criteria.
+- FrequencyType — An enumeration of frequency types.
+- GradientCondition — Access gradient (color) conditions in ConditionalFormatRuleApis.
+- Group — Access and modify spreadsheet groups.
+- GroupControlTogglePosition — An enumeration representing the possible positions that a group control toggle can have.
+- InterpolationType — An enumeration representing the interpolation options for calculating a value to be used in a GradientCondition in a ConditionalFormatRule.
+- LookerDataSourceSpec — A DataSourceSpec which is used to access specifically the existing Looker data source specifications.
+- LookerDataSourceSpecBuilder — The builder for LookerDataSourceSpecBuilder.
+- NamedRange — Create, access and modify named ranges in a spreadsheet.
+- OverGridImage — Represents an image over the grid in a spreadsheet.
+- PageProtection — Access and modify protected sheets in the older version of Google Sheets.
+- PivotFilter — Access and modify pivot table filters.
+- PivotGroup — Access and modify pivot table breakout groups.
+- PivotGroupLimit — Access and modify pivot table group limit.
+- PivotTable — Access and modify pivot tables.
+- PivotTableSummarizeFunction — An enumeration of functions that summarize pivot table data.
+- PivotValue — Access and modify value groups in pivot tables.
+- PivotValueDisplayType — An enumeration of ways to display a pivot value as a function of another value.
+- Protection — Access and modify protected ranges and sheets.
+- ProtectionType — An enumeration representing the parts of a spreadsheet that can be protected from edits.
+- Range — Access and modify spreadsheet ranges.
+- RangeList — A collection of one or more Range instances in the same sheet.
+- RecalculationInterval — An enumeration representing the possible intervals used in spreadsheet recalculation.
+- RelativeDate — An enumeration representing the relative date options for calculating a value to be used in date-based BooleanCriteria.
+- RichTextValue — A stylized text string used to represent cell text.
+- RichTextValueBuilder — A builder for Rich Text values.
+- Selection — Access the current active selection in the active sheet.
+- Sheet — Access and modify spreadsheet sheets.
+- SheetType — The different types of sheets that can exist in a spreadsheet.
+- Slicer — Represents a slicer, which is used to filter ranges, charts and pivot tables in a non-collaborative manner.
+- SortOrder — An enumeration representing the sort order.
+- SortSpec — The sorting specification.
+- Spreadsheet — Access and modify Google Sheets files.
+- SpreadsheetApp — Access and create Google Sheets files.
+- SpreadsheetTheme — Access and modify existing themes.
+- TextDirection — An enumerations of text directions.
+- TextFinder — Find or replace text within a range, sheet or spreadsheet.
+- TextRotation — Access the text rotation settings for a cell.
+- TextStyle — The rendered style of text in a cell.
+- TextStyleBuilder — A builder for text styles.
+- TextToColumnsDelimiter — An enumeration of the types of preset delimiters that can split a column of text into multiple columns.
+- ThemeColor — A representation for a theme color.
+- ThemeColorType — An enum which describes various color entries supported in themes.
+- ValueType — An enumeration of value types returned by Range.getValue()) and Range.getValues()) from the Range class of the Spreadsheet service.
+- WrapStrategy — An enumeration of the strategies used to handle cell text wrapping.

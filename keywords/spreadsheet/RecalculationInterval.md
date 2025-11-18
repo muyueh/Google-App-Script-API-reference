@@ -2,6 +2,6 @@
 
 ### Properties
 
-- ON_CHANGE
-- MINUTE
-- HOUR
+- ON_CHANGE — Enum
+- MINUTE — Enum
+- HOUR — Enum

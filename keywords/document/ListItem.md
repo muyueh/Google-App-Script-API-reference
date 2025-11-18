@@ -2,64 +2,72 @@
 
 ### Methods
 
-- addPositionedImage(image)
-- appendHorizontalRule()
-- appendInlineImage(image)
-- appendInlineImage(image)
-- appendPageBreak()
-- appendPageBreak(pageBreak)
-- appendText(text)
-- appendText(text)
-- clear()
-- copy()
-- editAsText()
-- findElement(elementType)
-- findText(searchPattern)
-- getAlignment()
-- getAttributes()
-- getChild(childIndex)
-- getChildIndex(child)
-- getGlyphType()
-- getHeading()
-- getIndentEnd()
-- getIndentFirstLine()
-- getIndentStart()
-- getLineSpacing()
-- getLinkUrl()
-- getListId()
-- getNestingLevel()
-- getNextSibling()
-- getNumChildren()
-- getParent()
-- getPositionedImage(id)
-- getPositionedImages()
-- getPreviousSibling()
-- getSpacingAfter()
-- getSpacingBefore()
-- getText()
-- getTextAlignment()
-- getType()
-- insertHorizontalRule(childIndex)
-- insertPageBreak(childIndex)
-- isAtDocumentEnd()
-- isLeftToRight()
-- merge()
-- removeChild(child)
-- removeFromParent()
-- removePositionedImage(id)
-- setAlignment(alignment)
-- setAttributes(attributes)
-- setGlyphType(glyphType)
-- setHeading(heading)
-- setIndentEnd(indentEnd)
-- setIndentFirstLine(indentFirstLine)
-- setIndentStart(indentStart)
-- setLeftToRight(leftToRight)
-- setLineSpacing(multiplier)
-- setLinkUrl(url)
-- setListId(listItem)
-- setNestingLevel(nestingLevel)
-- setSpacingAfter(spacingAfter)
-- setSpacingBefore(spacingBefore)
-- setText(text)
-- setTextAlignment(textAlignment)
+- addPositionedImage(image) — PositionedImage
+- appendHorizontalRule() — HorizontalRule
+- appendInlineImage(image) — InlineImage
+- appendInlineImage(image) — InlineImage
+- appendPageBreak() — PageBreak
+- appendPageBreak(pageBreak) — PageBreak
+- appendText(text) — Text
+- appendText(text) — Text
+- clear() — ListItem
+- copy() — ListItem
+- editAsText() — Text
+- findElement(elementType) — RangeElement
+- findElement(elementType, from) — RangeElement
+- findText(searchPattern) — RangeElement
+- findText(searchPattern, from) — RangeElement
+- getAlignment() — HorizontalAlignment
+- getAttributes() — Object
+- getChild(childIndex) — Element
+- getChildIndex(child) — Integer
+- getGlyphType() — GlyphType
+- getHeading() — ParagraphHeading
+- getIndentEnd() — Number
+- getIndentFirstLine() — Number
+- getIndentStart() — Number
+- getLineSpacing() — Number
+- getLinkUrl() — String
+- getListId() — String
+- getNestingLevel() — Integer
+- getNextSibling() — Element
+- getNumChildren() — Integer
+- getParent() — ContainerElement
+- getPositionedImage(id) — PositionedImage
+- getPositionedImages() — PositionedImage[]
+- getPreviousSibling() — Element
+- getSpacingAfter() — Number
+- getSpacingBefore() — Number
+- getText() — String
+- getTextAlignment() — TextAlignment
+- getType() — ElementType
+- insertHorizontalRule(childIndex) — HorizontalRule
+- insertInlineImage(childIndex, image) — InlineImage
+- insertInlineImage(childIndex, image) — InlineImage
+- insertPageBreak(childIndex) — PageBreak
+- insertPageBreak(childIndex, pageBreak) — PageBreak
+- insertText(childIndex, text) — Text
+- insertText(childIndex, text) — Text
+- isAtDocumentEnd() — Boolean
+- isLeftToRight() — Boolean
+- merge() — ListItem
+- removeChild(child) — ListItem
+- removeFromParent() — ListItem
+- removePositionedImage(id) — Boolean
+- replaceText(searchPattern, replacement) — Element
+- setAlignment(alignment) — ListItem
+- setAttributes(attributes) — ListItem
+- setGlyphType(glyphType) — ListItem
+- setHeading(heading) — ListItem
+- setIndentEnd(indentEnd) — ListItem
+- setIndentFirstLine(indentFirstLine) — ListItem
+- setIndentStart(indentStart) — ListItem
+- setLeftToRight(leftToRight) — ListItem
+- setLineSpacing(multiplier) — ListItem
+- setLinkUrl(url) — ListItem
+- setListId(listItem) — ListItem
+- setNestingLevel(nestingLevel) — ListItem
+- setSpacingAfter(spacingAfter) — ListItem
+- setSpacingBefore(spacingBefore) — ListItem
+- setText(text) — void
+- setTextAlignment(textAlignment) — ListItem

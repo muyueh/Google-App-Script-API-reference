@@ -2,39 +2,42 @@
 
 ### Methods
 
-- addRange(range)
-- asAreaChart()
-- asBarChart()
-- asColumnChart()
-- asComboChart()
-- asHistogramChart()
-- asLineChart()
-- asPieChart()
-- asScatterChart()
-- asTableChart()
-- build()
-- clearRanges()
-- getChartType()
-- getContainer()
-- getRanges()
-- removeRange(range)
-- reverseCategories()
-- setBackgroundColor(cssValue)
-- setChartType(type)
-- setColors(cssValues)
-- setHiddenDimensionStrategy(strategy)
-- setLegendPosition(position)
-- setLegendTextStyle(textStyle)
-- setMergeStrategy(mergeStrategy)
-- setNumHeaders(headers)
-- setStacked()
-- setTitle(chartTitle)
-- setTitleTextStyle(textStyle)
-- setTransposeRowsAndColumns(transpose)
-- setXAxisTextStyle(textStyle)
-- setXAxisTitle(title)
-- setXAxisTitleTextStyle(textStyle)
-- setYAxisTextStyle(textStyle)
-- setYAxisTitle(title)
-- setYAxisTitleTextStyle(textStyle)
-- useLogScale()
+- addRange(range) — EmbeddedChartBuilder
+- asAreaChart() — EmbeddedAreaChartBuilder
+- asBarChart() — EmbeddedBarChartBuilder
+- asColumnChart() — EmbeddedColumnChartBuilder
+- asComboChart() — EmbeddedComboChartBuilder
+- asHistogramChart() — EmbeddedHistogramChartBuilder
+- asLineChart() — EmbeddedLineChartBuilder
+- asPieChart() — EmbeddedPieChartBuilder
+- asScatterChart() — EmbeddedScatterChartBuilder
+- asTableChart() — EmbeddedTableChartBuilder
+- build() — EmbeddedChart
+- clearRanges() — EmbeddedChartBuilder
+- getChartType() — ChartType
+- getContainer() — ContainerInfo
+- getRanges() — Range[]
+- removeRange(range) — EmbeddedChartBuilder
+- reverseCategories() — EmbeddedComboChartBuilder
+- setBackgroundColor(cssValue) — EmbeddedComboChartBuilder
+- setChartType(type) — EmbeddedChartBuilder
+- setColors(cssValues) — EmbeddedComboChartBuilder
+- setHiddenDimensionStrategy(strategy) — EmbeddedChartBuilder
+- setLegendPosition(position) — EmbeddedComboChartBuilder
+- setLegendTextStyle(textStyle) — EmbeddedComboChartBuilder
+- setMergeStrategy(mergeStrategy) — EmbeddedChartBuilder
+- setNumHeaders(headers) — EmbeddedChartBuilder
+- setOption(option, value) — EmbeddedChartBuilder
+- setPosition(anchorRowPos, anchorColPos, offsetX, offsetY) — EmbeddedChartBuilder
+- setRange(start, end) — EmbeddedComboChartBuilder
+- setStacked() — EmbeddedComboChartBuilder
+- setTitle(chartTitle) — EmbeddedComboChartBuilder
+- setTitleTextStyle(textStyle) — EmbeddedComboChartBuilder
+- setTransposeRowsAndColumns(transpose) — EmbeddedChartBuilder
+- setXAxisTextStyle(textStyle) — EmbeddedComboChartBuilder
+- setXAxisTitle(title) — EmbeddedComboChartBuilder
+- setXAxisTitleTextStyle(textStyle) — EmbeddedComboChartBuilder
+- setYAxisTextStyle(textStyle) — EmbeddedComboChartBuilder
+- setYAxisTitle(title) — EmbeddedComboChartBuilder
+- setYAxisTitleTextStyle(textStyle) — EmbeddedComboChartBuilder
+- useLogScale() — EmbeddedComboChartBuilder

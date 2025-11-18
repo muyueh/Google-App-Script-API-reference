@@ -2,36 +2,43 @@
 
 ### Methods
 
-- addEditor(emailAddress)
-- addEditor(user)
-- addEditors(emailAddresses)
-- addViewer(emailAddress)
-- addViewer(user)
-- addViewers(emailAddresses)
-- appendSlide()
-- appendSlide(layout)
-- appendSlide(predefinedLayout)
-- appendSlide(slide)
-- getEditors()
-- getId()
-- getLayouts()
-- getMasters()
-- getName()
-- getNotesMaster()
-- getNotesPageHeight()
-- getNotesPageWidth()
-- getPageElementById(id)
-- getPageHeight()
-- getPageWidth()
-- getSelection()
-- getSlideById(id)
-- getSlides()
-- getUrl()
-- getViewers()
-- insertSlide(insertionIndex)
-- removeEditor(emailAddress)
-- removeEditor(user)
-- removeViewer(emailAddress)
-- removeViewer(user)
-- saveAndClose()
-- setName(name)
+- addEditor(emailAddress) — Presentation
+- addEditor(user) — Presentation
+- addEditors(emailAddresses) — Presentation
+- addViewer(emailAddress) — Presentation
+- addViewer(user) — Presentation
+- addViewers(emailAddresses) — Presentation
+- appendSlide() — Slide
+- appendSlide(layout) — Slide
+- appendSlide(predefinedLayout) — Slide
+- appendSlide(slide) — Slide
+- appendSlide(slide, linkingMode) — Slide
+- getEditors() — User[]
+- getId() — String
+- getLayouts() — Layout[]
+- getMasters() — Master[]
+- getName() — String
+- getNotesMaster() — NotesMaster
+- getNotesPageHeight() — Number
+- getNotesPageWidth() — Number
+- getPageElementById(id) — PageElement
+- getPageHeight() — Number
+- getPageWidth() — Number
+- getSelection() — Selection
+- getSlideById(id) — Slide
+- getSlides() — Slide[]
+- getUrl() — String
+- getViewers() — User[]
+- insertSlide(insertionIndex) — Slide
+- insertSlide(insertionIndex, layout) — Slide
+- insertSlide(insertionIndex, predefinedLayout) — Slide
+- insertSlide(insertionIndex, slide) — Slide
+- insertSlide(insertionIndex, slide, linkingMode) — Slide
+- removeEditor(emailAddress) — Presentation
+- removeEditor(user) — Presentation
+- removeViewer(emailAddress) — Presentation
+- removeViewer(user) — Presentation
+- replaceAllText(findText, replaceText) — Integer
+- replaceAllText(findText, replaceText, matchCase) — Integer
+- saveAndClose() — void
+- setName(name) — void

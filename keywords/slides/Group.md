@@ -2,40 +2,40 @@
 
 ### Methods
 
-- alignOnPage(alignmentPosition)
-- bringForward()
-- bringToFront()
-- duplicate()
-- getChildren()
-- getConnectionSites()
-- getDescription()
-- getHeight()
-- getInherentHeight()
-- getInherentWidth()
-- getLeft()
-- getObjectId()
-- getPageElementType()
-- getParentGroup()
-- getParentPage()
-- getRotation()
-- getTitle()
-- getTop()
-- getTransform()
-- getWidth()
-- preconcatenateTransform(transform)
-- remove()
-- scaleHeight(ratio)
-- scaleWidth(ratio)
-- select()
-- select(replace)
-- sendBackward()
-- sendToBack()
-- setDescription(description)
-- setHeight(height)
-- setLeft(left)
-- setRotation(angle)
-- setTitle(title)
-- setTop(top)
-- setTransform(transform)
-- setWidth(width)
-- ungroup()
+- alignOnPage(alignmentPosition) — Group
+- bringForward() — Group
+- bringToFront() — Group
+- duplicate() — PageElement
+- getChildren() — PageElement[]
+- getConnectionSites() — ConnectionSite[]
+- getDescription() — String
+- getHeight() — Number
+- getInherentHeight() — Number
+- getInherentWidth() — Number
+- getLeft() — Number
+- getObjectId() — String
+- getPageElementType() — PageElementType
+- getParentGroup() — Group
+- getParentPage() — Page
+- getRotation() — Number
+- getTitle() — String
+- getTop() — Number
+- getTransform() — AffineTransform
+- getWidth() — Number
+- preconcatenateTransform(transform) — Group
+- remove() — void
+- scaleHeight(ratio) — Group
+- scaleWidth(ratio) — Group
+- select() — void
+- select(replace) — void
+- sendBackward() — Group
+- sendToBack() — Group
+- setDescription(description) — Group
+- setHeight(height) — Group
+- setLeft(left) — Group
+- setRotation(angle) — Group
+- setTitle(title) — Group
+- setTop(top) — Group
+- setTransform(transform) — Group
+- setWidth(width) — Group
+- ungroup() — void

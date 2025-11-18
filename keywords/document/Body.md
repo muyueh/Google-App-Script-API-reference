@@ -2,52 +2,65 @@
 
 ### Methods
 
-- appendHorizontalRule()
-- appendImage(image)
-- appendImage(image)
-- appendListItem(listItem)
-- appendListItem(text)
-- appendPageBreak()
-- appendPageBreak(pageBreak)
-- appendParagraph(paragraph)
-- appendParagraph(text)
-- appendTable()
-- appendTable(cells)
-- appendTable(table)
-- clear()
-- copy()
-- editAsText()
-- findElement(elementType)
-- findText(searchPattern)
-- getAttributes()
-- getChild(childIndex)
-- getChildIndex(child)
-- getHeadingAttributes(paragraphHeading)
-- getImages()
-- getListItems()
-- getMarginBottom()
-- getMarginLeft()
-- getMarginRight()
-- getMarginTop()
-- getNumChildren()
-- getPageHeight()
-- getPageWidth()
-- getParagraphs()
-- getParent()
-- getTables()
-- getText()
-- getTextAlignment()
-- getType()
-- insertHorizontalRule(childIndex)
-- insertPageBreak(childIndex)
-- insertTable(childIndex)
-- removeChild(child)
-- setAttributes(attributes)
-- setMarginBottom(marginBottom)
-- setMarginLeft(marginLeft)
-- setMarginRight(marginRight)
-- setMarginTop(marginTop)
-- setPageHeight(pageHeight)
-- setPageWidth(pageWidth)
-- setText(text)
-- setTextAlignment(textAlignment)
+- appendHorizontalRule() — HorizontalRule
+- appendImage(image) — InlineImage
+- appendImage(image) — InlineImage
+- appendListItem(listItem) — ListItem
+- appendListItem(text) — ListItem
+- appendPageBreak() — PageBreak
+- appendPageBreak(pageBreak) — PageBreak
+- appendParagraph(paragraph) — Paragraph
+- appendParagraph(text) — Paragraph
+- appendTable() — Table
+- appendTable(cells) — Table
+- appendTable(table) — Table
+- clear() — Body
+- copy() — Body
+- editAsText() — Text
+- findElement(elementType) — RangeElement
+- findElement(elementType, from) — RangeElement
+- findText(searchPattern) — RangeElement
+- findText(searchPattern, from) — RangeElement
+- getAttributes() — Object
+- getChild(childIndex) — Element
+- getChildIndex(child) — Integer
+- getHeadingAttributes(paragraphHeading) — Object
+- getImages() — InlineImage[]
+- getListItems() — ListItem[]
+- getMarginBottom() — Number
+- getMarginLeft() — Number
+- getMarginRight() — Number
+- getMarginTop() — Number
+- getNumChildren() — Integer
+- getPageHeight() — Number
+- getPageWidth() — Number
+- getParagraphs() — Paragraph[]
+- getParent() — ContainerElement
+- getTables() — Table[]
+- getText() — String
+- getTextAlignment() — TextAlignment
+- getType() — ElementType
+- insertHorizontalRule(childIndex) — HorizontalRule
+- insertImage(childIndex, image) — InlineImage
+- insertImage(childIndex, image) — InlineImage
+- insertListItem(childIndex, listItem) — ListItem
+- insertListItem(childIndex, text) — ListItem
+- insertPageBreak(childIndex) — PageBreak
+- insertPageBreak(childIndex, pageBreak) — PageBreak
+- insertParagraph(childIndex, paragraph) — Paragraph
+- insertParagraph(childIndex, text) — Paragraph
+- insertTable(childIndex) — Table
+- insertTable(childIndex, cells) — Table
+- insertTable(childIndex, table) — Table
+- removeChild(child) — Body
+- replaceText(searchPattern, replacement) — Element
+- setAttributes(attributes) — Body
+- setHeadingAttributes(paragraphHeading, attributes) — Body
+- setMarginBottom(marginBottom) — Body
+- setMarginLeft(marginLeft) — Body
+- setMarginRight(marginRight) — Body
+- setMarginTop(marginTop) — Body
+- setPageHeight(pageHeight) — Body
+- setPageWidth(pageWidth) — Body
+- setText(text) — Body
+- setTextAlignment(textAlignment) — Body

@@ -2,6 +2,6 @@
 
 ### Properties
 
-- UNSUPPORTED
-- LINKED
-- NOT_LINKED
+- UNSUPPORTED — Enum
+- LINKED — Enum
+- NOT_LINKED — Enum

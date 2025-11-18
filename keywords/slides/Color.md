@@ -2,6 +2,6 @@
 
 ### Methods
 
-- asRgbColor()
-- asThemeColor()
-- getColorType()
+- asRgbColor() — RgbColor
+- asThemeColor() — ThemeColor
+- getColorType() — ColorType

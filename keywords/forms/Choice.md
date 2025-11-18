@@ -2,7 +2,7 @@
 
 ### Methods
 
-- getGotoPage()
-- getPageNavigationType()
-- getValue()
-- isCorrectAnswer()
+- getGotoPage() — PageBreakItem
+- getPageNavigationType() — PageNavigationType
+- getValue() — String
+- isCorrectAnswer() — Boolean

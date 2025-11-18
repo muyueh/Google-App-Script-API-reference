@@ -2,6 +2,6 @@
 
 ### Methods
 
-- getContinuationToken()
-- hasNext()
-- next()
+- getContinuationToken() — String
+- hasNext() — Boolean
+- next() — Folder

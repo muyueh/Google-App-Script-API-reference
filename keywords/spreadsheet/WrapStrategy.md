@@ -2,6 +2,6 @@
 
 ### Properties
 
-- WRAP
-- OVERFLOW
-- CLIP
+- WRAP — Enum
+- OVERFLOW — Enum
+- CLIP — Enum

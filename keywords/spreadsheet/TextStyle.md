@@ -2,11 +2,11 @@
 
 ### Methods
 
-- copy()
-- getFontFamily()
-- getFontSize()
-- getForegroundColorObject()
-- isBold()
-- isItalic()
-- isStrikethrough()
-- isUnderline()
+- copy() — TextStyleBuilder
+- getFontFamily() — String
+- getFontSize() — Integer
+- getForegroundColorObject() — Color
+- isBold() — Boolean
+- isItalic() — Boolean
+- isStrikethrough() — Boolean
+- isUnderline() — Boolean

@@ -2,4 +2,4 @@
 
 ### Properties
 
-- IMAGE
+- IMAGE — Enum

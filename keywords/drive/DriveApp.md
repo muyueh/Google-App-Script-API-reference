@@ -2,28 +2,33 @@
 
 ### Properties
 
-- Access
-- Permission
+- Access — Access
+- Permission — Permission
 
 ### Methods
 
-- continueFileIterator(continuationToken)
-- continueFolderIterator(continuationToken)
-- createFile(blob)
-- createFolder(name)
-- createShortcut(targetId)
-- enforceSingleParent(value)
-- getFileById(id)
-- getFiles()
-- getFilesByName(name)
-- getFilesByType(mimeType)
-- getFolderById(id)
-- getFolders()
-- getFoldersByName(name)
-- getRootFolder()
-- getStorageLimit()
-- getStorageUsed()
-- getTrashedFiles()
-- getTrashedFolders()
-- searchFiles(params)
-- searchFolders(params)
+- continueFileIterator(continuationToken) — FileIterator
+- continueFolderIterator(continuationToken) — FolderIterator
+- createFile(blob) — File
+- createFile(name, content) — File
+- createFile(name, content, mimeType) — File
+- createFolder(name) — Folder
+- createShortcut(targetId) — File
+- createShortcutForTargetIdAndResourceKey(targetId, targetResourceKey) — File
+- enforceSingleParent(value) — void
+- getFileById(id) — File
+- getFileByIdAndResourceKey(id, resourceKey) — File
+- getFiles() — FileIterator
+- getFilesByName(name) — FileIterator
+- getFilesByType(mimeType) — FileIterator
+- getFolderById(id) — Folder
+- getFolderByIdAndResourceKey(id, resourceKey) — Folder
+- getFolders() — FolderIterator
+- getFoldersByName(name) — FolderIterator
+- getRootFolder() — Folder
+- getStorageLimit() — Integer
+- getStorageUsed() — Integer
+- getTrashedFiles() — FileIterator
+- getTrashedFolders() — FolderIterator
+- searchFiles(params) — FileIterator
+- searchFolders(params) — FolderIterator

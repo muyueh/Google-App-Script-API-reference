@@ -2,8 +2,8 @@
 
 ### Methods
 
-- copy()
-- getAllowInvalid()
-- getCriteriaType()
-- getCriteriaValues()
-- getHelpText()
+- copy() — DataValidationBuilder
+- getAllowInvalid() — Boolean
+- getCriteriaType() — DataValidationCriteria
+- getCriteriaValues() — Object[]
+- getHelpText() — String

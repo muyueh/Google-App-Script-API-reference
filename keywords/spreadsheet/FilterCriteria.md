@@ -2,10 +2,10 @@
 
 ### Methods
 
-- copy()
-- getCriteriaType()
-- getCriteriaValues()
-- getHiddenValues()
-- getVisibleBackgroundColor()
-- getVisibleForegroundColor()
-- getVisibleValues()
+- copy() — FilterCriteriaBuilder
+- getCriteriaType() — BooleanCriteria
+- getCriteriaValues() — Object[]
+- getHiddenValues() — String[]
+- getVisibleBackgroundColor() — Color
+- getVisibleForegroundColor() — Color
+- getVisibleValues() — String[]

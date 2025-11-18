@@ -2,4 +2,4 @@
 
 ### Methods
 
-- getTableCells()
+- getTableCells() — TableCell[]

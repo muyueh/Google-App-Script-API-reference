@@ -2,7 +2,7 @@
 
 ### Methods
 
-- getId()
-- getName()
-- getRange()
-- remove()
+- getId() — String
+- getName() — String
+- getRange() — Range
+- remove() — void

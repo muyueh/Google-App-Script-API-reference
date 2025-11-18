@@ -2,9 +2,9 @@
 
 ### Methods
 
-- asDocumentTab()
-- getChildTabs()
-- getId()
-- getIndex()
-- getTitle()
-- getType()
+- asDocumentTab() — DocumentTab
+- getChildTabs() — Tab[]
+- getId() — String
+- getIndex() — Integer
+- getTitle() — String
+- getType() — TabType

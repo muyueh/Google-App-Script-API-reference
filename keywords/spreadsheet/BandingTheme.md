@@ -2,15 +2,15 @@
 
 ### Properties
 
-- LIGHT_GREY
-- CYAN
-- GREEN
-- YELLOW
-- ORANGE
-- BLUE
-- TEAL
-- GREY
-- BROWN
-- LIGHT_GREEN
-- INDIGO
-- PINK
+- LIGHT_GREY — Enum
+- CYAN — Enum
+- GREEN — Enum
+- YELLOW — Enum
+- ORANGE — Enum
+- BLUE — Enum
+- TEAL — Enum
+- GREY — Enum
+- BROWN — Enum
+- LIGHT_GREEN — Enum
+- INDIGO — Enum
+- PINK — Enum

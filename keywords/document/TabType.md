@@ -2,4 +2,4 @@
 
 ### Properties
 
-- DOCUMENT_TAB
+- DOCUMENT_TAB — Enum

@@ -2,15 +2,15 @@
 
 ### Methods
 
-- asDataSourceChart()
-- getAs(contentType)
-- getBlob()
-- getChartId()
-- getContainerInfo()
-- getHiddenDimensionStrategy()
-- getMergeStrategy()
-- getNumHeaders()
-- getOptions()
-- getRanges()
-- getTransposeRowsAndColumns()
-- modify()
+- asDataSourceChart() — DataSourceChart
+- getAs(contentType) — Blob
+- getBlob() — Blob
+- getChartId() — Integer
+- getContainerInfo() — ContainerInfo
+- getHiddenDimensionStrategy() — ChartHiddenDimensionStrategy
+- getMergeStrategy() — ChartMergeStrategy
+- getNumHeaders() — Integer
+- getOptions() — ChartOptions
+- getRanges() — Range[]
+- getTransposeRowsAndColumns() — Boolean
+- modify() — EmbeddedChartBuilder

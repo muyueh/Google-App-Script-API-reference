@@ -1,0 +1,9 @@
+## [FolderIterator](https://developers.google.com/apps-script/reference/drive/folder-iterator)
+
+### Methods
+
+|                                                           Method                                                           |                                Return type                                 |                                                             Brief description                                                              |
+|----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| [getContinuationToken()](https://developers.google.com/apps-script/reference/drive/folder-iterator#getContinuationToken()) | `String`                                                                   | Gets a token that can be used to resume this iteration at a later time.                                                                    |
+| [hasNext()](https://developers.google.com/apps-script/reference/drive/folder-iterator#hasNext())                           | `Boolean`                                                                  | Determines whether calling [next()](https://developers.google.com/apps-script/reference/drive/folder-iterator#next()) will return an item. |
+| [next()](https://developers.google.com/apps-script/reference/drive/folder-iterator#next())                                 | [Folder](https://developers.google.com/apps-script/reference/drive/folder) | Gets the next item in the collection of files or folders.                                                                                  |

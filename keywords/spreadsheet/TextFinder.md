@@ -2,15 +2,15 @@
 
 ### Methods
 
-- findAll()
-- findNext()
-- findPrevious()
-- getCurrentMatch()
-- ignoreDiacritics(ignoreDiacritics)
-- matchCase(matchCase)
-- matchEntireCell(matchEntireCell)
-- matchFormulaText(matchFormulaText)
-- replaceAllWith(replaceText)
-- replaceWith(replaceText)
-- startFrom(startRange)
-- useRegularExpression(useRegEx)
+- findAll() — Range[]
+- findNext() — Range
+- findPrevious() — Range
+- getCurrentMatch() — Range
+- ignoreDiacritics(ignoreDiacritics) — TextFinder
+- matchCase(matchCase) — TextFinder
+- matchEntireCell(matchEntireCell) — TextFinder
+- matchFormulaText(matchFormulaText) — TextFinder
+- replaceAllWith(replaceText) — Integer
+- replaceWith(replaceText) — Integer
+- startFrom(startRange) — TextFinder
+- useRegularExpression(useRegEx) — TextFinder

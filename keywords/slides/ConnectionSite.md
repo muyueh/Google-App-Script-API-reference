@@ -2,5 +2,5 @@
 
 ### Methods
 
-- getIndex()
-- getPageElement()
+- getIndex() — Integer
+- getPageElement() — PageElement

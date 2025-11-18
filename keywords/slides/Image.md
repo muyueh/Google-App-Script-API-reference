@@ -2,54 +2,56 @@
 
 ### Methods
 
-- alignOnPage(alignmentPosition)
-- bringForward()
-- bringToFront()
-- duplicate()
-- getAs(contentType)
-- getBlob()
-- getBorder()
-- getConnectionSites()
-- getContentUrl()
-- getDescription()
-- getHeight()
-- getInherentHeight()
-- getInherentWidth()
-- getLeft()
-- getLink()
-- getObjectId()
-- getPageElementType()
-- getParentGroup()
-- getParentPage()
-- getParentPlaceholder()
-- getPlaceholderIndex()
-- getPlaceholderType()
-- getRotation()
-- getSourceUrl()
-- getTitle()
-- getTop()
-- getTransform()
-- getWidth()
-- preconcatenateTransform(transform)
-- remove()
-- removeLink()
-- replace(blobSource)
-- replace(imageUrl)
-- scaleHeight(ratio)
-- scaleWidth(ratio)
-- select()
-- select(replace)
-- sendBackward()
-- sendToBack()
-- setDescription(description)
-- setHeight(height)
-- setLeft(left)
-- setLinkSlide(slideIndex)
-- setLinkSlide(slide)
-- setLinkSlide(slidePosition)
-- setLinkUrl(url)
-- setRotation(angle)
-- setTitle(title)
-- setTop(top)
-- setTransform(transform)
-- setWidth(width)
+- alignOnPage(alignmentPosition) — Image
+- bringForward() — Image
+- bringToFront() — Image
+- duplicate() — PageElement
+- getAs(contentType) — Blob
+- getBlob() — Blob
+- getBorder() — Border
+- getConnectionSites() — ConnectionSite[]
+- getContentUrl() — String
+- getDescription() — String
+- getHeight() — Number
+- getInherentHeight() — Number
+- getInherentWidth() — Number
+- getLeft() — Number
+- getLink() — Link
+- getObjectId() — String
+- getPageElementType() — PageElementType
+- getParentGroup() — Group
+- getParentPage() — Page
+- getParentPlaceholder() — PageElement
+- getPlaceholderIndex() — Integer
+- getPlaceholderType() — PlaceholderType
+- getRotation() — Number
+- getSourceUrl() — String
+- getTitle() — String
+- getTop() — Number
+- getTransform() — AffineTransform
+- getWidth() — Number
+- preconcatenateTransform(transform) — Image
+- remove() — void
+- removeLink() — void
+- replace(blobSource) — Image
+- replace(blobSource, crop) — Image
+- replace(imageUrl) — Image
+- replace(imageUrl, crop) — Image
+- scaleHeight(ratio) — Image
+- scaleWidth(ratio) — Image
+- select() — void
+- select(replace) — void
+- sendBackward() — Image
+- sendToBack() — Image
+- setDescription(description) — Image
+- setHeight(height) — Image
+- setLeft(left) — Image
+- setLinkSlide(slideIndex) — Link
+- setLinkSlide(slide) — Link
+- setLinkSlide(slidePosition) — Link
+- setLinkUrl(url) — Link
+- setRotation(angle) — Image
+- setTitle(title) — Image
+- setTop(top) — Image
+- setTransform(transform) — Image
+- setWidth(width) — Image

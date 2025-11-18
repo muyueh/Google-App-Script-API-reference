@@ -2,5 +2,5 @@
 
 ### Properties
 
-- COLUMNS
-- ROWS
+- COLUMNS — Enum
+- ROWS — Enum

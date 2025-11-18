@@ -2,14 +2,14 @@
 
 ### Methods
 
-- copy()
-- getAttributes()
-- getCode()
-- getNextSibling()
-- getParent()
-- getPreviousSibling()
-- getType()
-- isAtDocumentEnd()
-- merge()
-- removeFromParent()
-- setAttributes(attributes)
+- copy() — EquationSymbol
+- getAttributes() — Object
+- getCode() — String
+- getNextSibling() — Element
+- getParent() — ContainerElement
+- getPreviousSibling() — Element
+- getType() — ElementType
+- isAtDocumentEnd() — Boolean
+- merge() — EquationSymbol
+- removeFromParent() — EquationSymbol
+- setAttributes(attributes) — EquationSymbol

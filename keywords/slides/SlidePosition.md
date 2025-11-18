@@ -2,7 +2,7 @@
 
 ### Properties
 
-- NEXT_SLIDE
-- PREVIOUS_SLIDE
-- FIRST_SLIDE
-- LAST_SLIDE
+- NEXT_SLIDE — Enum
+- PREVIOUS_SLIDE — Enum
+- FIRST_SLIDE — Enum
+- LAST_SLIDE — Enum

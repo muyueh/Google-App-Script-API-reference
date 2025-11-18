@@ -2,6 +2,6 @@
 
 ### Methods
 
-- getName()
-- getSourceCell()
-- getType()
+- getName() — String
+- getSourceCell() — String
+- getType() — DataSourceParameterType

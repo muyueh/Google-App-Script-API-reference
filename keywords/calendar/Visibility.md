@@ -2,7 +2,7 @@
 
 ### Properties
 
-- CONFIDENTIAL
-- DEFAULT
-- PRIVATE
-- PUBLIC
+- CONFIDENTIAL — Enum
+- DEFAULT — Enum
+- PRIVATE — Enum
+- PUBLIC — Enum

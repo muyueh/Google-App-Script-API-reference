@@ -2,16 +2,16 @@
 
 ### Methods
 
-- getId()
-- getKey()
-- getLocation()
-- getValue()
-- getVisibility()
-- moveToColumn(column)
-- moveToRow(row)
-- moveToSheet(sheet)
-- moveToSpreadsheet()
-- remove()
-- setKey(key)
-- setValue(value)
-- setVisibility(visibility)
+- getId() — Integer
+- getKey() — String
+- getLocation() — DeveloperMetadataLocation
+- getValue() — String
+- getVisibility() — DeveloperMetadataVisibility
+- moveToColumn(column) — DeveloperMetadata
+- moveToRow(row) — DeveloperMetadata
+- moveToSheet(sheet) — DeveloperMetadata
+- moveToSpreadsheet() — DeveloperMetadata
+- remove() — void
+- setKey(key) — DeveloperMetadata
+- setValue(value) — DeveloperMetadata
+- setVisibility(visibility) — DeveloperMetadata

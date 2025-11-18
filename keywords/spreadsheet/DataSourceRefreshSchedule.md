@@ -2,7 +2,7 @@
 
 ### Methods
 
-- getFrequency()
-- getScope()
-- getTimeIntervalOfNextRun()
-- isEnabled()
+- getFrequency() — DataSourceRefreshScheduleFrequency
+- getScope() — DataSourceRefreshScope
+- getTimeIntervalOfNextRun() — TimeInterval
+- isEnabled() — Boolean

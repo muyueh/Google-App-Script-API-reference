@@ -2,4 +2,4 @@
 
 ### Methods
 
-- getRuleType()
+- getRuleType() — DateTimeGroupingRuleType

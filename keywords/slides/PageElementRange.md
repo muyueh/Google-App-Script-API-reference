@@ -2,4 +2,4 @@
 
 ### Methods
 
-- getPageElements()
+- getPageElements() — PageElement[]

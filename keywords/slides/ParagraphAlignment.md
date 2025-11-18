@@ -2,8 +2,8 @@
 
 ### Properties
 
-- UNSUPPORTED
-- START
-- CENTER
-- END
-- JUSTIFIED
+- UNSUPPORTED — Enum
+- START — Enum
+- CENTER — Enum
+- END — Enum
+- JUSTIFIED — Enum

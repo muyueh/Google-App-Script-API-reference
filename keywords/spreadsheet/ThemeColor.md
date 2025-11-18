@@ -2,5 +2,5 @@
 
 ### Methods
 
-- getColorType()
-- getThemeColorType()
+- getColorType() — ColorType
+- getThemeColorType() — ThemeColorType

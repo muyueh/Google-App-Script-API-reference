@@ -2,6 +2,6 @@
 
 ### Properties
 
-- UNSUPPORTED
-- LEFT_TO_RIGHT
-- RIGHT_TO_LEFT
+- UNSUPPORTED — Enum
+- LEFT_TO_RIGHT — Enum
+- RIGHT_TO_LEFT — Enum

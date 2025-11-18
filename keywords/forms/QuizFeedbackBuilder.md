@@ -2,7 +2,8 @@
 
 ### Methods
 
-- addLink(url)
-- build()
-- copy()
-- setText(text)
+- addLink(url) — QuizFeedbackBuilder
+- addLink(url, displayText) — QuizFeedbackBuilder
+- build() — QuizFeedback
+- copy() — QuizFeedbackBuilder
+- setText(text) — QuizFeedbackBuilder

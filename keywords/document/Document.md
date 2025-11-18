@@ -2,46 +2,48 @@
 
 ### Methods
 
-- addBookmark(position)
-- addEditor(emailAddress)
-- addEditor(user)
-- addEditors(emailAddresses)
-- addFooter()
-- addHeader()
-- addViewer(emailAddress)
-- addViewer(user)
-- addViewers(emailAddresses)
-- getActiveTab()
-- getAs(contentType)
-- getBlob()
-- getBody()
-- getBookmark(id)
-- getBookmarks()
-- getCursor()
-- getEditors()
-- getFooter()
-- getFootnotes()
-- getHeader()
-- getId()
-- getLanguage()
-- getName()
-- getNamedRangeById(id)
-- getNamedRanges()
-- getNamedRanges(name)
-- getSelection()
-- getSupportedLanguageCodes()
-- getTab(tabId)
-- getTabs()
-- getUrl()
-- getViewers()
-- newRange()
-- removeEditor(emailAddress)
-- removeEditor(user)
-- removeViewer(emailAddress)
-- removeViewer(user)
-- saveAndClose()
-- setActiveTab(tabId)
-- setCursor(position)
-- setLanguage(languageCode)
-- setName(name)
-- setSelection(range)
+- addBookmark(position) — Bookmark
+- addEditor(emailAddress) — Document
+- addEditor(user) — Document
+- addEditors(emailAddresses) — Document
+- addFooter() — FooterSection
+- addHeader() — HeaderSection
+- addNamedRange(name, range) — NamedRange
+- addViewer(emailAddress) — Document
+- addViewer(user) — Document
+- addViewers(emailAddresses) — Document
+- getActiveTab() — Tab
+- getAs(contentType) — Blob
+- getBlob() — Blob
+- getBody() — Body
+- getBookmark(id) — Bookmark
+- getBookmarks() — Bookmark[]
+- getCursor() — Position
+- getEditors() — User[]
+- getFooter() — FooterSection
+- getFootnotes() — Footnote[]
+- getHeader() — HeaderSection
+- getId() — String
+- getLanguage() — String
+- getName() — String
+- getNamedRangeById(id) — NamedRange
+- getNamedRanges() — NamedRange[]
+- getNamedRanges(name) — NamedRange[]
+- getSelection() — Range
+- getSupportedLanguageCodes() — String[]
+- getTab(tabId) — Tab
+- getTabs() — Tab[]
+- getUrl() — String
+- getViewers() — User[]
+- newPosition(element, offset) — Position
+- newRange() — RangeBuilder
+- removeEditor(emailAddress) — Document
+- removeEditor(user) — Document
+- removeViewer(emailAddress) — Document
+- removeViewer(user) — Document
+- saveAndClose() — void
+- setActiveTab(tabId) — void
+- setCursor(position) — Document
+- setLanguage(languageCode) — Document
+- setName(name) — Document
+- setSelection(range) — Document

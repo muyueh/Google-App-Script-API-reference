@@ -2,9 +2,9 @@
 
 ### Methods
 
-- asRgbColor()
-- asThemeColor()
-- build()
-- getColorType()
-- setRgbColor(cssString)
-- setThemeColor(themeColorType)
+- asRgbColor() — RgbColor
+- asThemeColor() — ThemeColor
+- build() — Color
+- getColorType() — ColorType
+- setRgbColor(cssString) — ColorBuilder
+- setThemeColor(themeColorType) — ColorBuilder

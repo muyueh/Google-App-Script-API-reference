@@ -2,66 +2,68 @@
 
 ### Methods
 
-- alignOnPage(alignmentPosition)
-- bringForward()
-- bringToFront()
-- duplicate()
-- getConnectionSites()
-- getDashStyle()
-- getDescription()
-- getEnd()
-- getEndArrow()
-- getEndConnection()
-- getHeight()
-- getInherentHeight()
-- getInherentWidth()
-- getLeft()
-- getLineCategory()
-- getLineFill()
-- getLineType()
-- getLink()
-- getObjectId()
-- getPageElementType()
-- getParentGroup()
-- getParentPage()
-- getRotation()
-- getStart()
-- getStartArrow()
-- getStartConnection()
-- getTitle()
-- getTop()
-- getTransform()
-- getWeight()
-- getWidth()
-- isConnector()
-- preconcatenateTransform(transform)
-- remove()
-- removeLink()
-- reroute()
-- scaleHeight(ratio)
-- scaleWidth(ratio)
-- select()
-- select(replace)
-- sendBackward()
-- sendToBack()
-- setDashStyle(style)
-- setDescription(description)
-- setEnd(point)
-- setEndArrow(style)
-- setEndConnection(connectionSite)
-- setHeight(height)
-- setLeft(left)
-- setLineCategory(lineCategory)
-- setLinkSlide(slideIndex)
-- setLinkSlide(slide)
-- setLinkSlide(slidePosition)
-- setLinkUrl(url)
-- setRotation(angle)
-- setStart(point)
-- setStartArrow(style)
-- setStartConnection(connectionSite)
-- setTitle(title)
-- setTop(top)
-- setTransform(transform)
-- setWeight(points)
-- setWidth(width)
+- alignOnPage(alignmentPosition) — Line
+- bringForward() — Line
+- bringToFront() — Line
+- duplicate() — PageElement
+- getConnectionSites() — ConnectionSite[]
+- getDashStyle() — DashStyle
+- getDescription() — String
+- getEnd() — Point
+- getEndArrow() — ArrowStyle
+- getEndConnection() — ConnectionSite
+- getHeight() — Number
+- getInherentHeight() — Number
+- getInherentWidth() — Number
+- getLeft() — Number
+- getLineCategory() — LineCategory
+- getLineFill() — LineFill
+- getLineType() — LineType
+- getLink() — Link
+- getObjectId() — String
+- getPageElementType() — PageElementType
+- getParentGroup() — Group
+- getParentPage() — Page
+- getRotation() — Number
+- getStart() — Point
+- getStartArrow() — ArrowStyle
+- getStartConnection() — ConnectionSite
+- getTitle() — String
+- getTop() — Number
+- getTransform() — AffineTransform
+- getWeight() — Number
+- getWidth() — Number
+- isConnector() — Boolean
+- preconcatenateTransform(transform) — Line
+- remove() — void
+- removeLink() — void
+- reroute() — Line
+- scaleHeight(ratio) — Line
+- scaleWidth(ratio) — Line
+- select() — void
+- select(replace) — void
+- sendBackward() — Line
+- sendToBack() — Line
+- setDashStyle(style) — Line
+- setDescription(description) — Line
+- setEnd(left, top) — Line
+- setEnd(point) — Line
+- setEndArrow(style) — Line
+- setEndConnection(connectionSite) — Line
+- setHeight(height) — Line
+- setLeft(left) — Line
+- setLineCategory(lineCategory) — Line
+- setLinkSlide(slideIndex) — Link
+- setLinkSlide(slide) — Link
+- setLinkSlide(slidePosition) — Link
+- setLinkUrl(url) — Link
+- setRotation(angle) — Line
+- setStart(left, top) — Line
+- setStart(point) — Line
+- setStartArrow(style) — Line
+- setStartConnection(connectionSite) — Line
+- setTitle(title) — Line
+- setTop(top) — Line
+- setTransform(transform) — Line
+- setWeight(points) — Line
+- setWidth(width) — Line

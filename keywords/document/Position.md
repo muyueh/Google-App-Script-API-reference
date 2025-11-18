@@ -2,10 +2,10 @@
 
 ### Methods
 
-- getElement()
-- getOffset()
-- getSurroundingText()
-- getSurroundingTextOffset()
-- insertBookmark()
-- insertInlineImage(image)
-- insertText(text)
+- getElement() — Element
+- getOffset() — Integer
+- getSurroundingText() — Text
+- getSurroundingTextOffset() — Integer
+- insertBookmark() — Bookmark
+- insertInlineImage(image) — InlineImage
+- insertText(text) — Text

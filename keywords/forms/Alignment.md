@@ -2,6 +2,6 @@
 
 ### Properties
 
-- LEFT
-- CENTER
-- RIGHT
+- LEFT — Enum
+- CENTER — Enum
+- RIGHT — Enum

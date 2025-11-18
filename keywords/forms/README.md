@@ -2,44 +2,44 @@
 
 ## Classes
 
-- Alignment
-- CheckboxGridItem
-- CheckboxGridValidation
-- CheckboxGridValidationBuilder
-- CheckboxItem
-- CheckboxValidation
-- CheckboxValidationBuilder
-- Choice
-- DateItem
-- DateTimeItem
-- DestinationType
-- DurationItem
-- FeedbackType
-- Form
-- FormApp
-- FormResponse
-- GridItem
-- GridValidation
-- GridValidationBuilder
-- ImageItem
-- Item
-- ItemResponse
-- ItemType
-- ListItem
-- MultipleChoiceItem
-- PageBreakItem
-- PageNavigationType
-- ParagraphTextItem
-- ParagraphTextValidation
-- ParagraphTextValidationBuilder
-- QuizFeedback
-- QuizFeedbackBuilder
-- RatingIconType
-- RatingItem
-- ScaleItem
-- SectionHeaderItem
-- TextItem
-- TextValidation
-- TextValidationBuilder
-- TimeItem
-- VideoItem
+- Alignment — An enum representing the supported types of image alignment.
+- CheckboxGridItem — A question item, presented as a grid of columns and rows, that allows the respondent to select multiple choices per row from a sequence of checkboxes.
+- CheckboxGridValidation — A DataValidation for a CheckboxGridItem.
+- CheckboxGridValidationBuilder — A DataValidationBuilder for a CheckboxGridValidation.
+- CheckboxItem — A question item that allows the respondent to select one or more checkboxes, as well as an optional "other" field.
+- CheckboxValidation — A DataValidation for a CheckboxItem.
+- CheckboxValidationBuilder — A DataValidationBuilder for a CheckboxValidation.
+- Choice — A single choice associated with a type of Item that supports choices, like CheckboxItem, ListItem, or MultipleChoiceItem.
+- DateItem — A question item that allows the respondent to indicate a date.
+- DateTimeItem — A question item that allows the respondent to indicate a date and time.
+- DestinationType — An enum representing the supported types of form-response destinations.
+- DurationItem — A question item that allows the respondent to indicate a length of time.
+- FeedbackType — An enum representing the supported types of feedback.
+- Form — A form that contains overall properties and items.
+- FormApp — Allows a script to open an existing Form or create a new one.
+- FormResponse — A response to the form as a whole.
+- GridItem — A question item, presented as a grid of columns and rows, that allows the respondent to select one choice per row from a sequence of radio buttons.
+- GridValidation — A DataValidation for a GridItem.
+- GridValidationBuilder — A DataValidationBuilder for a GridValidation.
+- ImageItem — A layout item that displays an image.
+- Item — A generic form item that contains properties common to all items, such as title and help text.
+- ItemResponse — A response to one question item within a form.
+- ItemType — An enum representing the supported types of form items.
+- ListItem — A question item that allows the respondent to select one choice from a drop-down list.
+- MultipleChoiceItem — A question item that allows the respondent to select one choice from a list of radio buttons or an optional "other" field.
+- PageBreakItem — A layout item that marks the start of a page.
+- PageNavigationType — An enum representing the supported types of page navigation.
+- ParagraphTextItem — A question item that allows the respondent to enter a block of text.
+- ParagraphTextValidation — A DataValidation for a ParagraphTextItem.
+- ParagraphTextValidationBuilder — A DataValidationBuilder for a ParagraphTextValidation.
+- QuizFeedback — The bean implementation of a Feedback, which contains properties common to all feedback, such as display text or links.
+- QuizFeedbackBuilder — The base FeedbackBuilder that contains setters for properties common to all feedback, such as display text.
+- RatingIconType — An enum representing the supported types of rating icons.
+- RatingItem — A question item that allows the respondent to give a rating.
+- ScaleItem — A question item that allows the respondent to choose one option from a numbered sequence of radio buttons.
+- SectionHeaderItem — A layout item that visually indicates the start of a section.
+- TextItem — A question item that allows the respondent to enter a single line of text.
+- TextValidation — A DataValidation for a TextItem.
+- TextValidationBuilder — A DataValidationBuilder for a TextValidation.
+- TimeItem — A question item that allows the respondent to indicate a time of day.
+- VideoItem — A layout item that displays a video.

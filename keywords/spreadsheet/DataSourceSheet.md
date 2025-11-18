@@ -2,18 +2,24 @@
 
 ### Methods
 
-- asSheet()
-- autoResizeColumn(columnName)
-- autoResizeColumns(columnNames)
-- cancelDataRefresh()
-- forceRefreshData()
-- getColumnWidth(columnName)
-- getDataSource()
-- getFilters()
-- getSheetValues(columnName)
-- getSortSpecs()
-- getStatus()
-- refreshData()
-- removeFilters(columnName)
-- removeSortSpec(columnName)
-- waitForCompletion(timeoutInSeconds)
+- addFilter(columnName, filterCriteria) — DataSourceSheet
+- asSheet() — Sheet
+- autoResizeColumn(columnName) — DataSourceSheet
+- autoResizeColumns(columnNames) — DataSourceSheet
+- cancelDataRefresh() — DataSourceSheet
+- forceRefreshData() — DataSourceSheet
+- getColumnWidth(columnName) — Integer
+- getDataSource() — DataSource
+- getFilters() — DataSourceSheetFilter[]
+- getSheetValues(columnName) — Object[]
+- getSheetValues(columnName, startRow, numRows) — Object[]
+- getSortSpecs() — SortSpec[]
+- getStatus() — DataExecutionStatus
+- refreshData() — DataSourceSheet
+- removeFilters(columnName) — DataSourceSheet
+- removeSortSpec(columnName) — DataSourceSheet
+- setColumnWidth(columnName, width) — DataSourceSheet
+- setColumnWidths(columnNames, width) — DataSourceSheet
+- setSortSpec(columnName, ascending) — DataSourceSheet
+- setSortSpec(columnName, sortOrder) — DataSourceSheet
+- waitForCompletion(timeoutInSeconds) — DataExecutionStatus

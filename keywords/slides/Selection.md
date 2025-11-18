@@ -2,9 +2,9 @@
 
 ### Methods
 
-- getCurrentPage()
-- getPageElementRange()
-- getPageRange()
-- getSelectionType()
-- getTableCellRange()
-- getTextRange()
+- getCurrentPage() — Page
+- getPageElementRange() — PageElementRange
+- getPageRange() — PageRange
+- getSelectionType() — SelectionType
+- getTableCellRange() — TableCellRange
+- getTextRange() — TextRange

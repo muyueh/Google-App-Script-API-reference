@@ -2,50 +2,65 @@
 
 ### Methods
 
-- appendText(text)
-- copy()
-- editAsText()
-- findText(searchPattern)
-- getAttributes()
-- getAttributes(offset)
-- getBackgroundColor()
-- getBackgroundColor(offset)
-- getFontFamily()
-- getFontFamily(offset)
-- getFontSize()
-- getFontSize(offset)
-- getForegroundColor()
-- getForegroundColor(offset)
-- getLinkUrl()
-- getLinkUrl(offset)
-- getNextSibling()
-- getParent()
-- getPreviousSibling()
-- getText()
-- getTextAlignment()
-- getTextAlignment(offset)
-- getTextAttributeIndices()
-- getType()
-- isAtDocumentEnd()
-- isBold()
-- isBold(offset)
-- isItalic()
-- isItalic(offset)
-- isStrikethrough()
-- isStrikethrough(offset)
-- isUnderline()
-- isUnderline(offset)
-- merge()
-- removeFromParent()
-- setAttributes(attributes)
-- setBackgroundColor(color)
-- setBold(bold)
-- setFontFamily(fontFamilyName)
-- setFontSize(size)
-- setForegroundColor(color)
-- setItalic(italic)
-- setLinkUrl(url)
-- setStrikethrough(strikethrough)
-- setText(text)
-- setTextAlignment(textAlignment)
-- setUnderline(underline)
+- appendText(text) — Text
+- copy() — Text
+- deleteText(startOffset, endOffsetInclusive) — Text
+- editAsText() — Text
+- findText(searchPattern) — RangeElement
+- findText(searchPattern, from) — RangeElement
+- getAttributes() — Object
+- getAttributes(offset) — Object
+- getBackgroundColor() — String
+- getBackgroundColor(offset) — String
+- getFontFamily() — String
+- getFontFamily(offset) — String
+- getFontSize() — Number
+- getFontSize(offset) — Number
+- getForegroundColor() — String
+- getForegroundColor(offset) — String
+- getLinkUrl() — String
+- getLinkUrl(offset) — String
+- getNextSibling() — Element
+- getParent() — ContainerElement
+- getPreviousSibling() — Element
+- getText() — String
+- getTextAlignment() — TextAlignment
+- getTextAlignment(offset) — TextAlignment
+- getTextAttributeIndices() — Integer[]
+- getType() — ElementType
+- insertText(offset, text) — Text
+- isAtDocumentEnd() — Boolean
+- isBold() — Boolean
+- isBold(offset) — Boolean
+- isItalic() — Boolean
+- isItalic(offset) — Boolean
+- isStrikethrough() — Boolean
+- isStrikethrough(offset) — Boolean
+- isUnderline() — Boolean
+- isUnderline(offset) — Boolean
+- merge() — Text
+- removeFromParent() — Text
+- replaceText(searchPattern, replacement) — Element
+- setAttributes(startOffset, endOffsetInclusive, attributes) — Text
+- setAttributes(attributes) — Text
+- setBackgroundColor(startOffset, endOffsetInclusive, color) — Text
+- setBackgroundColor(color) — Text
+- setBold(bold) — Text
+- setBold(startOffset, endOffsetInclusive, bold) — Text
+- setFontFamily(startOffset, endOffsetInclusive, fontFamilyName) — Text
+- setFontFamily(fontFamilyName) — Text
+- setFontSize(startOffset, endOffsetInclusive, size) — Text
+- setFontSize(size) — Text
+- setForegroundColor(startOffset, endOffsetInclusive, color) — Text
+- setForegroundColor(color) — Text
+- setItalic(italic) — Text
+- setItalic(startOffset, endOffsetInclusive, italic) — Text
+- setLinkUrl(startOffset, endOffsetInclusive, url) — Text
+- setLinkUrl(url) — Text
+- setStrikethrough(strikethrough) — Text
+- setStrikethrough(startOffset, endOffsetInclusive, strikethrough) — Text
+- setText(text) — Text
+- setTextAlignment(startOffset, endOffsetInclusive, textAlignment) — Text
+- setTextAlignment(textAlignment) — Text
+- setUnderline(underline) — Text
+- setUnderline(startOffset, endOffsetInclusive, underline) — Text

@@ -2,14 +2,14 @@
 
 ### Methods
 
-- getDisplayType()
-- getFormula()
-- getPivotTable()
-- getSourceDataColumn()
-- getSourceDataSourceColumn()
-- getSummarizedBy()
-- remove()
-- setDisplayName(name)
-- setFormula(formula)
-- showAs(displayType)
-- summarizeBy(summarizeFunction)
+- getDisplayType() — PivotValueDisplayType
+- getFormula() — String
+- getPivotTable() — PivotTable
+- getSourceDataColumn() — Integer
+- getSourceDataSourceColumn() — DataSourceColumn
+- getSummarizedBy() — PivotTableSummarizeFunction
+- remove() — void
+- setDisplayName(name) — PivotValue
+- setFormula(formula) — PivotValue
+- showAs(displayType) — PivotValue
+- summarizeBy(summarizeFunction) — PivotValue

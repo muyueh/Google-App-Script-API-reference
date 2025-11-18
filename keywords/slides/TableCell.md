@@ -2,16 +2,16 @@
 
 ### Methods
 
-- getColumnIndex()
-- getColumnSpan()
-- getContentAlignment()
-- getFill()
-- getHeadCell()
-- getMergeState()
-- getParentColumn()
-- getParentRow()
-- getParentTable()
-- getRowIndex()
-- getRowSpan()
-- getText()
-- setContentAlignment(contentAlignment)
+- getColumnIndex() — Integer
+- getColumnSpan() — Integer
+- getContentAlignment() — ContentAlignment
+- getFill() — Fill
+- getHeadCell() — TableCell
+- getMergeState() — CellMergeState
+- getParentColumn() — TableColumn
+- getParentRow() — TableRow
+- getParentTable() — Table
+- getRowIndex() — Integer
+- getRowSpan() — Integer
+- getText() — TextRange
+- setContentAlignment(contentAlignment) — TableCell

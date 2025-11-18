@@ -2,11 +2,11 @@
 
 ### Properties
 
-- valueType
+- valueType — ValueType
 
 ### Methods
 
-- getAltTextDescription()
-- getAltTextTitle()
-- getContentUrl()
-- toBuilder()
+- getAltTextDescription() — String
+- getAltTextTitle() — String
+- getContentUrl() — String
+- toBuilder() — CellImageBuilder

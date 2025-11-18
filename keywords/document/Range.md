@@ -2,4 +2,4 @@
 
 ### Methods
 
-- getRangeElements()
+- getRangeElements() — RangeElement[]

@@ -2,9 +2,9 @@
 
 ### Methods
 
-- getFilterCriteria()
-- getPivotTable()
-- getSourceDataColumn()
-- getSourceDataSourceColumn()
-- remove()
-- setFilterCriteria(filterCriteria)
+- getFilterCriteria() — FilterCriteria
+- getPivotTable() — PivotTable
+- getSourceDataColumn() — Integer
+- getSourceDataSourceColumn() — DataSourceColumn
+- remove() — void
+- setFilterCriteria(filterCriteria) — PivotFilter

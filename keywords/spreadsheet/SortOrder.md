@@ -2,5 +2,5 @@
 
 ### Properties
 
-- ASCENDING
-- DESCENDING
+- ASCENDING — Enum
+- DESCENDING — Enum

@@ -2,8 +2,8 @@
 
 ### Properties
 
-- NUMBER
-- PERCENT
-- PERCENTILE
-- MIN
-- MAX
+- NUMBER — Enum
+- PERCENT — Enum
+- PERCENTILE — Enum
+- MIN — Enum
+- MAX — Enum

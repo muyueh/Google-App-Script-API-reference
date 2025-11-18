@@ -2,8 +2,8 @@
 
 ### Methods
 
-- getColumn()
-- getLocationType()
-- getRow()
-- getSheet()
-- getSpreadsheet()
+- getColumn() — Range
+- getLocationType() — DeveloperMetadataLocationType
+- getRow() — Range
+- getSheet() — Sheet
+- getSpreadsheet() — Spreadsheet

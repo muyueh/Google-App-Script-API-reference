@@ -1,0 +1,7 @@
+## [Range](https://developers.google.com/apps-script/reference/document/range)
+
+### Methods
+
+|                                                   Method                                                    |                                         Return type                                          |                                                                                                         Brief description                                                                                                          |
+|-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [getRangeElements()](https://developers.google.com/apps-script/reference/document/range#getRangeElements()) | [RangeElement[]](https://developers.google.com/apps-script/reference/document/range-element) | Gets all elements in this `Range`, including any partial [Text](https://developers.google.com/apps-script/reference/document/text) elements (for example, in the case of a selection that includes only part of a `Text` element). |

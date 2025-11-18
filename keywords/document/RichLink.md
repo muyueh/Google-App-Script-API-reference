@@ -2,16 +2,16 @@
 
 ### Methods
 
-- copy()
-- getAttributes()
-- getMimeType()
-- getNextSibling()
-- getParent()
-- getPreviousSibling()
-- getTitle()
-- getType()
-- getUrl()
-- isAtDocumentEnd()
-- merge()
-- removeFromParent()
-- setAttributes(attributes)
+- copy() — RichLink
+- getAttributes() — Object
+- getMimeType() — String
+- getNextSibling() — Element
+- getParent() — ContainerElement
+- getPreviousSibling() — Element
+- getTitle() — String
+- getType() — ElementType
+- getUrl() — String
+- isAtDocumentEnd() — Boolean
+- merge() — RichLink
+- removeFromParent() — RichLink
+- setAttributes(attributes) — RichLink

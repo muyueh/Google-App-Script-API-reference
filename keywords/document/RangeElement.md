@@ -2,7 +2,7 @@
 
 ### Methods
 
-- getElement()
-- getEndOffsetInclusive()
-- getStartOffset()
-- isPartial()
+- getElement() — Element
+- getEndOffsetInclusive() — Integer
+- getStartOffset() — Integer
+- isPartial() — Boolean

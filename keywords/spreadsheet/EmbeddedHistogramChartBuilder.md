@@ -2,39 +2,42 @@
 
 ### Methods
 
-- addRange(range)
-- asAreaChart()
-- asBarChart()
-- asColumnChart()
-- asComboChart()
-- asHistogramChart()
-- asLineChart()
-- asPieChart()
-- asScatterChart()
-- asTableChart()
-- build()
-- clearRanges()
-- getChartType()
-- getContainer()
-- getRanges()
-- removeRange(range)
-- reverseCategories()
-- setBackgroundColor(cssValue)
-- setChartType(type)
-- setColors(cssValues)
-- setHiddenDimensionStrategy(strategy)
-- setLegendPosition(position)
-- setLegendTextStyle(textStyle)
-- setMergeStrategy(mergeStrategy)
-- setNumHeaders(headers)
-- setStacked()
-- setTitle(chartTitle)
-- setTitleTextStyle(textStyle)
-- setTransposeRowsAndColumns(transpose)
-- setXAxisTextStyle(textStyle)
-- setXAxisTitle(title)
-- setXAxisTitleTextStyle(textStyle)
-- setYAxisTextStyle(textStyle)
-- setYAxisTitle(title)
-- setYAxisTitleTextStyle(textStyle)
-- useLogScale()
+- addRange(range) — EmbeddedChartBuilder
+- asAreaChart() — EmbeddedAreaChartBuilder
+- asBarChart() — EmbeddedBarChartBuilder
+- asColumnChart() — EmbeddedColumnChartBuilder
+- asComboChart() — EmbeddedComboChartBuilder
+- asHistogramChart() — EmbeddedHistogramChartBuilder
+- asLineChart() — EmbeddedLineChartBuilder
+- asPieChart() — EmbeddedPieChartBuilder
+- asScatterChart() — EmbeddedScatterChartBuilder
+- asTableChart() — EmbeddedTableChartBuilder
+- build() — EmbeddedChart
+- clearRanges() — EmbeddedChartBuilder
+- getChartType() — ChartType
+- getContainer() — ContainerInfo
+- getRanges() — Range[]
+- removeRange(range) — EmbeddedChartBuilder
+- reverseCategories() — EmbeddedHistogramChartBuilder
+- setBackgroundColor(cssValue) — EmbeddedHistogramChartBuilder
+- setChartType(type) — EmbeddedChartBuilder
+- setColors(cssValues) — EmbeddedHistogramChartBuilder
+- setHiddenDimensionStrategy(strategy) — EmbeddedChartBuilder
+- setLegendPosition(position) — EmbeddedHistogramChartBuilder
+- setLegendTextStyle(textStyle) — EmbeddedHistogramChartBuilder
+- setMergeStrategy(mergeStrategy) — EmbeddedChartBuilder
+- setNumHeaders(headers) — EmbeddedChartBuilder
+- setOption(option, value) — EmbeddedChartBuilder
+- setPosition(anchorRowPos, anchorColPos, offsetX, offsetY) — EmbeddedChartBuilder
+- setRange(start, end) — EmbeddedHistogramChartBuilder
+- setStacked() — EmbeddedHistogramChartBuilder
+- setTitle(chartTitle) — EmbeddedHistogramChartBuilder
+- setTitleTextStyle(textStyle) — EmbeddedHistogramChartBuilder
+- setTransposeRowsAndColumns(transpose) — EmbeddedChartBuilder
+- setXAxisTextStyle(textStyle) — EmbeddedHistogramChartBuilder
+- setXAxisTitle(title) — EmbeddedHistogramChartBuilder
+- setXAxisTitleTextStyle(textStyle) — EmbeddedHistogramChartBuilder
+- setYAxisTextStyle(textStyle) — EmbeddedHistogramChartBuilder
+- setYAxisTitle(title) — EmbeddedHistogramChartBuilder
+- setYAxisTitleTextStyle(textStyle) — EmbeddedHistogramChartBuilder
+- useLogScale() — EmbeddedHistogramChartBuilder

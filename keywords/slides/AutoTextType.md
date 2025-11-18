@@ -2,5 +2,5 @@
 
 ### Properties
 
-- UNSUPPORTED
-- SLIDE_NUMBER
+- UNSUPPORTED — Enum
+- SLIDE_NUMBER — Enum

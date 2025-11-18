@@ -2,40 +2,40 @@
 
 ### Methods
 
-- alignOnPage(alignmentPosition)
-- bringForward()
-- bringToFront()
-- duplicate()
-- getBorder()
-- getConnectionSites()
-- getDescription()
-- getHeight()
-- getInherentHeight()
-- getInherentWidth()
-- getLeft()
-- getMaskShapeType()
-- getObjectId()
-- getPageElementType()
-- getParentGroup()
-- getParentPage()
-- getRotation()
-- getTitle()
-- getTop()
-- getTransform()
-- getWidth()
-- preconcatenateTransform(transform)
-- remove()
-- scaleHeight(ratio)
-- scaleWidth(ratio)
-- select()
-- select(replace)
-- sendBackward()
-- sendToBack()
-- setDescription(description)
-- setHeight(height)
-- setLeft(left)
-- setRotation(angle)
-- setTitle(title)
-- setTop(top)
-- setTransform(transform)
-- setWidth(width)
+- alignOnPage(alignmentPosition) — SpeakerSpotlight
+- bringForward() — SpeakerSpotlight
+- bringToFront() — SpeakerSpotlight
+- duplicate() — PageElement
+- getBorder() — Border
+- getConnectionSites() — ConnectionSite[]
+- getDescription() — String
+- getHeight() — Number
+- getInherentHeight() — Number
+- getInherentWidth() — Number
+- getLeft() — Number
+- getMaskShapeType() — ShapeType
+- getObjectId() — String
+- getPageElementType() — PageElementType
+- getParentGroup() — Group
+- getParentPage() — Page
+- getRotation() — Number
+- getTitle() — String
+- getTop() — Number
+- getTransform() — AffineTransform
+- getWidth() — Number
+- preconcatenateTransform(transform) — SpeakerSpotlight
+- remove() — void
+- scaleHeight(ratio) — SpeakerSpotlight
+- scaleWidth(ratio) — SpeakerSpotlight
+- select() — void
+- select(replace) — void
+- sendBackward() — SpeakerSpotlight
+- sendToBack() — SpeakerSpotlight
+- setDescription(description) — SpeakerSpotlight
+- setHeight(height) — SpeakerSpotlight
+- setLeft(left) — SpeakerSpotlight
+- setRotation(angle) — SpeakerSpotlight
+- setTitle(title) — SpeakerSpotlight
+- setTop(top) — SpeakerSpotlight
+- setTransform(transform) — SpeakerSpotlight
+- setWidth(width) — SpeakerSpotlight

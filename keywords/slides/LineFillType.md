@@ -2,6 +2,6 @@
 
 ### Properties
 
-- UNSUPPORTED
-- NONE
-- SOLID
+- UNSUPPORTED — Enum
+- NONE — Enum
+- SOLID — Enum

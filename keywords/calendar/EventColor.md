@@ -2,14 +2,14 @@
 
 ### Properties
 
-- PALE_BLUE
-- PALE_GREEN
-- MAUVE
-- PALE_RED
-- YELLOW
-- ORANGE
-- CYAN
-- GRAY
-- BLUE
-- GREEN
-- RED
+- PALE_BLUE — Enum
+- PALE_GREEN — Enum
+- MAUVE — Enum
+- PALE_RED — Enum
+- YELLOW — Enum
+- ORANGE — Enum
+- CYAN — Enum
+- GRAY — Enum
+- BLUE — Enum
+- GREEN — Enum
+- RED — Enum

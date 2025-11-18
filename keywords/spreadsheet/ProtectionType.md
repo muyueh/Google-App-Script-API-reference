@@ -2,5 +2,5 @@
 
 ### Properties
 
-- RANGE
-- SHEET
+- RANGE — Enum
+- SHEET — Enum

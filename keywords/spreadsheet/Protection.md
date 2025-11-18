@@ -2,29 +2,29 @@
 
 ### Methods
 
-- addEditor(emailAddress)
-- addEditor(user)
-- addEditors(emailAddresses)
-- addTargetAudience(audienceId)
-- canDomainEdit()
-- canEdit()
-- getDescription()
-- getEditors()
-- getProtectionType()
-- getRange()
-- getRangeName()
-- getTargetAudiences()
-- getUnprotectedRanges()
-- isWarningOnly()
-- remove()
-- removeEditor(emailAddress)
-- removeEditor(user)
-- removeEditors(emailAddresses)
-- removeTargetAudience(audienceId)
-- setDescription(description)
-- setDomainEdit(editable)
-- setNamedRange(namedRange)
-- setRange(range)
-- setRangeName(rangeName)
-- setUnprotectedRanges(ranges)
-- setWarningOnly(warningOnly)
+- addEditor(emailAddress) — Protection
+- addEditor(user) — Protection
+- addEditors(emailAddresses) — Protection
+- addTargetAudience(audienceId) — Protection
+- canDomainEdit() — Boolean
+- canEdit() — Boolean
+- getDescription() — String
+- getEditors() — User[]
+- getProtectionType() — ProtectionType
+- getRange() — Range
+- getRangeName() — String
+- getTargetAudiences() — TargetAudience[]
+- getUnprotectedRanges() — Range[]
+- isWarningOnly() — Boolean
+- remove() — void
+- removeEditor(emailAddress) — Protection
+- removeEditor(user) — Protection
+- removeEditors(emailAddresses) — Protection
+- removeTargetAudience(audienceId) — Protection
+- setDescription(description) — Protection
+- setDomainEdit(editable) — Protection
+- setNamedRange(namedRange) — Protection
+- setRange(range) — Protection
+- setRangeName(rangeName) — Protection
+- setUnprotectedRanges(ranges) — Protection
+- setWarningOnly(warningOnly) — Protection

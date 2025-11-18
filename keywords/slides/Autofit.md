@@ -2,7 +2,7 @@
 
 ### Methods
 
-- disableAutofit()
-- getAutofitType()
-- getFontScale()
-- getLineSpacingReduction()
+- disableAutofit() — Autofit
+- getAutofitType() — AutofitType
+- getFontScale() — Number
+- getLineSpacingReduction() — Number

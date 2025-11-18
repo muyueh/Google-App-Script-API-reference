@@ -2,36 +2,42 @@
 
 ### Methods
 
-- appendTableRow()
-- appendTableRow(tableRow)
-- clear()
-- copy()
-- editAsText()
-- findElement(elementType)
-- findText(searchPattern)
-- getAttributes()
-- getBorderColor()
-- getBorderWidth()
-- getChild(childIndex)
-- getChildIndex(child)
-- getColumnWidth(columnIndex)
-- getLinkUrl()
-- getNextSibling()
-- getNumChildren()
-- getNumRows()
-- getParent()
-- getPreviousSibling()
-- getRow(rowIndex)
-- getText()
-- getTextAlignment()
-- getType()
-- insertTableRow(childIndex)
-- isAtDocumentEnd()
-- removeChild(child)
-- removeFromParent()
-- removeRow(rowIndex)
-- setAttributes(attributes)
-- setBorderColor(color)
-- setBorderWidth(width)
-- setLinkUrl(url)
-- setTextAlignment(textAlignment)
+- appendTableRow() — TableRow
+- appendTableRow(tableRow) — TableRow
+- clear() — Table
+- copy() — Table
+- editAsText() — Text
+- findElement(elementType) — RangeElement
+- findElement(elementType, from) — RangeElement
+- findText(searchPattern) — RangeElement
+- findText(searchPattern, from) — RangeElement
+- getAttributes() — Object
+- getBorderColor() — String
+- getBorderWidth() — Number
+- getCell(rowIndex, cellIndex) — TableCell
+- getChild(childIndex) — Element
+- getChildIndex(child) — Integer
+- getColumnWidth(columnIndex) — Number
+- getLinkUrl() — String
+- getNextSibling() — Element
+- getNumChildren() — Integer
+- getNumRows() — Integer
+- getParent() — ContainerElement
+- getPreviousSibling() — Element
+- getRow(rowIndex) — TableRow
+- getText() — String
+- getTextAlignment() — TextAlignment
+- getType() — ElementType
+- insertTableRow(childIndex) — TableRow
+- insertTableRow(childIndex, tableRow) — TableRow
+- isAtDocumentEnd() — Boolean
+- removeChild(child) — Table
+- removeFromParent() — Table
+- removeRow(rowIndex) — TableRow
+- replaceText(searchPattern, replacement) — Element
+- setAttributes(attributes) — Table
+- setBorderColor(color) — Table
+- setBorderWidth(width) — Table
+- setColumnWidth(columnIndex, width) — Table
+- setLinkUrl(url) — Table
+- setTextAlignment(textAlignment) — Table

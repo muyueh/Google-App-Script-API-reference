@@ -2,50 +2,50 @@
 
 ## Classes
 
-- Attribute
-- Body
-- Bookmark
-- ContainerElement
-- Date
-- Document
-- DocumentApp
-- DocumentTab
-- Element
-- ElementType
-- Equation
-- EquationFunction
-- EquationFunctionArgumentSeparator
-- EquationSymbol
-- FontFamily
-- FooterSection
-- Footnote
-- FootnoteSection
-- GlyphType
-- HeaderSection
-- HorizontalAlignment
-- HorizontalRule
-- InlineDrawing
-- InlineImage
-- ListItem
-- NamedRange
-- PageBreak
-- Paragraph
-- ParagraphHeading
-- Person
-- Position
-- PositionedImage
-- PositionedLayout
-- Range
-- RangeBuilder
-- RangeElement
-- RichLink
-- Tab
-- TabType
-- Table
-- TableCell
-- TableOfContents
-- TableRow
-- Text
-- TextAlignment
-- UnsupportedElement
-- VerticalAlignment
+- Attribute — An enumeration of the element attributes.
+- Body — The content of a tab in a Google Docs document.
+- Bookmark — An object representing a bookmark.
+- ContainerElement — A generic element that may contain other elements.
+- Date — An element representing a formatted date
+- Document — A document, containing one or more Tab objects, each of which contains rich text and elements such as tables and lists.
+- DocumentApp — The document service creates and opens Documents that can be edited.
+- DocumentTab — A document tab, containing rich text and elements such as tables and lists.
+- Element — A generic element.
+- ElementType — An enumeration of all the element types.
+- Equation — An element representing a mathematical expression.
+- EquationFunction — An element representing a function in a mathematical Equation.
+- EquationFunctionArgumentSeparator — An element representing a function separator in a mathematical Equation.
+- EquationSymbol — An element representing a symbol in a mathematical Equation.
+- FontFamily — An enumeration of the supported fonts.
+- FooterSection — An element representing a footer section.
+- Footnote — An element representing a footnote.
+- FootnoteSection — An element representing a footnote section.
+- GlyphType — An enumeration of the supported glyph types.
+- HeaderSection — An element representing a header section.
+- HorizontalAlignment — An enumeration of the supported horizontal alignment types.
+- HorizontalRule — An element representing an horizontal rule.
+- InlineDrawing — An element representing an embedded drawing.
+- InlineImage — An element representing an embedded image.
+- ListItem — An element representing a list item.
+- NamedRange — A Range that has a name and ID to allow later retrieval.
+- PageBreak — An element representing a page break.
+- Paragraph — An element representing a paragraph.
+- ParagraphHeading — An enumeration of the standard paragraph headings.
+- Person — An element representing a link to a person.
+- Position — A reference to a location in the document tab, relative to a specific element.
+- PositionedImage — Fixed position image anchored to a Paragraph.
+- PositionedLayout — An enumeration that specifies how to lay out a PositionedImage in relation to surrounding text.
+- Range — A range of elements in a document.
+- RangeBuilder — A builder used to construct Range objects from document elements.
+- RangeElement — A wrapper around an Element with a possible start and end offset.
+- RichLink — An element representing a link to a Google resource, such as a Drive file or a YouTube video.
+- Tab — A tab within a Google Docs document.
+- TabType — An enumeration of all the tab types.
+- Table — An element representing a table.
+- TableCell — An element representing a table cell.
+- TableOfContents — An element containing a table of contents.
+- TableRow — An element representing a table row.
+- Text — An element representing a rich text region.
+- TextAlignment — An enumeration of the type of text alignments.
+- UnsupportedElement — An element representing a region that is unknown or cannot be affected by a script, such as a page number.
+- VerticalAlignment — An enumeration of the supported vertical alignment types.

@@ -2,36 +2,36 @@
 
 ### Methods
 
-- asBody()
-- asDate()
-- asEquation()
-- asEquationFunction()
-- asEquationFunctionArgumentSeparator()
-- asEquationSymbol()
-- asFooterSection()
-- asFootnote()
-- asFootnoteSection()
-- asHeaderSection()
-- asHorizontalRule()
-- asInlineDrawing()
-- asInlineImage()
-- asListItem()
-- asPageBreak()
-- asParagraph()
-- asPerson()
-- asRichLink()
-- asTable()
-- asTableCell()
-- asTableOfContents()
-- asTableRow()
-- asText()
-- copy()
-- getAttributes()
-- getNextSibling()
-- getParent()
-- getPreviousSibling()
-- getType()
-- isAtDocumentEnd()
-- merge()
-- removeFromParent()
-- setAttributes(attributes)
+- asBody() — Body
+- asDate() — Date
+- asEquation() — Equation
+- asEquationFunction() — EquationFunction
+- asEquationFunctionArgumentSeparator() — EquationFunctionArgumentSeparator
+- asEquationSymbol() — EquationSymbol
+- asFooterSection() — FooterSection
+- asFootnote() — Footnote
+- asFootnoteSection() — FootnoteSection
+- asHeaderSection() — HeaderSection
+- asHorizontalRule() — HorizontalRule
+- asInlineDrawing() — InlineDrawing
+- asInlineImage() — InlineImage
+- asListItem() — ListItem
+- asPageBreak() — PageBreak
+- asParagraph() — Paragraph
+- asPerson() — Person
+- asRichLink() — RichLink
+- asTable() — Table
+- asTableCell() — TableCell
+- asTableOfContents() — TableOfContents
+- asTableRow() — TableRow
+- asText() — Text
+- copy() — Element
+- getAttributes() — Object
+- getNextSibling() — Element
+- getParent() — ContainerElement
+- getPreviousSibling() — Element
+- getType() — ElementType
+- isAtDocumentEnd() — Boolean
+- merge() — Element
+- removeFromParent() — Element
+- setAttributes(attributes) — Element

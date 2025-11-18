@@ -2,6 +2,6 @@
 
 ### Methods
 
-- getAutoTextType()
-- getIndex()
-- getRange()
+- getAutoTextType() — AutoTextType
+- getIndex() — Integer
+- getRange() — TextRange

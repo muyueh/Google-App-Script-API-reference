@@ -2,8 +2,8 @@
 
 ### Methods
 
-- getName()
-- getRange()
-- remove()
-- setName(name)
-- setRange(range)
+- getName() — String
+- getRange() — Range
+- remove() — void
+- setName(name) — NamedRange
+- setRange(range) — NamedRange

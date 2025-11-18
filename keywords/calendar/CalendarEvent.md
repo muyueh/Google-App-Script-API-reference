@@ -2,57 +2,60 @@
 
 ### Methods
 
-- addEmailReminder(minutesBefore)
-- addGuest(email)
-- addPopupReminder(minutesBefore)
-- addSmsReminder(minutesBefore)
-- anyoneCanAddSelf()
-- deleteEvent()
-- deleteTag(key)
-- getAllDayEndDate()
-- getAllDayStartDate()
-- getAllTagKeys()
-- getColor()
-- getCreators()
-- getDateCreated()
-- getDescription()
-- getEmailReminders()
-- getEndTime()
-- getEventSeries()
-- getEventType()
-- getGuestByEmail(email)
-- getGuestList()
-- getGuestList(includeOwner)
-- getId()
-- getLastUpdated()
-- getLocation()
-- getMyStatus()
-- getOriginalCalendarId()
-- getPopupReminders()
-- getSmsReminders()
-- getStartTime()
-- getTag(key)
-- getTitle()
-- getTransparency()
-- getVisibility()
-- guestsCanInviteOthers()
-- guestsCanModify()
-- guestsCanSeeGuests()
-- isAllDayEvent()
-- isOwnedByMe()
-- isRecurringEvent()
-- removeAllReminders()
-- removeGuest(email)
-- resetRemindersToDefault()
-- setAllDayDate(date)
-- setAnyoneCanAddSelf(anyoneCanAddSelf)
-- setColor(color)
-- setDescription(description)
-- setGuestsCanInviteOthers(guestsCanInviteOthers)
-- setGuestsCanModify(guestsCanModify)
-- setGuestsCanSeeGuests(guestsCanSeeGuests)
-- setLocation(location)
-- setMyStatus(status)
-- setTitle(title)
-- setTransparency(transparency)
-- setVisibility(visibility)
+- addEmailReminder(minutesBefore) — CalendarEvent
+- addGuest(email) — CalendarEvent
+- addPopupReminder(minutesBefore) — CalendarEvent
+- addSmsReminder(minutesBefore) — CalendarEvent
+- anyoneCanAddSelf() — Boolean
+- deleteEvent() — void
+- deleteTag(key) — CalendarEvent
+- getAllDayEndDate() — Date
+- getAllDayStartDate() — Date
+- getAllTagKeys() — String[]
+- getColor() — String
+- getCreators() — String[]
+- getDateCreated() — Date
+- getDescription() — String
+- getEmailReminders() — Integer[]
+- getEndTime() — Date
+- getEventSeries() — CalendarEventSeries
+- getEventType() — EventType
+- getGuestByEmail(email) — EventGuest
+- getGuestList() — EventGuest[]
+- getGuestList(includeOwner) — EventGuest[]
+- getId() — String
+- getLastUpdated() — Date
+- getLocation() — String
+- getMyStatus() — GuestStatus
+- getOriginalCalendarId() — String
+- getPopupReminders() — Integer[]
+- getSmsReminders() — Integer[]
+- getStartTime() — Date
+- getTag(key) — String
+- getTitle() — String
+- getTransparency() — EventTransparency
+- getVisibility() — Visibility
+- guestsCanInviteOthers() — Boolean
+- guestsCanModify() — Boolean
+- guestsCanSeeGuests() — Boolean
+- isAllDayEvent() — Boolean
+- isOwnedByMe() — Boolean
+- isRecurringEvent() — Boolean
+- removeAllReminders() — CalendarEvent
+- removeGuest(email) — CalendarEvent
+- resetRemindersToDefault() — CalendarEvent
+- setAllDayDate(date) — CalendarEvent
+- setAllDayDates(startDate, endDate) — CalendarEvent
+- setAnyoneCanAddSelf(anyoneCanAddSelf) — CalendarEvent
+- setColor(color) — CalendarEvent
+- setDescription(description) — CalendarEvent
+- setGuestsCanInviteOthers(guestsCanInviteOthers) — CalendarEvent
+- setGuestsCanModify(guestsCanModify) — CalendarEvent
+- setGuestsCanSeeGuests(guestsCanSeeGuests) — CalendarEvent
+- setLocation(location) — CalendarEvent
+- setMyStatus(status) — CalendarEvent
+- setTag(key, value) — CalendarEvent
+- setTime(startTime, endTime) — CalendarEvent
+- setTitle(title) — CalendarEvent
+- setTransparency(transparency) — CalendarEvent
+- setVisibility(visibility) — CalendarEvent

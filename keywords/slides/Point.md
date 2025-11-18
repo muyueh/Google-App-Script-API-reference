@@ -2,5 +2,5 @@
 
 ### Methods
 
-- getX()
-- getY()
+- getX() — Number
+- getY() — Number

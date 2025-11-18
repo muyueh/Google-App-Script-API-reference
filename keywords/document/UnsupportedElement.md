@@ -2,13 +2,13 @@
 
 ### Methods
 
-- copy()
-- getAttributes()
-- getNextSibling()
-- getParent()
-- getPreviousSibling()
-- getType()
-- isAtDocumentEnd()
-- merge()
-- removeFromParent()
-- setAttributes(attributes)
+- copy() — UnsupportedElement
+- getAttributes() — Object
+- getNextSibling() — Element
+- getParent() — ContainerElement
+- getPreviousSibling() — Element
+- getType() — ElementType
+- isAtDocumentEnd() — Boolean
+- merge() — UnsupportedElement
+- removeFromParent() — UnsupportedElement
+- setAttributes(attributes) — UnsupportedElement
