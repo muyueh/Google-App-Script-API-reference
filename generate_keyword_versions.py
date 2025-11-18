@@ -237,8 +237,12 @@ def main() -> None:
             shutil.rmtree(root)
         root.mkdir(parents=True)
 
-    for path in sorted(Path.cwd().glob("*.md")):
-        if path.name == "README.md" or path.name.endswith("-keywords.md"):
+    source_root = Path("source")
+    if not source_root.exists():
+        raise SystemExit("source directory not found; ensure service docs live in 'source/'")
+
+    for path in sorted(source_root.glob("*.md")):
+        if path.name.endswith("-keywords.md"):
             continue
         convert_file(path, keyword_root, complete_root)
 
